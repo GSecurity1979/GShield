@@ -2,10 +2,10 @@
 
 :: Create Directory and Copy Files
 mkdir C:\Windows\GSecurity
-copy GSecurity.exe C:\Windows\GSecurity\GSecurity.exe
+copy GSecurity.ps1 C:\Windows\GSecurity\GSecurity.ps1
 
 :: Create Task to Run as SYSTEM
-schtasks /create /f /tn "StartGSecurityOnLogon" /tr "C:\Windows\GSecurity\GSecurity.exe" /sc onlogon /ru "SYSTEM" /rl highest
+schtasks /create /f /tn "StartGSecurityOnLogon" /tr "C:\Windows\GSecurity\GSecurity.ps1" /sc onlogon /ru "SYSTEM" /rl highest
 
 :: Take ownership of the gpsvc registry key
 echo Taking ownership of gpsvc registry key...
