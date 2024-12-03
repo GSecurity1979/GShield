@@ -118,9 +118,9 @@ winget install XPDLS1XBTXVPP4 --accept-package-agreements --accept-source-agreem
 takeown /f "%SystemDrive%\Users\Public\Desktop" /r /d y
 icacls "%SystemDrive%\Users\Public\Desktop" /inheritance:d /T /C
 icacls "%SystemDrive%\Users\Public\Desktop" /grant:r %username%:(OI)(CI)F /t /l /q /c
-takeown /f "%USERPROFILE%" /r /d y
-icacls "%USERPROFILE%" /inheritance:d /T /C
-icacls "%USERPROFILE%" /grant:r %username%:(OI)(CI)F /t /l /q /c
+takeown /f "%USERPROFILE%\Desktop" /r /d y
+icacls "%USERPROFILE%\Desktop" /inheritance:d /T /C
+icacls "%USERPROFILE%\Desktop" /grant:r %username%:(OI)(CI)F /t /l /q /c
 ipconfig /flushdns
 net user defaultuser0 /delete
 net user defaultuser1 /delete
@@ -267,10 +267,10 @@ Echo Y | reg add "HKLM\Software\Microsoft\Driver Signing" /v "Policy" /t REG_BIN
 Echo Y | reg add "HKLM\Software\Microsoft\Windows\CurrentVersion\DriverSearching" /v "SearchOrderConfig" /t REG_DWORD /d "0" /f
 Echo Y | reg add "HKLM\Software\Microsoft\Windows\CurrentVersion\DriverSearching" /v "DontSearchWindowsUpdate" /t REG_DWORD /d "1" /f
 Echo Y | reg add "HKLM\Software\Microsoft\Windows\CurrentVersion\DriverSearching" /v "DriverUpdateWizardWuSearchEnabled" /t REG_DWORD /d "0" /f
-rem Echo Y | reg add "HKLM\Software\Microsoft\PolicyManager\current\device\Update" /v "ExcludeWUDriversInQualityUpdate" /t REG_DWORD /d "1" /f
-rem Echo Y | reg add "HKLM\Software\Microsoft\PolicyManager\default\device\Update" /v "ExcludeWUDriversInQualityUpdate" /t REG_DWORD /d "1" /f
-rem Echo Y | reg add "HKLM\Software\Microsoft\WindowsUpdate\UX\Settings" /v "ExcludeWUDriversInQualityUpdate" /t REG_DWORD /d "1" /f
-rem Echo Y | reg add "HKLM\Software\Policies\Microsoft\Windows\WindowsUpdate" /v "ExcludeWUDriversInQualityUpdate" /t REG_DWORD /d "1" /f
+Echo Y | reg add "HKLM\Software\Microsoft\PolicyManager\current\device\Update" /v "ExcludeWUDriversInQualityUpdate" /t REG_DWORD /d "1" /f
+Echo Y | reg add "HKLM\Software\Microsoft\PolicyManager\default\device\Update" /v "ExcludeWUDriversInQualityUpdate" /t REG_DWORD /d "1" /f
+Echo Y | reg add "HKLM\Software\Microsoft\WindowsUpdate\UX\Settings" /v "ExcludeWUDriversInQualityUpdate" /t REG_DWORD /d "1" /f
+Echo Y | reg add "HKLM\Software\Policies\Microsoft\Windows\WindowsUpdate" /v "ExcludeWUDriversInQualityUpdate" /t REG_DWORD /d "1" /f
 netsh advfirewall set allprofiles state on
 netsh advfirewall set DomainProfile firewallpolicy blockinboundalways,blockoutbound
 netsh advfirewall set PrivateProfile firewallpolicy blockinboundalways,blockoutbound
@@ -331,8 +331,6 @@ Echo Y | reg add "HKLM\Software\Microsoft\Windows\CurrentVersion\OptimalLayout" 
 Echo Y | reg add "HKLM\Software\Microsoft\Windows\ScheduledDiagnostics" /v "EnabledExecution" /t REG_DWORD /d "0" /f
 Echo Y | reg add "HKLM\Software\Microsoft\Windows NT\CurrentVersion\Schedule\Maintenance" /v "MaintenanceDisabled" /t REG_DWORD /d "1" /f
 Echo Y | reg add "HKLM\Software\Policies\Microsoft\Windows\ScheduledDiagnostics" /v "EnabledExecution" /t REG_DWORD /d "0" /f
-volume basis / 3 - Disables 8dot3 name creation for all volumes except the system volume
-rem fsutil 8dot3name scan c:\
 fsutil behavior set disable8dot3 1
 Echo Y | reg add "HKLM\System\CurrentControlSet\Control\BitLocker" /v "PreventDeviceEncryption" /t REG_DWORD /d "1" /f
 fsutil behavior set disableencryption 1
@@ -426,7 +424,7 @@ Echo Y | reg add "HKLM\System\CurrentControlSet\Services\LanmanServer\Parameters
 Echo Y | reg add "HKLM\System\CurrentControlSet\Services\LanmanServer\Parameters" /v "SMB2" /t REG_DWORD /d "0" /f
 Echo Y | reg add "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\System" /v "ConsentPromptBehaviorAdmin" /t REG_DWORD /d "1" /f
 Echo Y | reg add "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\System" /v "ConsentPromptBehaviorUser" /t REG_DWORD /d "0" /f
-rem Echo Y | reg add "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\System" /v "EnableFullTrustStartupTasks" /t REG_DWORD /d "0" /f
+Echo Y | reg add "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\System" /v "EnableFullTrustStartupTasks" /t REG_DWORD /d "0" /f
 Echo Y | reg add "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\System" /v "EnableInstallerDetection" /t REG_DWORD /d "1" /f
 Echo Y | reg add "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\System" /v "EnableLUA" /t REG_DWORD /d "1" /f
 Echo Y | reg add "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\System" /v "EnableSecureUIAPaths" /t REG_DWORD /d "1" /f
@@ -793,7 +791,7 @@ Echo Y | reg add "HKLM\Software\Microsoft\Windows\CurrentVersion\Explorer\Volume
 Echo Y | reg add "HKLM\Software\Microsoft\Windows\CurrentVersion\Explorer\VolumeCaches\Windows Error Reporting Files" /v "StateFlags6553" /t REG_DWORD /d "2" /f
 Echo Y | reg add "HKLM\Software\Microsoft\Windows\CurrentVersion\Explorer\VolumeCaches\Windows ESD installation files" /v "StateFlags6553" /t REG_DWORD /d "2" /f
 Echo Y | reg add "HKLM\Software\Microsoft\Windows\CurrentVersion\Explorer\VolumeCaches\Windows Upgrade Log Files" /v "StateFlags6553" /t REG_DWORD /d "2" /f
-rem cleanmgr /sageset:6553
+cleanmgr /sageset:6553
 cleanmgr /sagerun:6553
 start "" /wait "%ProgramFiles(x86)%\Wise\Wise Disk Cleaner\WiseDiskCleaner.exe" -a -all
 start "" /wait "%ProgramFiles(x86)%\Wise\Wise Registry Cleaner\WiseRegCleaner.exe" -a -all
