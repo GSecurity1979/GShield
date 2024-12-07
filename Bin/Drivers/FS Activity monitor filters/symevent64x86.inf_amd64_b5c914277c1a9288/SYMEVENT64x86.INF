@@ -1,0 +1,50 @@
+;
+; SymEvent INF File
+;
+; Copyright (c) 2018, Symantec Corporation
+;
+[Version]
+signature   = "$Windows NT$"
+Class       = "ActivityMonitor"
+ClassGuid   = {b86dff51-a31e-4bac-b3cf-e8cfe75c9fc2}
+Provider    = %Symc%
+DriverVer   = 10/26/2021,14.0.8.101
+CatalogFile = SymEvent64x86.cat
+
+[SourceDisksNames]
+1 = %Disk1%
+
+[SourceDisksFiles]
+SymEvent64x86.sys = 1
+
+[DestinationDirs]
+DefaultDestDir = 01,temp.^^^
+
+[SymcInstall]
+CopyFiles = @SymEvent64x86.sys
+
+;[DefaultInstall]
+
+;[DefaultUninstall]
+
+;
+; Manufacturer section (required for DTM)
+;
+[Manufacturer] 
+%Symc% = Symantec.SymEvent, NTx86, NTamd64
+
+[Symantec.SymEvent.NTx86]
+%Driver% = SymEvent, SymEvent
+
+[Symantec.SymEvent.NTamd64]
+%Driver% = SymEvent, SymEvent
+
+[SymEvent]
+CopyFiles = @SymEvent64x86.sys
+
+
+[Strings]
+Symc = "Symantec Corporation"
+Disk1 = "SymEvent Source Media"
+Driver = "SymEvent x64 Driver"
+
