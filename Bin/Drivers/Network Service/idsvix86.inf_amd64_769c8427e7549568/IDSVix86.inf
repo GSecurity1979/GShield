@@ -1,0 +1,54 @@
+;
+; Symantec IDS Driver INF File
+;
+; Copyright (c) 2020 Broadcom. All Rights Reserved.
+;
+[Version]
+signature  = "$Windows NT$"
+Class       = "NetService"
+ClassGuid   = {4D36E974-E325-11CE-BFC1-08002BE10318}
+Provider 	 = %Symc%
+DriverVer   = 07/31/2021,17.2.6.25
+CatalogFile      = IDSVix86.cat
+
+[SourceDiskNames]
+1 = %Disk1%
+
+[SourceDiskFiles]
+IDSVix86.sys = 1
+
+[DestinationDirs]
+DefaultDestDir = 01, temp.^^^
+
+[SymcInstall]
+
+
+[DefaultInstall]
+CopyFiles = @IDSVix86.sys
+
+[DefaultUninstall]
+
+;
+; Manufacturer section (required for DTM)
+;
+; [Manufacturer]
+; %Symc% = Symantec.IPS, NTx86
+
+; [Symantec.IPS.NTx86]
+; %Driver% = IPS, IPS
+
+; [IPS]
+; CopyFiles = @IDSVix86.sys
+; CopyFiles = @IDSxpx86.sys
+
+[Strings]
+Symc	       = "Symantec Corporation"
+IDSVix86Desc = "Symantec IDS Driver"
+Disk1        = "IDSVix86 Source Media"
+Driver = "IPS 32-bit Driver"
+
+[SourceDisksFiles]
+IDSVix86.sys=1
+
+[SourceDisksNames]
+1="default",,1

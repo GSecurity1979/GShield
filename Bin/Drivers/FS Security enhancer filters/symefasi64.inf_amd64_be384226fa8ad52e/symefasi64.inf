@@ -1,0 +1,113 @@
+;;;
+;;; Copyright @2021 Symantec Corporation. All rights reserved. Use of this product 
+;;; is subject to license terms.
+;;;
+;;; SymEFASI
+;;;
+;;;
+
+[Version]
+Signature   = "$Windows NT$"
+Class       = "SecurityEnhancer"
+ClassGuid   = {d02bc3da-0c8e-4945-9bd5-f1883c226c8c}
+Provider    = %Symc%
+DriverVer   = 11/23/2021,7.4.3.18
+CatalogFile = %DriverName%.cat
+
+[SourceDisksNames]
+1=%ServiceName%
+
+[DestinationDirs]
+DefaultDestDir          = 12
+MiniFilter.DriverFiles  = 12            ;%windir%\system32\drivers
+
+;;
+;; Default install sections
+;;
+;;
+;;[DefaultInstall]
+;;OptionDesc          = %ServiceDescription%
+;;CopyFiles           = MiniFilter.DriverFiles
+;;
+;;[DefaultInstall.Services]
+;;AddService          = %ServiceName%,,MiniFilter.Service
+
+;;
+;; Default uninstall sections
+;;
+;;
+;;[DefaultUninstall]
+;;DelFiles   = MiniFilter.DriverFiles
+;;
+;;[DefaultUninstall.Services]
+;;DelService = %ServiceName%
+
+;
+; Services Section
+;
+
+[MiniFilter.Service]
+DisplayName      = %ServiceName%
+Description      = %ServiceDescription%
+ServiceBinary    = %12%\%DriverName%.sys        ;%windir%\system32\drivers\
+Dependencies     = "FltMgr"
+ServiceType      = 2                            ;SERVICE_FILE_SYSTEM_DRIVER
+StartType        = 0                            ;SERVICE_BOOT_START
+ErrorControl     = 1                            ;SERVICE_ERROR_NORMAL
+LoadOrderGroup   = "FSFilter Activity Monitor"
+AddReg           = MiniFilter.AddRegistry
+
+;
+; Registry Modifications
+;
+
+[MiniFilter.AddRegistry]
+HKR,"Instances","DefaultInstance",0x00000000,%DefaultInstance%
+HKR,"Instances\"%Instance1.Name%,"Altitude",0x00000000,%Instance1.Altitude%
+HKR,"Instances\"%Instance1.Name%,"Flags",0x00010001,%Instance1.Flags%
+
+;
+; Copy Files
+;
+
+[MiniFilter.DriverFiles]
+SymEFASI64.sys
+
+[SourceDisksFiles]
+SymEFASI64.sys=1
+
+;
+; Manufacturer Section
+;
+; 6/23/2021 - It looks like we must have a NTARM64 section even for the x64 driver or DTM will fail
+;
+[Manufacturer]
+%Symc% = Symantec.SymEFASI,ntamd64, NTARM64
+
+[Symantec.SymEFASI.ntamd64]
+%DriverName% = SymEFASI, SymEFASI
+%ServiceDescription% = SymEFASI, SymEFASI
+
+[Symantec.SymEFASI.ntarm64]
+%DriverName% = SymEFASI, SymEFASI
+%ServiceDescription% = SymEFASI, SymEFASI
+
+[SymEFASI]
+CopyFiles           = MiniFilter.DriverFiles
+
+;;
+;; String Section
+;;
+
+[Strings]
+Symc                    = "Symantec Corporation"
+ServiceDescription      = "Symantec Extended File Attributes"
+ServiceName             = "SymEFASI"
+DriverName              = "SymEFASI64"
+
+;Instances specific information.
+DefaultInstance         = "SymEFASI"
+Instance1.Name          = "SymEFASI"
+Instance1.Altitude      = "260610"
+Instance1.Flags         = 0x0
+
