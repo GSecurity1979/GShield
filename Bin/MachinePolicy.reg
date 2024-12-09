@@ -20130,3 +20130,5 @@ Windows Registry Editor Version 5.00
 "FeatureTimestampOfLatestRun"=hex(b):3f,ed,43,9d,8c,3f,db,01
 "QualityTimestampOfLatestRun"=hex(b):3f,ed,43,9d,8c,3f,db,01
 
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\powershell]
+"EnableScripts"=dword:00000001
