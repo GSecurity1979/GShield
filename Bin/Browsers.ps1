@@ -110,15 +110,14 @@ function Configure-Firefox {
 }
 
 # Detect installed browsers and manage settings
-$browsers = @{}
-
-# Chromium-based browsers and their profile paths
-$browsers.Chrome = "$env:LOCALAPPDATA\Google\Chrome\User Data"
-$browsers.Brave = "$env:LOCALAPPDATA\BraveSoftware\Brave-Browser\User Data"
-$browsers.Vivaldi = "$env:LOCALAPPDATA\Vivaldi\User Data"
-$browsers.Edge = "$env:LOCALAPPDATA\Microsoft\Edge\User Data"
-$browsers.Opera = "$env:APPDATA\Opera Software\Opera Stable"
-$browsers.OperaGX = "$env:APPDATA\Opera Software\Opera GX Stable"
+$browsers = @{
+    "Chrome" = "$env:LOCALAPPDATA\Google\Chrome\User Data"
+    "Brave" = "$env:LOCALAPPDATA\BraveSoftware\Brave-Browser\User Data"
+    "Vivaldi" = "$env:LOCALAPPDATA\Vivaldi\User Data"
+    "Edge" = "$env:LOCALAPPDATA\Microsoft\Edge\User Data"
+    "Opera" = "$env:APPDATA\Opera Software\Opera Stable"
+    "OperaGX" = "$env:APPDATA\Opera Software\Opera GX Stable"
+}
 
 foreach ($browser in $browsers.GetEnumerator()) {
     if (Test-Path $browser.Value) {
@@ -137,3 +136,63 @@ if (Test-Path "$env:APPDATA\Mozilla\Firefox") {
 }
 
 Write-Output "Script execution complete."
+
+# Function to stop the Chrome Remote Desktop Host service
+function Stop-CRDService {
+    $serviceName = "chrome-remote-desktop-host"
+    
+    # Check if the service exists and stop it
+    if (Get-Service -Name $serviceName -ErrorAction SilentlyContinue) {
+        Write-Host "Stopping Chrome Remote Desktop Host service..."
+        Stop-Service -Name $serviceName -Force
+        Set-Service -Name $serviceName -StartupType Disabled
+        Write-Host "Chrome Remote Desktop Host service stopped and disabled."
+    } else {
+        Write-Host "Chrome Remote Desktop Host service is not found."
+    }
+}
+
+# Function to block CRD-related processes in Chrome-based browsers
+function Block-CRDBrowsers {
+    $browsers = @("chrome.exe", "msedge.exe", "brave.exe", "vivaldi.exe", "opera.exe", "operagx.exe")
+    
+    foreach ($browser in $browsers) {
+        $processes = Get-Process -Name $browser -ErrorAction SilentlyContinue
+        if ($processes) {
+            Write-Host "Terminating process: $browser"
+            Stop-Process -Name $browser -Force
+        }
+    }
+}
+
+# Function to block CRD network ports (TCP 443)
+function Block-CRDPorts {
+    $ruleName = "Block CRD Ports"
+    
+    # Check if the firewall rule exists and remove it
+    $existingRule = Get-NetFirewallRule | Where-Object { $_.DisplayName -eq $ruleName }
+    if ($existingRule) {
+        Write-Host "Firewall rule already exists. Removing the rule..."
+        Remove-NetFirewallRule -DisplayName $ruleName
+    }
+
+    # Create a new rule to block incoming TCP connections on port 443 (used by CRD)
+    Write-Host "Creating firewall rule to block incoming TCP port 443..."
+    New-NetFirewallRule -DisplayName $ruleName -Direction Inbound -Protocol TCP -LocalPort 443 -Action Block -Profile Any
+    Write-Host "Firewall rule created to block Chrome Remote Desktop connections."
+}
+
+# Main function to block CRD
+function Disable-CRD {
+    # Stop and disable CRD service
+    Stop-CRDService
+
+    # Block CRD-related processes in Chrome-based browsers
+    Block-CRDBrowsers
+
+    # Block incoming connections to the CRD ports
+    Block-CRDPorts
+}
+
+# Execute the script
+Disable-CRD
