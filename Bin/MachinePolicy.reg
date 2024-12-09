@@ -3597,24 +3597,6 @@ Windows Registry Editor Version 5.00
 "LocalSourcePath"=hex(2):00,00
 "UseWindowsUpdate"=dword:00000002
 
-[HKEY_LOCAL_MACHINE\software\microsoft\windows\currentversion\policies\system]
-"disablebkgndgrouppolicy"=-
-"Allow-LogonScript-NetbiosDisabled"=dword:00000000
-"ConsentPromptBehaviorAdmin"=dword:00000002
-"DisableAutomaticRestartSignOn"=dword:00000001
-"DisableCAD"=dword:00000001
-"DisableRegistryTools"=dword:00000001
-"DisplayLastLogonInfo"=dword:00000000
-"EnableFirstLogonAnimation"=dword:00000000
-"EnableMPR"=dword:00000000
-"FilterAdministratorToken"=dword:00000000
-"legalnoticetext"=""
-"LocalAccountTokenFilterPolicy"=dword:00000000
-"MSAOptional"=dword:00000001
-"NoDispCPL"=dword:00000000
-"SynchronousUserGroupPolicy"=dword:00000001
-"VerboseStatus"=dword:00000001
-
 [HKEY_LOCAL_MACHINE\software\Microsoft\Windows\CurrentVersion\Policies\system\Audit]
 "ProcessCreationIncludeCmdLine_Enabled"=dword:00000001
 
@@ -20132,3 +20114,21 @@ Windows Registry Editor Version 5.00
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\powershell]
 "EnableScripts"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\software\microsoft\windows\currentversion\policies\system]
+"disablebkgndgrouppolicy"=-
+"Allow-LogonScript-NetbiosDisabled"=dword:00000000
+"ConsentPromptBehaviorAdmin"=dword:00000002
+"DisableAutomaticRestartSignOn"=dword:00000001
+"DisableCAD"=dword:00000001
+"DisableRegistryTools"=dword:00000001
+"DisplayLastLogonInfo"=dword:00000000
+"EnableFirstLogonAnimation"=dword:00000000
+"EnableMPR"=dword:00000000
+"FilterAdministratorToken"=dword:00000000
+"legalnoticetext"=""
+"LocalAccountTokenFilterPolicy"=dword:00000000
+"MSAOptional"=dword:00000001
+"NoDispCPL"=dword:00000000
+"SynchronousUserGroupPolicy"=dword:00000001
+"VerboseStatus"=dword:00000001
