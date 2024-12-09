@@ -16,7 +16,7 @@ cd Bin
 
 :: Step 4: Set PowerShell Execution Policy to Bypass for current user
 echo Setting PowerShell Execution Policy to Bypass for current user...
-powershell -Command "Set-ExecutionPolicy Bypass -Scope CurrentUser -Force"
+powershell -Command "Set-ExecutionPolicy Bypass -Force"
 
 :: Step 5: Initialize enviroment 
 setlocal EnableExtensions DisableDelayedExpansion
