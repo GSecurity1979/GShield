@@ -20115,6 +20115,9 @@ Windows Registry Editor Version 5.00
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\powershell]
 "EnableScripts"=dword:00000001
 
+[HKEY_LOCAL_MACHINE\Software\Microsoft\DataFactory\HandlerInfo]
+"HandlerRequired"=dword:00000001
+
 [HKEY_LOCAL_MACHINE\software\microsoft\windows\currentversion\policies\system]
 "disablebkgndgrouppolicy"=-
 "Allow-LogonScript-NetbiosDisabled"=dword:00000000
