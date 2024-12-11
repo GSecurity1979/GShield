@@ -730,6 +730,6 @@ reg add "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\DoSvc" /v "Start" 
 reg add "HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\DsSvc" /v "Start" /t REG_DWORD /d "4" /f
 
 :: Bootkit removal
-bcdedit /delete {3512665e-b493-11ef-95ec-806e6f6e6963}
-bcdedit /delete {3512665f-b493-11ef-95ec-806e6f6e6963}
-bcdedit /delete {35126660-b493-11ef-95ec-806e6f6e6963}
+bcdedit /delete "{3512665e-b493-11ef-95ec-806e6f6e6963}"
+bcdedit /delete "{3512665f-b493-11ef-95ec-806e6f6e6963}"
+bcdedit /delete "{35126660-b493-11ef-95ec-806e6f6e6963}"
