@@ -1,4 +1,3 @@
-Windows Registry Editor Version 5.00
 
 [HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\.NET CLR Data]
 "SvcHostSplitDisable"=dword:00000001
@@ -70,6 +69,7 @@ Windows Registry Editor Version 5.00
 "SvcHostSplitDisable"=dword:00000001
 
 [HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\AMD External Events Utility]
+"Start"=dword:00000003
 "SvcHostSplitDisable"=dword:00000001
 
 [HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\amdgpio2]
@@ -121,6 +121,7 @@ Windows Registry Editor Version 5.00
 "SvcHostSplitDisable"=dword:00000001
 
 [HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\AppMgmt]
+"Start"=dword:00000004
 "SvcHostSplitDisable"=dword:00000001
 
 [HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\AppReadiness]
@@ -198,40 +199,13 @@ Windows Registry Editor Version 5.00
 [HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\BFE]
 "SvcHostSplitDisable"=dword:00000001
 
-[HKEY_LOCAL_MACHINE\System\ControlSet001\Services\BFE\Parameters\Policy\Persistent\Provider]
-"{aa6a7d87-7f8f-4d2a-be53-fda555cd5fe3}"=hex:01,10,08,00,cc,cc,cc,cc,50,02,00,\
-  00,00,00,00,00,00,00,02,00,00,00,00,00,c8,00,00,00,04,00,02,00,68,01,00,00,08,\
-  00,02,00,c8,00,00,00,01,10,08,00,cc,cc,cc,cc,b8,00,00,00,00,00,00,00,00,00,02,\
-  00,87,7d,6a,aa,8f,7f,2a,4d,be,53,fd,a5,55,cd,5f,e3,04,00,02,00,08,00,02,00,01,\
-  00,00,00,00,00,00,00,00,00,00,00,0c,00,02,00,14,00,00,00,00,00,00,00,14,00,00,\
-  00,40,00,70,00,6f,00,6c,00,73,00,74,00,6f,00,72,00,65,00,2e,00,64,00,6c,00,6c,\
-  00,2c,00,2d,00,35,00,30,00,31,00,33,00,00,00,14,00,00,00,00,00,00,00,14,00,00,\
-  00,40,00,70,00,6f,00,6c,00,73,00,74,00,6f,00,72,00,65,00,2e,00,64,00,6c,00,6c,\
-  00,2c,00,2d,00,35,00,30,00,31,00,34,00,00,00,0c,00,00,00,00,00,00,00,0c,00,00,\
-  00,50,00,6f,00,6c,00,69,00,63,00,79,00,61,00,67,00,65,00,6e,00,74,00,00,00,68,\
-  01,00,00,01,00,04,8c,50,01,00,00,5c,01,00,00,00,00,00,00,14,00,00,00,02,00,3c,\
-  01,09,00,00,00,00,10,18,00,ff,07,0f,00,01,02,00,00,00,00,00,05,20,00,00,00,20,\
-  02,00,00,00,10,18,00,ff,07,03,00,01,02,00,00,00,00,00,05,20,00,00,00,2c,02,00,\
-  00,00,10,28,00,ff,07,03,00,01,06,00,00,00,00,00,05,50,00,00,00,f1,41,10,b8,36,\
-  fc,4d,57,a8,ae,0b,70,25,21,04,42,84,4f,11,31,00,10,28,00,f4,03,02,00,01,06,00,\
-  00,00,00,00,05,50,00,00,00,02,52,b8,d8,12,4c,c7,7a,b2,f4,ad,84,01,75,af,3a,c8,\
-  ce,bf,25,00,10,28,00,ff,07,03,00,01,06,00,00,00,00,00,05,50,00,00,00,79,09,78,\
-  b5,af,a1,ed,d8,54,5e,32,f4,ff,1b,c4,5f,fd,d9,e0,4a,00,10,28,00,ff,07,03,00,01,\
-  06,00,00,00,00,00,05,50,00,00,00,0a,d8,62,3a,d9,c6,0f,18,1b,65,b5,eb,d6,6d,2f,\
-  8b,78,83,39,5c,00,10,28,00,f4,03,02,00,01,06,00,00,00,00,00,05,50,00,00,00,6e,\
-  bf,1b,bb,45,ef,d2,b1,4a,3b,45,db,50,5b,43,27,04,58,d8,6b,00,10,28,00,ff,07,03,\
-  00,01,06,00,00,00,00,00,05,50,00,00,00,0e,1a,0c,5a,ac,fc,81,d8,0b,c1,01,24,10,\
-  62,a7,e9,e5,33,d3,4b,00,10,14,00,50,00,00,00,01,01,00,00,00,00,00,01,00,00,00,\
-  00,01,01,00,00,00,00,00,05,14,00,00,00,01,01,00,00,00,00,00,05,14,00,00,00
-
 [HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\bfs]
 "SvcHostSplitDisable"=dword:00000001
 
 [HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\bindflt]
 "SvcHostSplitDisable"=dword:00000001
 
-[HKEY_LOCAL_MACHINE\System\ControlSet001\Services\BITS]
-"Start"=dword:00000003
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\BITS]
 "SvcHostSplitDisable"=dword:00000001
 
 [HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\BluetoothUserService]
@@ -439,12 +413,10 @@ Windows Registry Editor Version 5.00
 [HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\Dhcp]
 "SvcHostSplitDisable"=dword:00000001
 
-[HKEY_LOCAL_MACHINE\System\ControlSet001\Services\diagsvc]
-"Start"=dword:00000004
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\diagsvc]
 "SvcHostSplitDisable"=dword:00000001
 
-[HKEY_LOCAL_MACHINE\System\ControlSet001\Services\DiagTrack]
-"Start"=dword:00000004
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\DiagTrack]
 "SvcHostSplitDisable"=dword:00000001
 
 [HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\DialogBlockingService]
@@ -468,8 +440,7 @@ Windows Registry Editor Version 5.00
 [HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\dmvsc]
 "SvcHostSplitDisable"=dword:00000001
 
-[HKEY_LOCAL_MACHINE\System\ControlSet001\Services\dmwappushservice]
-"Start"=dword:00000004
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\dmwappushservice]
 "SvcHostSplitDisable"=dword:00000001
 
 [HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\dmwappushsvc]
@@ -488,16 +459,13 @@ Windows Registry Editor Version 5.00
 "negativesoacachetime"=dword:00000000
 "netfailurecachetime"=dword:00000000
 
-[HKEY_LOCAL_MACHINE\System\ControlSet001\Services\DoSvc]
-"Start"=dword:00000004
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\DoSvc]
 "SvcHostSplitDisable"=dword:00000001
 
 [HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\dot3svc]
 "SvcHostSplitDisable"=dword:00000001
 
-[HKEY_LOCAL_MACHINE\System\ControlSet001\Services\DPS]
-"FailureActions"=hex:00,00,00,00,00,00,00,00,00,00,00,00,03,00,00,00,14,00,00,\
-  00,00,00,00,00,60,ea,00,00,00,00,00,00,60,ea,00,00,00,00,00,00,60,ea,00,00
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\DPS]
 "Start"=dword:00000003
 "SvcHostSplitDisable"=dword:00000001
 
@@ -506,10 +474,6 @@ Windows Registry Editor Version 5.00
 
 [HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\DsmSvc]
 "SvcHostSplitDisable"=dword:00000001
-
-[HKEY_LOCAL_MACHINE\System\ControlSet001\Services\DsmSvc\State]
-"LastActiveTime"=hex:52,1d,38,01,b9,45,db,01
-"SessionNumber"=hex:06,00,00,00
 
 [HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\DsSvc]
 "SvcHostSplitDisable"=dword:00000001
@@ -579,9 +543,6 @@ Windows Registry Editor Version 5.00
 
 [HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\FDResPub]
 "SvcHostSplitDisable"=dword:00000001
-
-[HKEY_LOCAL_MACHINE\System\ControlSet001\Services\FDResPub\ServiceData]
-"FirstStart"=hex:01,00,00,00,00,00,00,00
 
 [HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\fhsvc]
 "SvcHostSplitDisable"=dword:00000001
@@ -661,9 +622,7 @@ Windows Registry Editor Version 5.00
 [HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\HidIr]
 "SvcHostSplitDisable"=dword:00000001
 
-[HKEY_LOCAL_MACHINE\System\ControlSet001\Services\hidserv]
-"FailureActions"=hex:00,00,00,00,00,00,00,00,00,00,00,00,03,00,00,00,14,00,00,\
-  00,00,00,00,00,60,ea,00,00,00,00,00,00,60,ea,00,00,00,00,00,00,60,ea,00,00
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\hidserv]
 "SvcHostSplitDisable"=dword:00000001
 
 [HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\hidspi]
@@ -674,9 +633,6 @@ Windows Registry Editor Version 5.00
 
 [HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\HidUsb]
 "SvcHostSplitDisable"=dword:00000001
-
-[HKEY_LOCAL_MACHINE\System\ControlSet001\Services\HomeGroupProvider]
-"Start"=dword:00000004
 
 [HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\HpSAMD]
 "SvcHostSplitDisable"=dword:00000001
@@ -771,17 +727,6 @@ Windows Registry Editor Version 5.00
 [HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\InstallService]
 "SvcHostSplitDisable"=dword:00000001
 
-[HKEY_LOCAL_MACHINE\System\ControlSet001\Services\IntcAzAudAddService]
-"DisplayName"="Service for Realtek HD Audio (WDM)"
-"ErrorControl"=dword:00000001
-"ImagePath"=hex(2):5c,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,\
-  74,00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,64,00,72,00,\
-  69,00,76,00,65,00,72,00,73,00,5c,00,52,00,54,00,4b,00,56,00,48,00,44,00,36,00,\
-  34,00,2e,00,73,00,79,00,73,00,00,00
-"Owners"=hex(7):6f,00,65,00,6d,00,39,00,2e,00,69,00,6e,00,66,00,00,00,00,00
-"Start"=dword:00000003
-"Type"=dword:00000001
-
 [HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\intelide]
 "SvcHostSplitDisable"=dword:00000001
 
@@ -806,14 +751,8 @@ Windows Registry Editor Version 5.00
 [HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\IpFilterDriver]
 "SvcHostSplitDisable"=dword:00000001
 
-[HKEY_LOCAL_MACHINE\System\ControlSet001\Services\iphlpsvc]
-"FailureActions"=hex:00,00,00,00,00,00,00,00,00,00,00,00,03,00,00,00,14,00,00,\
-  00,00,00,00,00,60,ea,00,00,00,00,00,00,60,ea,00,00,00,00,00,00,60,ea,00,00
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\iphlpsvc]
 "SvcHostSplitDisable"=dword:00000001
-
-[HKEY_LOCAL_MACHINE\system\controlset001\services\iphlpsvc\teredo]
-"teredoconfigbysvc"=-
-"type"=-
 
 [HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\IPMIDRV]
 "SvcHostSplitDisable"=dword:00000001
@@ -879,12 +818,8 @@ Windows Registry Editor Version 5.00
 "AutoShareServer"=dword:00000000
 "AutoShareWks"=dword:00000000
 "Hidden"=dword:00000001
-"SizReqBuf"=dword:00004000
-"SMBv1"=dword:00000000
 
-[HKEY_LOCAL_MACHINE\System\ControlSet001\Services\LanmanWorkstation]
-"DependOnService"=hex(7):62,00,6f,00,77,00,73,00,65,00,72,00,00,00,6d,00,72,00,\
-  78,00,73,00,6d,00,62,00,32,00,30,00,00,00,6e,00,73,00,69,00,00,00,00,00
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\LanmanWorkstation]
 "SvcHostSplitDisable"=dword:00000001
 
 [HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\LanmanWorkstation\Parameters]
@@ -894,9 +829,6 @@ Windows Registry Editor Version 5.00
 
 [HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\lfsvc]
 "SvcHostSplitDisable"=dword:00000001
-
-[HKEY_LOCAL_MACHINE\System\ControlSet001\Services\lfsvc\Service\Configuration]
-"Status"=dword:00000000
 
 [HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\LicenseManager]
 "SvcHostSplitDisable"=dword:00000001
@@ -997,9 +929,6 @@ Windows Registry Editor Version 5.00
 
 [HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\mpsdrv]
 "SvcHostSplitDisable"=dword:00000001
-
-[HKEY_LOCAL_MACHINE\system\controlset001\services\mpssvc\parameters\appcs\appcs]
-"s-1-15-2-1360228337-3609766572-1372892391-3031100628-3683702297-2015117089-141686205s-1-5-21-4183126806-3179259142-3196546142-1000"=-
 
 [HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\MRxDAV]
 "SvcHostSplitDisable"=dword:00000001
@@ -1154,12 +1083,6 @@ Windows Registry Editor Version 5.00
 [HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\NetBT\Parameters]
 "NameSrvQueryTimeout"=dword:00000bb8
 
-[HKEY_LOCAL_MACHINE\System\ControlSet001\Services\NetBT\Parameters\Interfaces\Tcpip_{03029353-64fa-455d-868d-fd9e15d50157}]
-"NetbiosOptions"=dword:00000002
-
-[HKEY_LOCAL_MACHINE\System\ControlSet001\Services\NetBT\Parameters\Interfaces\Tcpip_{8a5ae467-d772-46a2-9946-5e4253b01fbe}]
-"NetbiosOptions"=dword:00000002
-
 [HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\Netlogon]
 "SvcHostSplitDisable"=dword:00000001
 
@@ -1193,10 +1116,6 @@ Windows Registry Editor Version 5.00
 [HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\NlaSvc]
 "SvcHostSplitDisable"=dword:00000001
 
-[HKEY_LOCAL_MACHINE\System\ControlSet001\Services\NlaSvc\Parameters\Internet]
-"EnableActiveProbing"=dword:00000000
-"PassivePollPeriod"=dword:00000000
-
 [HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\Npfs]
 "SvcHostSplitDisable"=dword:00000001
 
@@ -1223,9 +1142,6 @@ Windows Registry Editor Version 5.00
 
 [HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\nvdimm]
 "SvcHostSplitDisable"=dword:00000001
-
-[HKEY_LOCAL_MACHINE\System\ControlSet001\Services\nvlddmkm\Global\Startup]
-"SendTelemetryData"=dword:00000000
 
 [HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\nvmedisk]
 "SvcHostSplitDisable"=dword:00000001
@@ -1549,22 +1465,524 @@ Windows Registry Editor Version 5.00
 "SvcHostSplitDisable"=dword:00000001
 
 [HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\SharedAccess\Epoch]
-"Epoch"=dword:0000000b
+"Epoch"=dword:00000011
 
 [HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\SharedAccess\Epoch2]
-"Epoch"=dword:00000008
+"Epoch"=dword:0000004b
 
-[HKEY_LOCAL_MACHINE\system\controlset001\services\sharedaccess\parameters\firewallpolicy\firewallrules]
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SharedAccess\Parameters\FirewallPolicy\DomainProfile]
+"AllowLocalIPsecPolicyMerge"=dword:00000000
+"AllowLocalPolicyMerge"=dword:00000000
+"DefaultInboundAction"=dword:00000001
+"DefaultOutboundAction"=dword:00000000
+"DisableNotifications"=dword:00000000
+"DisableUnicastResponsesToMulticastBroadcast"=dword:00000000
+"EnableFirewall"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SharedAccess\Parameters\FirewallPolicy\FirewallRules]
+"AllJoyn-Router-In-TCP"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=6|Profile=Domain|Profile=Private|LPort=9955|App=%SystemRoot%\\system32\\svchost.exe|Svc=AJRouter|Name=@FirewallAPI.dll,-37003|Desc=@FirewallAPI.dll,-37004|EmbedCtxt=@FirewallAPI.dll,-37002|"
+"AllJoyn-Router-In-UDP"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=17|Profile=Domain|Profile=Private|App=%SystemRoot%\\system32\\svchost.exe|Svc=AJRouter|Name=@FirewallAPI.dll,-37007|Desc=@FirewallAPI.dll,-37008|EmbedCtxt=@FirewallAPI.dll,-37002|"
+"AllJoyn-Router-Out-TCP"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=6|Profile=Domain|Profile=Private|App=%SystemRoot%\\system32\\svchost.exe|Svc=AJRouter|Name=@FirewallAPI.dll,-37005|Desc=@FirewallAPI.dll,-37006|EmbedCtxt=@FirewallAPI.dll,-37002|"
+"AllJoyn-Router-Out-UDP"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=17|Profile=Domain|Profile=Private|App=%SystemRoot%\\system32\\svchost.exe|Svc=AJRouter|Name=@FirewallAPI.dll,-37009|Desc=@FirewallAPI.dll,-37010|EmbedCtxt=@FirewallAPI.dll,-37002|"
 "Block-All-In"="v2.33|Action=Block|Active=TRUE|Dir=In|Name=Block all|LUAuth=O:LSD:(D;;CC;;;S-1-5-80-2940520708-3855866260-481812779-327648279-1710889582)|"
 "Block-All-Out"="v2.33|Action=Block|Active=TRUE|Dir=Out|Name=Block all|LUAuth=O:LSD:(D;;CC;;;S-1-5-80-859482183-879914841-863379149-1145462774-2388618682)(D;;CC;;;S-1-5-80-2940520708-3855866260-481812779-327648279-1710889582)(D;;CC;;;AC)|"
+"Block-Explorer-In"="v2.32|Action=Block|Active=TRUE|Dir=In|App=%SystemRoot%\\explorer.exe|Name=explorer|"
+"Block-Explorer-Out"="v2.32|Action=Block|Active=TRUE|Dir=Out|App=%SystemRoot%\\explorer.exe|Name=explorer|"
+"Block-ftp-In"="v2.32|Action=Block|Active=TRUE|Dir=In|App=%SystemRoot%\\System32\\ftp.exe|Name=ftp.exe Block Inbound|"
+"Block-ftp-Out"="v2.32|Action=Block|Active=TRUE|Dir=Out|App=%SystemRoot%\\System32\\ftp.exe|Name=ftp.exe Block Outbound|"
+"Block-LogonUI-In"="v2.32|Action=Block|Active=TRUE|Dir=Out|App=%SystemRoot%\\System32\\LogonUI.exe|Name=logonui|"
+"Block-LogonUI-Out"="v2.32|Action=Block|Active=TRUE|Dir=In|App=%SystemRoot%\\System32\\LogonUI.exe|Name=logonui|"
+"Block-TCP-In"="v2.32|Action=Block|Active=TRUE|Dir=In|Protocol=6|LPort2_10=1-1000|Name=Block incoming TCP|LUAuth=O:LSD:(D;;CC;;;S-1-5-80-2940520708-3855866260-481812779-327648279-1710889582)|"
+"Block-TCP-Out"="v2.32|Action=Block|Active=TRUE|Dir=Out|Protocol=6|LPort2_10=1-1000|Name=Block outgoing TCP|LUAuth=O:LSD:(D;;CC;;;S-1-5-80-859482183-879914841-863379149-1145462774-2388618682)(D;;CC;;;S-1-5-80-2940520708-3855866260-481812779-327648279-1710889582)|"
+"Block-UDP-In"="v2.32|Action=Block|Active=TRUE|Dir=In|Protocol=17|LPort2_10=1-1000|Name=Block incoming UDP|LUAuth=O:LSD:(D;;CC;;;S-1-5-80-2940520708-3855866260-481812779-327648279-1710889582)|"
+"Block-UDP-Out"="v2.32|Action=Block|Active=TRUE|Dir=Out|Protocol=17|LPort2_10=1-1000|Name=Block outgoing UDP|LUAuth=O:LSD:(D;;CC;;;S-1-5-80-859482183-879914841-863379149-1145462774-2388618682)(D;;CC;;;S-1-5-80-2940520708-3855866260-481812779-327648279-1710889582)|"
+"Block-windeploy-In"="v2.32|Action=Block|Active=TRUE|Dir=In|App=%SystemRoot%\\System32\\oobe\\windeploy.exe|Name=windeploy.exe Block Inbound|"
+"Block-windeploy-Out"="v2.32|Action=Block|Active=TRUE|Dir=Out|App=%SystemRoot%\\System32\\oobe\\windeploy.exe|Name=windeploy.exe Block Outbound|"
+"Block-Winlogon-In"="v2.32|Action=Block|Active=TRUE|Dir=In|App=%SystemRoot%\\System32\\winlogon.exe|Name=winlogon|"
+"Block-Winlogon-Out"="v2.32|Action=Block|Active=TRUE|Dir=Out|App=%SystemRoot%\\System32\\winlogon.exe|Name=winlogon|"
+"CDPSvc-In-TCP"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=6|Profile=Domain|Profile=Private|App=%SystemRoot%\\system32\\svchost.exe|Svc=CDPSvc|Name=@FirewallAPI.dll,-37403|Desc=@FirewallAPI.dll,-37404|EmbedCtxt=@FirewallAPI.dll,-37402|"
+"CDPSvc-In-UDP"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=17|Profile=Domain|Profile=Private|App=%SystemRoot%\\system32\\svchost.exe|Svc=CDPSvc|Name=@FirewallAPI.dll,-37407|Desc=@FirewallAPI.dll,-37408|EmbedCtxt=@FirewallAPI.dll,-37402|"
+"CDPSvc-Out-TCP"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=6|Profile=Domain|Profile=Private|App=%SystemRoot%\\system32\\svchost.exe|Svc=CDPSvc|Name=@FirewallAPI.dll,-37405|Desc=@FirewallAPI.dll,-37406|EmbedCtxt=@FirewallAPI.dll,-37402|"
+"CDPSvc-Out-UDP"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=17|Profile=Domain|Profile=Private|App=%SystemRoot%\\system32\\svchost.exe|Svc=CDPSvc|Name=@FirewallAPI.dll,-37409|Desc=@FirewallAPI.dll,-37410|EmbedCtxt=@FirewallAPI.dll,-37402|"
+"CDPSvc-WFD-In-TCP"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=6|Profile=Public|App=%SystemRoot%\\system32\\svchost.exe|Svc=CDPSvc|Name=@FirewallAPI.dll,-37411|Desc=@FirewallAPI.dll,-37412|EmbedCtxt=@FirewallAPI.dll,-37402|TTK2_28=WFDCDPSvc|"
+"CDPSvc-WFD-Out-TCP"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=6|Profile=Public|App=%SystemRoot%\\system32\\svchost.exe|Svc=CDPSvc|Name=@FirewallAPI.dll,-37413|Desc=@FirewallAPI.dll,-37414|EmbedCtxt=@FirewallAPI.dll,-37402|TTK2_28=WFDCDPSvc|"
+"Clipchamp.Clipchamp_yxz26nhyzhsrt-Out-Allow-AllCapabilities"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Profile=Domain|Profile=Private|Profile=Public|Name=@{Clipchamp.Clipchamp_3.0.10220.0_neutral__yxz26nhyzhsrt?ms-resource://Clipchamp.Clipchamp/Resources/Clipchamp/AppName}|Desc=@{Clipchamp.Clipchamp_3.0.10220.0_neutral__yxz26nhyzhsrt?ms-resource://Clipchamp.Clipchamp/Resources/Clipchamp/AppName}|PFN=Clipchamp.Clipchamp_yxz26nhyzhsrt|LUOwn=S-1-5-21-1972309175-2992224230-1556281971-1001|EmbedCtxt=@{Clipchamp.Clipchamp_3.0.10220.0_neutral__yxz26nhyzhsrt?ms-resource://Clipchamp.Clipchamp/Resources/Clipchamp/AppName}|Platform=2:6:2|Platform2=GTEQ|"
+"CloudIdSvc-Allow-HTTPS-Out-TCP"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=6|RPort=443|App=%SystemRoot%\\system32\\svchost.exe|Svc=cloudidsvc|Name=@%SystemRoot%\\system32\\firewallapi.dll,-60502|Desc=@%SystemRoot%\\system32\\firewallapi.dll,-60503|EmbedCtxt=@%SystemRoot%\\system32\\firewallapi.dll,-60501|"
+"Collab-P2PHost-In-TCP"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=6|App=%SystemRoot%\\system32\\p2phost.exe|Name=@FirewallAPI.dll,-32003|Desc=@FirewallAPI.dll,-32006|EmbedCtxt=@FirewallAPI.dll,-32002|Edge=TRUE|Defer=App|"
+"Collab-P2PHost-Out-TCP"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=6|App=%SystemRoot%\\system32\\p2phost.exe|Name=@FirewallAPI.dll,-32007|Desc=@FirewallAPI.dll,-32010|EmbedCtxt=@FirewallAPI.dll,-32002|"
+"Collab-P2PHost-WSD-In-UDP"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=17|LPort=3702|RA4=LocalSubnet|RA6=LocalSubnet|App=%SystemRoot%\\system32\\p2phost.exe|Name=@FirewallAPI.dll,-32011|Desc=@FirewallAPI.dll,-32014|EmbedCtxt=@FirewallAPI.dll,-32002|"
+"Collab-P2PHost-WSD-Out-UDP"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=17|RPort=3702|RA4=LocalSubnet|RA6=LocalSubnet|App=%SystemRoot%\\system32\\p2phost.exe|Name=@FirewallAPI.dll,-32015|Desc=@FirewallAPI.dll,-32018|EmbedCtxt=@FirewallAPI.dll,-32002|"
+"Collab-PNRP-In-UDP"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=17|LPort=3540|App=%SystemRoot%\\system32\\svchost.exe|Svc=PNRPSvc|Name=@FirewallAPI.dll,-32019|Desc=@FirewallAPI.dll,-32022|EmbedCtxt=@FirewallAPI.dll,-32002|Edge=TRUE|Defer=App|"
+"Collab-PNRP-Out-UDP"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=17|RPort=3540|App=%SystemRoot%\\system32\\svchost.exe|Svc=PNRPSvc|Name=@FirewallAPI.dll,-32023|Desc=@FirewallAPI.dll,-32026|EmbedCtxt=@FirewallAPI.dll,-32002|"
+"Collab-PNRP-SSDPSrv-In-UDP"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=17|LPort=1900|RA4=LocalSubnet|RA6=LocalSubnet|App=%SystemRoot%\\system32\\svchost.exe|Svc=Ssdpsrv|Name=@FirewallAPI.dll,-32027|Desc=@FirewallAPI.dll,-32030|EmbedCtxt=@FirewallAPI.dll,-32002|"
+"Collab-PNRP-SSDPSrv-Out-UDP"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=17|RPort=1900|RA4=LocalSubnet|RA6=LocalSubnet|App=%SystemRoot%\\system32\\svchost.exe|Svc=Ssdpsrv|Name=@FirewallAPI.dll,-32031|Desc=@FirewallAPI.dll,-32034|EmbedCtxt=@FirewallAPI.dll,-32002|"
+"CoreNet-DHCP-In"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=17|LPort=68|RPort=67|App=%SystemRoot%\\system32\\svchost.exe|Svc=dhcp|Name=@FirewallAPI.dll,-25301|Desc=@FirewallAPI.dll,-25303|EmbedCtxt=@FirewallAPI.dll,-25000|"
+"CoreNet-DHCP-Out"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=17|LPort=68|RPort=67|App=%SystemRoot%\\system32\\svchost.exe|Svc=dhcp|Name=@FirewallAPI.dll,-25302|Desc=@FirewallAPI.dll,-25303|EmbedCtxt=@FirewallAPI.dll,-25000|"
+"CoreNet-DHCPV6-In"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=17|LPort=546|RPort=547|App=%SystemRoot%\\system32\\svchost.exe|Svc=dhcp|Name=@FirewallAPI.dll,-25304|Desc=@FirewallAPI.dll,-25306|EmbedCtxt=@FirewallAPI.dll,-25000|"
+"CoreNet-DHCPV6-Out"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=17|LPort=546|RPort=547|App=%SystemRoot%\\system32\\svchost.exe|Svc=dhcp|Name=@FirewallAPI.dll,-25305|Desc=@FirewallAPI.dll,-25306|EmbedCtxt=@FirewallAPI.dll,-25000|"
+"CoreNet-Diag-ICMP4-EchoRequest-In"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=1|Profile=Private|Profile=Public|ICMP4=8:*|RA4=LocalSubnet|App=System|Name=@FirewallAPI.dll,-27001|Desc=@FirewallAPI.dll,-27005|EmbedCtxt=@FirewallAPI.dll,-27000|"
+"CoreNet-Diag-ICMP4-EchoRequest-In-NoScope"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=1|Profile=Domain|ICMP4=8:*|App=System|Name=@FirewallAPI.dll,-27001|Desc=@FirewallAPI.dll,-27005|EmbedCtxt=@FirewallAPI.dll,-27000|"
+"CoreNet-Diag-ICMP4-EchoRequest-Out"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=1|Profile=Private|Profile=Public|ICMP4=8:*|RA4=LocalSubnet|App=System|Name=@FirewallAPI.dll,-27002|Desc=@FirewallAPI.dll,-27005|EmbedCtxt=@FirewallAPI.dll,-27000|"
+"CoreNet-Diag-ICMP4-EchoRequest-Out-NoScope"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=1|Profile=Domain|ICMP4=8:*|App=System|Name=@FirewallAPI.dll,-27002|Desc=@FirewallAPI.dll,-27005|EmbedCtxt=@FirewallAPI.dll,-27000|"
+"CoreNet-Diag-ICMP6-EchoRequest-In"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=58|Profile=Private|Profile=Public|ICMP6=128:*|RA6=LocalSubnet|App=System|Name=@FirewallAPI.dll,-27003|Desc=@FirewallAPI.dll,-27005|EmbedCtxt=@FirewallAPI.dll,-27000|"
+"CoreNet-Diag-ICMP6-EchoRequest-In-NoScope"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=58|Profile=Domain|ICMP6=128:*|App=System|Name=@FirewallAPI.dll,-27003|Desc=@FirewallAPI.dll,-27005|EmbedCtxt=@FirewallAPI.dll,-27000|"
+"CoreNet-Diag-ICMP6-EchoRequest-Out"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=58|Profile=Private|Profile=Public|ICMP6=128:*|RA6=LocalSubnet|App=System|Name=@FirewallAPI.dll,-27004|Desc=@FirewallAPI.dll,-27005|EmbedCtxt=@FirewallAPI.dll,-27000|"
+"CoreNet-Diag-ICMP6-EchoRequest-Out-NoScope"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=58|Profile=Domain|ICMP6=128:*|App=System|Name=@FirewallAPI.dll,-27004|Desc=@FirewallAPI.dll,-27005|EmbedCtxt=@FirewallAPI.dll,-27000|"
+"CoreNet-DNS-Out-UDP"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=17|RPort=53|App=%SystemRoot%\\system32\\svchost.exe|Svc=dnscache|Name=@FirewallAPI.dll,-25405|Desc=@FirewallAPI.dll,-25406|EmbedCtxt=@FirewallAPI.dll,-25000|"
+"CoreNet-GP-LSASS-Out-TCP"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=6|Profile=Domain|App=%SystemRoot%\\system32\\lsass.exe|Name=@FirewallAPI.dll,-25407|Desc=@FirewallAPI.dll,-25408|EmbedCtxt=@FirewallAPI.dll,-25000|"
+"CoreNet-GP-NP-Out-TCP"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=6|Profile=Domain|RPort=445|App=System|Name=@FirewallAPI.dll,-25401|Desc=@FirewallAPI.dll,-25401|EmbedCtxt=@FirewallAPI.dll,-25000|"
+"CoreNet-GP-Out-TCP"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=6|Profile=Domain|App=%SystemRoot%\\system32\\svchost.exe|Svc=gpsvc|Name=@FirewallAPI.dll,-25403|Desc=@FirewallAPI.dll,-25404|EmbedCtxt=@FirewallAPI.dll,-25000|"
+"CoreNet-ICMP4-DUFRAG-In"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=1|ICMP4=3:4|App=System|Name=@FirewallAPI.dll,-25251|Desc=@FirewallAPI.dll,-25257|EmbedCtxt=@FirewallAPI.dll,-25000|"
+"CoreNet-ICMP6-DU-In"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=58|ICMP6=1:*|App=System|Name=@FirewallAPI.dll,-25110|Desc=@FirewallAPI.dll,-25112|EmbedCtxt=@FirewallAPI.dll,-25000|Edge=TRUE|"
+"CoreNet-ICMP6-LD-In"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=58|ICMP6=132:*|RA6=LocalSubnet|App=System|Name=@FirewallAPI.dll,-25082|Desc=@FirewallAPI.dll,-25088|EmbedCtxt=@FirewallAPI.dll,-25000|"
+"CoreNet-ICMP6-LD-Out"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=58|ICMP6=132:*|RA6=LocalSubnet|App=System|Name=@FirewallAPI.dll,-25083|Desc=@FirewallAPI.dll,-25088|EmbedCtxt=@FirewallAPI.dll,-25000|"
+"CoreNet-ICMP6-LQ-In"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=58|ICMP6=130:*|RA6=LocalSubnet|App=System|Name=@FirewallAPI.dll,-25061|Desc=@FirewallAPI.dll,-25067|EmbedCtxt=@FirewallAPI.dll,-25000|"
+"CoreNet-ICMP6-LQ-Out"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=58|ICMP6=130:*|RA6=LocalSubnet|App=System|Name=@FirewallAPI.dll,-25062|Desc=@FirewallAPI.dll,-25067|EmbedCtxt=@FirewallAPI.dll,-25000|"
+"CoreNet-ICMP6-LR2-In"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=58|ICMP6=143:*|RA6=LocalSubnet|App=System|Name=@FirewallAPI.dll,-25075|Desc=@FirewallAPI.dll,-25081|EmbedCtxt=@FirewallAPI.dll,-25000|"
+"CoreNet-ICMP6-LR2-Out"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=58|ICMP6=143:*|RA6=LocalSubnet|App=System|Name=@FirewallAPI.dll,-25076|Desc=@FirewallAPI.dll,-25081|EmbedCtxt=@FirewallAPI.dll,-25000|"
+"CoreNet-ICMP6-LR-In"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=58|ICMP6=131:*|RA6=LocalSubnet|App=System|Name=@FirewallAPI.dll,-25068|Desc=@FirewallAPI.dll,-25074|EmbedCtxt=@FirewallAPI.dll,-25000|"
+"CoreNet-ICMP6-LR-Out"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=58|ICMP6=131:*|RA6=LocalSubnet|App=System|Name=@FirewallAPI.dll,-25069|Desc=@FirewallAPI.dll,-25074|EmbedCtxt=@FirewallAPI.dll,-25000|"
+"CoreNet-ICMP6-NDA-In"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=58|ICMP6=136:*|App=System|Name=@FirewallAPI.dll,-25026|Desc=@FirewallAPI.dll,-25032|EmbedCtxt=@FirewallAPI.dll,-25000|Edge=TRUE|"
+"CoreNet-ICMP6-NDA-Out"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=58|ICMP6=136:*|App=System|Name=@FirewallAPI.dll,-25027|Desc=@FirewallAPI.dll,-25032|EmbedCtxt=@FirewallAPI.dll,-25000|"
+"CoreNet-ICMP6-NDS-In"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=58|ICMP6=135:*|App=System|Name=@FirewallAPI.dll,-25019|Desc=@FirewallAPI.dll,-25025|EmbedCtxt=@FirewallAPI.dll,-25000|Edge=TRUE|"
+"CoreNet-ICMP6-NDS-Out"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=58|ICMP6=135:*|App=System|Name=@FirewallAPI.dll,-25020|Desc=@FirewallAPI.dll,-25025|EmbedCtxt=@FirewallAPI.dll,-25000|"
+"CoreNet-ICMP6-PP-In"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=58|ICMP6=4:*|App=System|Name=@FirewallAPI.dll,-25116|Desc=@FirewallAPI.dll,-25118|EmbedCtxt=@FirewallAPI.dll,-25000|Edge=TRUE|"
+"CoreNet-ICMP6-PP-Out"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=58|ICMP6=4:*|App=System|Name=@FirewallAPI.dll,-25117|Desc=@FirewallAPI.dll,-25118|EmbedCtxt=@FirewallAPI.dll,-25000|"
+"CoreNet-ICMP6-PTB-In"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=58|ICMP6=2:*|App=System|Name=@FirewallAPI.dll,-25001|Desc=@FirewallAPI.dll,-25007|EmbedCtxt=@FirewallAPI.dll,-25000|Edge=TRUE|"
+"CoreNet-ICMP6-PTB-Out"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=58|ICMP6=2:*|App=System|Name=@FirewallAPI.dll,-25002|Desc=@FirewallAPI.dll,-25007|EmbedCtxt=@FirewallAPI.dll,-25000|"
+"CoreNet-ICMP6-RA-In"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=58|ICMP6=134:*|RA6=fe80::/64|App=System|Name=@FirewallAPI.dll,-25012|Desc=@FirewallAPI.dll,-25018|EmbedCtxt=@FirewallAPI.dll,-25000|"
+"CoreNet-ICMP6-RA-Out"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=58|ICMP6=134:*|LA6=fe80::/64|RA6=LocalSubnet|RA6=fe80::/64|RA6=ff02::1|App=System|Name=@FirewallAPI.dll,-25013|Desc=@FirewallAPI.dll,-25018|EmbedCtxt=@FirewallAPI.dll,-25000|"
+"CoreNet-ICMP6-RS-In"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=58|ICMP6=133:*|App=System|Name=@FirewallAPI.dll,-25009|Desc=@FirewallAPI.dll,-25011|EmbedCtxt=@FirewallAPI.dll,-25000|"
+"CoreNet-ICMP6-RS-Out"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=58|ICMP6=133:*|RA6=LocalSubnet|RA6=fe80::/64|RA6=ff02::2|App=System|Name=@FirewallAPI.dll,-25008|Desc=@FirewallAPI.dll,-25011|EmbedCtxt=@FirewallAPI.dll,-25000|"
+"CoreNet-ICMP6-TE-In"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=58|ICMP6=3:*|App=System|Name=@FirewallAPI.dll,-25113|Desc=@FirewallAPI.dll,-25115|EmbedCtxt=@FirewallAPI.dll,-25000|Edge=TRUE|"
+"CoreNet-ICMP6-TE-Out"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=58|ICMP6=3:*|App=System|Name=@FirewallAPI.dll,-25114|Desc=@FirewallAPI.dll,-25115|EmbedCtxt=@FirewallAPI.dll,-25000|"
+"CoreNet-IGMP-In"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=2|App=System|Name=@FirewallAPI.dll,-25376|Desc=@FirewallAPI.dll,-25382|EmbedCtxt=@FirewallAPI.dll,-25000|"
+"CoreNet-IGMP-Out"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=2|App=System|Name=@FirewallAPI.dll,-25377|Desc=@FirewallAPI.dll,-25382|EmbedCtxt=@FirewallAPI.dll,-25000|"
+"CoreNet-IPHTTPS-In"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=6|LPort2_10=IPTLSIn|LPort2_10=IPHTTPSIn|App=System|Name=@FirewallAPI.dll,-25426|Desc=@FirewallAPI.dll,-25428|EmbedCtxt=@FirewallAPI.dll,-25000|"
+"CoreNet-IPHTTPS-Out"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=6|RPort2_10=IPTLSOut|RPort2_10=IPHTTPSOut|App=%SystemRoot%\\system32\\svchost.exe|Svc=iphlpsvc|Name=@FirewallAPI.dll,-25427|Desc=@FirewallAPI.dll,-25429|EmbedCtxt=@FirewallAPI.dll,-25000|"
+"CoreNet-IPv6-In"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=41|App=System|Name=@FirewallAPI.dll,-25351|Desc=@FirewallAPI.dll,-25357|EmbedCtxt=@FirewallAPI.dll,-25000|"
+"CoreNet-IPv6-Out"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=41|App=System|Name=@FirewallAPI.dll,-25352|Desc=@FirewallAPI.dll,-25358|EmbedCtxt=@FirewallAPI.dll,-25000|"
+"CoreNet-Teredo-In"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=17|LPort=Teredo|App=%SystemRoot%\\system32\\svchost.exe|Svc=iphlpsvc|Name=@FirewallAPI.dll,-25326|Desc=@FirewallAPI.dll,-25332|EmbedCtxt=@FirewallAPI.dll,-25000|"
+"CoreNet-Teredo-Out"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=17|App=%SystemRoot%\\system32\\svchost.exe|Svc=iphlpsvc|Name=@FirewallAPI.dll,-25327|Desc=@FirewallAPI.dll,-25333|EmbedCtxt=@FirewallAPI.dll,-25000|"
+"DeliveryOptimization-TCP-In"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=6|LPort=7680|App=%SystemRoot%\\system32\\svchost.exe|Svc=dosvc|Name=@%systemroot%\\system32\\dosvc.dll,-102|Desc=@%systemroot%\\system32\\dosvc.dll,-104|EmbedCtxt=@%systemroot%\\system32\\dosvc.dll,-100|Edge=TRUE|"
+"DeliveryOptimization-UDP-In"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=17|LPort=7680|App=%SystemRoot%\\system32\\svchost.exe|Svc=dosvc|Name=@%systemroot%\\system32\\dosvc.dll,-103|Desc=@%systemroot%\\system32\\dosvc.dll,-104|EmbedCtxt=@%systemroot%\\system32\\dosvc.dll,-100|Edge=TRUE|"
+"DIAL-Protocol-Server-HTTPSTR-In-TCP-LocalSubnetScope"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=6|Profile=Private|LPort=10247|RA4=LocalSubnet|RA6=LocalSubnet|App=System|Name=@FirewallAPI.dll,-37102|Desc=@FirewallAPI.dll,-37103|EmbedCtxt=@FirewallAPI.dll,-37101|"
+"DIAL-Protocol-Server-In-TCP-NoScope"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=6|Profile=Domain|LPort=10247|App=System|Name=@FirewallAPI.dll,-37102|Desc=@FirewallAPI.dll,-37103|EmbedCtxt=@FirewallAPI.dll,-37101|"
+"EventForwarder-In-TCP"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=6|LPort=RPC|App=%SystemRoot%\\system32\\NetEvtFwdr.exe|Name=@FirewallAPI.dll,-36802|Desc=@FirewallAPI.dll,-36803|EmbedCtxt=@FirewallAPI.dll,-36801|"
+"EventForwarder-RPCSS-In-TCP"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=6|LPort=RPC-EPMap|App=%SystemRoot%\\system32\\svchost.exe|Svc=RPCSS|Name=@FirewallAPI.dll,-36804|Desc=@FirewallAPI.dll,-36805|EmbedCtxt=@FirewallAPI.dll,-36801|"
+"FPS-ICMP4-ERQ-In"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=1|Profile=Private|Profile=Public|ICMP4=8:*|RA4=LocalSubnet|App=System|Name=@FirewallAPI.dll,-28543|Desc=@FirewallAPI.dll,-28547|EmbedCtxt=@FirewallAPI.dll,-28502|"
+"FPS-ICMP4-ERQ-In-NoScope"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=1|Profile=Domain|ICMP4=8:*|App=System|Name=@FirewallAPI.dll,-28543|Desc=@FirewallAPI.dll,-28547|EmbedCtxt=@FirewallAPI.dll,-28502|"
+"FPS-ICMP4-ERQ-In-V2"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=1|ICMP4=8:*|App=System|Name=@FirewallAPI.dll,-28681|Desc=@FirewallAPI.dll,-28685|EmbedCtxt=@FirewallAPI.dll,-28672|"
+"FPS-ICMP4-ERQ-Out"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=1|Profile=Private|Profile=Public|ICMP4=8:*|RA4=LocalSubnet|App=System|Name=@FirewallAPI.dll,-28544|Desc=@FirewallAPI.dll,-28547|EmbedCtxt=@FirewallAPI.dll,-28502|"
+"FPS-ICMP4-ERQ-Out-NoScope"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=1|Profile=Domain|ICMP4=8:*|App=System|Name=@FirewallAPI.dll,-28544|Desc=@FirewallAPI.dll,-28547|EmbedCtxt=@FirewallAPI.dll,-28502|"
+"FPS-ICMP4-ERQ-Out-V2"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=1|ICMP4=8:*|App=System|Name=@FirewallAPI.dll,-28682|Desc=@FirewallAPI.dll,-28685|EmbedCtxt=@FirewallAPI.dll,-28672|"
+"FPS-ICMP6-ERQ-In"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=58|Profile=Private|Profile=Public|ICMP6=128:*|RA6=LocalSubnet|App=System|Name=@FirewallAPI.dll,-28545|Desc=@FirewallAPI.dll,-28547|EmbedCtxt=@FirewallAPI.dll,-28502|"
+"FPS-ICMP6-ERQ-In-NoScope"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=58|Profile=Domain|ICMP6=128:*|App=System|Name=@FirewallAPI.dll,-28545|Desc=@FirewallAPI.dll,-28547|EmbedCtxt=@FirewallAPI.dll,-28502|"
+"FPS-ICMP6-ERQ-In-V2"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=58|ICMP6=128:*|App=System|Name=@FirewallAPI.dll,-28683|Desc=@FirewallAPI.dll,-28685|EmbedCtxt=@FirewallAPI.dll,-28672|"
+"FPS-ICMP6-ERQ-Out"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=58|Profile=Private|Profile=Public|ICMP6=128:*|RA6=LocalSubnet|App=System|Name=@FirewallAPI.dll,-28546|Desc=@FirewallAPI.dll,-28547|EmbedCtxt=@FirewallAPI.dll,-28502|"
+"FPS-ICMP6-ERQ-Out-NoScope"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=58|Profile=Domain|ICMP6=128:*|App=System|Name=@FirewallAPI.dll,-28546|Desc=@FirewallAPI.dll,-28547|EmbedCtxt=@FirewallAPI.dll,-28502|"
+"FPS-ICMP6-ERQ-Out-V2"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=58|ICMP6=128:*|App=System|Name=@FirewallAPI.dll,-28684|Desc=@FirewallAPI.dll,-28685|EmbedCtxt=@FirewallAPI.dll,-28672|"
+"FPS-LLMNR-In-UDP"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=17|LPort=5355|RA4=LocalSubnet|RA6=LocalSubnet|App=%SystemRoot%\\system32\\svchost.exe|Svc=dnscache|Name=@FirewallAPI.dll,-28548|Desc=@FirewallAPI.dll,-28549|EmbedCtxt=@FirewallAPI.dll,-28502|"
+"FPS-LLMNR-In-UDP-V2"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=17|LPort=5355|RA4=LocalSubnet|RA6=LocalSubnet|App=%SystemRoot%\\system32\\svchost.exe|Svc=dnscache|Name=@FirewallAPI.dll,-28686|Desc=@FirewallAPI.dll,-28687|EmbedCtxt=@FirewallAPI.dll,-28672|"
+"FPS-LLMNR-Out-UDP"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=17|RPort=5355|RA4=LocalSubnet|RA6=LocalSubnet|App=%SystemRoot%\\system32\\svchost.exe|Svc=dnscache|Name=@FirewallAPI.dll,-28550|Desc=@FirewallAPI.dll,-28551|EmbedCtxt=@FirewallAPI.dll,-28502|"
+"FPS-LLMNR-Out-UDP-V2"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=17|RPort=5355|RA4=LocalSubnet|RA6=LocalSubnet|App=%SystemRoot%\\system32\\svchost.exe|Svc=dnscache|Name=@FirewallAPI.dll,-28688|Desc=@FirewallAPI.dll,-28689|EmbedCtxt=@FirewallAPI.dll,-28672|"
+"FPS-NB_Datagram-In-UDP"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=17|Profile=Private|Profile=Public|LPort=138|RA4=LocalSubnet|RA6=LocalSubnet|App=System|Name=@FirewallAPI.dll,-28527|Desc=@FirewallAPI.dll,-28530|EmbedCtxt=@FirewallAPI.dll,-28502|"
+"FPS-NB_Datagram-In-UDP-NoScope"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=17|Profile=Domain|LPort=138|App=System|Name=@FirewallAPI.dll,-28527|Desc=@FirewallAPI.dll,-28530|EmbedCtxt=@FirewallAPI.dll,-28502|"
+"FPS-NB_Datagram-Out-UDP"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=17|Profile=Private|Profile=Public|RPort=138|RA4=LocalSubnet|RA6=LocalSubnet|App=System|Name=@FirewallAPI.dll,-28531|Desc=@FirewallAPI.dll,-28534|EmbedCtxt=@FirewallAPI.dll,-28502|"
+"FPS-NB_Datagram-Out-UDP-NoScope"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=17|Profile=Domain|RPort=138|App=System|Name=@FirewallAPI.dll,-28531|Desc=@FirewallAPI.dll,-28534|EmbedCtxt=@FirewallAPI.dll,-28502|"
+"FPS-NB_Name-In-UDP"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=17|Profile=Private|Profile=Public|LPort=137|RA4=LocalSubnet|RA6=LocalSubnet|App=System|Name=@FirewallAPI.dll,-28519|Desc=@FirewallAPI.dll,-28522|EmbedCtxt=@FirewallAPI.dll,-28502|"
+"FPS-NB_Name-In-UDP-NoScope"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=17|Profile=Domain|LPort=137|App=System|Name=@FirewallAPI.dll,-28519|Desc=@FirewallAPI.dll,-28522|EmbedCtxt=@FirewallAPI.dll,-28502|"
+"FPS-NB_Name-Out-UDP"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=17|Profile=Private|Profile=Public|RPort=137|RA4=LocalSubnet|RA6=LocalSubnet|App=System|Name=@FirewallAPI.dll,-28523|Desc=@FirewallAPI.dll,-28526|EmbedCtxt=@FirewallAPI.dll,-28502|"
+"FPS-NB_Name-Out-UDP-NoScope"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=17|Profile=Domain|RPort=137|App=System|Name=@FirewallAPI.dll,-28523|Desc=@FirewallAPI.dll,-28526|EmbedCtxt=@FirewallAPI.dll,-28502|"
+"FPS-NB_Session-In-TCP"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=6|Profile=Private|Profile=Public|LPort=139|RA4=LocalSubnet|RA6=LocalSubnet|App=System|Name=@FirewallAPI.dll,-28503|Desc=@FirewallAPI.dll,-28506|EmbedCtxt=@FirewallAPI.dll,-28502|"
+"FPS-NB_Session-In-TCP-NoScope"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=6|Profile=Domain|LPort=139|App=System|Name=@FirewallAPI.dll,-28503|Desc=@FirewallAPI.dll,-28506|EmbedCtxt=@FirewallAPI.dll,-28502|"
+"FPS-NB_Session-Out-TCP"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=6|Profile=Private|Profile=Public|RPort=139|RA4=LocalSubnet|RA6=LocalSubnet|App=System|Name=@FirewallAPI.dll,-28507|Desc=@FirewallAPI.dll,-28510|EmbedCtxt=@FirewallAPI.dll,-28502|"
+"FPS-NB_Session-Out-TCP-NoScope"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=6|Profile=Domain|RPort=139|App=System|Name=@FirewallAPI.dll,-28507|Desc=@FirewallAPI.dll,-28510|EmbedCtxt=@FirewallAPI.dll,-28502|"
+"FPS-RPCSS-In-TCP"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=6|Profile=Private|Profile=Public|LPort=RPC-EPMap|RA4=LocalSubnet|RA6=LocalSubnet|App=%SystemRoot%\\system32\\svchost.exe|Svc=Rpcss|Name=@FirewallAPI.dll,-28539|Desc=@FirewallAPI.dll,-28542|EmbedCtxt=@FirewallAPI.dll,-28502|"
+"FPS-RPCSS-In-TCP-NoScope"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=6|Profile=Domain|LPort=RPC-EPMap|App=%SystemRoot%\\system32\\svchost.exe|Svc=Rpcss|Name=@FirewallAPI.dll,-28539|Desc=@FirewallAPI.dll,-28542|EmbedCtxt=@FirewallAPI.dll,-28502|"
+"FPS-RPCSS-In-TCP-V2"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=6|LPort=RPC-EPMap|App=%SystemRoot%\\system32\\svchost.exe|Svc=Rpcss|Name=@FirewallAPI.dll,-28679|Desc=@FirewallAPI.dll,-28680|EmbedCtxt=@FirewallAPI.dll,-28672|"
+"FPSSMBD-iWARP-In-TCP"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=6|LPort=5445|App=System|Name=@FirewallAPI.dll,-28603|Desc=@FirewallAPI.dll,-28606|EmbedCtxt=@FirewallAPI.dll,-28602|"
+"FPS-SMB-In-TCP"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=6|Profile=Private|Profile=Public|LPort=445|RA4=LocalSubnet|RA6=LocalSubnet|App=System|Name=@FirewallAPI.dll,-28511|Desc=@FirewallAPI.dll,-28514|EmbedCtxt=@FirewallAPI.dll,-28502|"
+"FPS-SMB-In-TCP-NoScope"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=6|Profile=Domain|LPort=445|App=System|Name=@FirewallAPI.dll,-28511|Desc=@FirewallAPI.dll,-28514|EmbedCtxt=@FirewallAPI.dll,-28502|"
+"FPS-SMB-In-TCP-V2"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=6|LPort=445|App=System|Name=@FirewallAPI.dll,-28673|Desc=@FirewallAPI.dll,-28674|EmbedCtxt=@FirewallAPI.dll,-28672|"
+"FPS-SMB-Out-TCP"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=6|Profile=Private|Profile=Public|RPort=445|RA4=LocalSubnet|RA6=LocalSubnet|App=System|Name=@FirewallAPI.dll,-28515|Desc=@FirewallAPI.dll,-28518|EmbedCtxt=@FirewallAPI.dll,-28502|"
+"FPS-SMB-Out-TCP-NoScope"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=6|Profile=Domain|RPort=445|App=System|Name=@FirewallAPI.dll,-28515|Desc=@FirewallAPI.dll,-28518|EmbedCtxt=@FirewallAPI.dll,-28502|"
+"FPS-SMB-Out-TCP-V2"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=6|RPort=445|App=System|Name=@FirewallAPI.dll,-28675|Desc=@FirewallAPI.dll,-28676|EmbedCtxt=@FirewallAPI.dll,-28672|"
+"FPS-SpoolSvc-In-TCP"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=6|Profile=Private|Profile=Public|LPort=RPC|RA4=LocalSubnet|RA6=LocalSubnet|App=%SystemRoot%\\system32\\spoolsv.exe|Svc=Spooler|Name=@FirewallAPI.dll,-28535|Desc=@FirewallAPI.dll,-28538|EmbedCtxt=@FirewallAPI.dll,-28502|"
+"FPS-SpoolSvc-In-TCP-NoScope"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=6|Profile=Domain|LPort=RPC|App=%SystemRoot%\\system32\\spoolsv.exe|Svc=Spooler|Name=@FirewallAPI.dll,-28535|Desc=@FirewallAPI.dll,-28538|EmbedCtxt=@FirewallAPI.dll,-28502|"
+"FPS-SpoolSvc-In-TCP-V2"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=6|LPort=RPC|App=%SystemRoot%\\system32\\spoolsv.exe|Svc=Spooler|Name=@FirewallAPI.dll,-28677|Desc=@FirewallAPI.dll,-28678|EmbedCtxt=@FirewallAPI.dll,-28672|"
+"MCX-FDPHost-Out-TCP"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=6|RA4=LocalSubnet|RA6=LocalSubnet|App=%SystemRoot%\\system32\\svchost.exe|Svc=fdphost|Name=@FirewallAPI.dll,-30822|Desc=@FirewallAPI.dll,-30823|EmbedCtxt=@FirewallAPI.dll,-30752|"
+"MCX-HTTPSTR-In-TCP"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=6|LPort=10244|RA4=LocalSubnet|RA6=LocalSubnet|App=System|Name=@FirewallAPI.dll,-30785|Desc=@FirewallAPI.dll,-30788|EmbedCtxt=@FirewallAPI.dll,-30752|"
+"MCX-In-TCP"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=6|LPort=554|LPort=8554|LPort=8555|LPort=8556|LPort=8557|LPort=8558|RA4=LocalSubnet|RA6=LocalSubnet|App=%SystemRoot%\\ehome\\ehshell.exe|Name=@FirewallAPI.dll,-30761|Desc=@FirewallAPI.dll,-30764|EmbedCtxt=@FirewallAPI.dll,-30752|"
+"MCX-In-UDP"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=17|LPort=7777|LPort=7778|LPort=7779|LPort=7780|LPort=7781|LPort=5004|LPort=5005|LPort=50004|LPort=50005|LPort=50006|LPort=50007|LPort=50008|LPort=50009|LPort=50010|LPort=50011|LPort=50012|LPort=50013|RA4=LocalSubnet|RA6=LocalSubnet|App=%SystemRoot%\\ehome\\ehshell.exe|Name=@FirewallAPI.dll,-30801|Desc=@FirewallAPI.dll,-30804|EmbedCtxt=@FirewallAPI.dll,-30752|"
+"MCX-McrMgr-Out-TCP"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=6|App=%SystemRoot%\\ehome\\mcrmgr.exe|Name=@FirewallAPI.dll,-30818|Desc=@FirewallAPI.dll,-30819|EmbedCtxt=@FirewallAPI.dll,-30752|"
+"MCX-MCX2SVC-Out-TCP"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=6|RA4=LocalSubnet|RA6=LocalSubnet|App=%SystemRoot%\\system32\\svchost.exe|Svc=mcx2svc|Name=@FirewallAPI.dll,-30810|Desc=@FirewallAPI.dll,-30811|EmbedCtxt=@FirewallAPI.dll,-30752|"
+"MCX-Out-TCP"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=6|RA4=LocalSubnet|RA6=LocalSubnet|App=%SystemRoot%\\ehome\\ehshell.exe|Name=@FirewallAPI.dll,-30765|Desc=@FirewallAPI.dll,-30768|EmbedCtxt=@FirewallAPI.dll,-30752|"
+"MCX-Out-UDP"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=17|RA4=LocalSubnet|RA6=LocalSubnet|App=%SystemRoot%\\ehome\\ehshell.exe|Name=@FirewallAPI.dll,-30805|Desc=@FirewallAPI.dll,-30808|EmbedCtxt=@FirewallAPI.dll,-30752|"
+"MCX-PlayTo-In-TCP"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=6|LPort=2869|RA4=LocalSubnet|RA6=LocalSubnet|App=System|Name=@FirewallAPI.dll,-30814|Desc=@FirewallAPI.dll,-30815|EmbedCtxt=@FirewallAPI.dll,-30752|"
+"MCX-PlayTo-Out-TCP"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=6|RA4=LocalSubnet|RA6=LocalSubnet|App=%SystemRoot%\\system32\\svchost.exe|Svc=upnphost|Name=@FirewallAPI.dll,-30816|Desc=@FirewallAPI.dll,-30817|EmbedCtxt=@FirewallAPI.dll,-30752|"
+"MCX-PlayTo-Out-UDP"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=17|LPort=1900|RA4=LocalSubnet|RA6=LocalSubnet|App=%SystemRoot%\\system32\\svchost.exe|Svc=Ssdpsrv|Name=@FirewallAPI.dll,-30820|Desc=@FirewallAPI.dll,-30821|EmbedCtxt=@FirewallAPI.dll,-30752|"
+"MCX-Prov-Out-TCP"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=6|App=%SystemRoot%\\ehome\\mcx2prov.exe|Name=@FirewallAPI.dll,-30812|Desc=@FirewallAPI.dll,-30813|EmbedCtxt=@FirewallAPI.dll,-30752|"
+"MCX-QWave-In-TCP"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=6|LPort=2177|RA4=LocalSubnet|RA6=LocalSubnet|App=%SystemRoot%\\system32\\svchost.exe|Svc=Qwave|Name=@FirewallAPI.dll,-30777|Desc=@FirewallAPI.dll,-30780|EmbedCtxt=@FirewallAPI.dll,-30752|"
+"MCX-QWave-In-UDP"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=17|LPort=2177|RA4=LocalSubnet|RA6=LocalSubnet|App=%SystemRoot%\\system32\\svchost.exe|Svc=Qwave|Name=@FirewallAPI.dll,-30769|Desc=@FirewallAPI.dll,-30772|EmbedCtxt=@FirewallAPI.dll,-30752|"
+"MCX-QWave-Out-TCP"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=6|RPort=2177|RA4=LocalSubnet|RA6=LocalSubnet|App=%SystemRoot%\\system32\\svchost.exe|Svc=Qwave|Name=@FirewallAPI.dll,-30781|Desc=@FirewallAPI.dll,-30784|EmbedCtxt=@FirewallAPI.dll,-30752|"
+"MCX-QWave-Out-UDP"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=17|RPort=2177|RA4=LocalSubnet|RA6=LocalSubnet|App=%SystemRoot%\\system32\\svchost.exe|Svc=Qwave|Name=@FirewallAPI.dll,-30773|Desc=@FirewallAPI.dll,-30776|EmbedCtxt=@FirewallAPI.dll,-30752|"
+"MCX-SSDPSrv-In-UDP"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=17|LPort=1900|RA4=LocalSubnet|RA6=LocalSubnet|App=%SystemRoot%\\system32\\svchost.exe|Svc=Ssdpsrv|Name=@FirewallAPI.dll,-30753|Desc=@FirewallAPI.dll,-30756|EmbedCtxt=@FirewallAPI.dll,-30752|"
+"MCX-SSDPSrv-Out-UDP"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=17|RPort=1900|RA4=LocalSubnet|RA6=LocalSubnet|App=%SystemRoot%\\system32\\svchost.exe|Svc=Ssdpsrv|Name=@FirewallAPI.dll,-30757|Desc=@FirewallAPI.dll,-30760|EmbedCtxt=@FirewallAPI.dll,-30752|"
+"MCX-TERMSRV-In-TCP"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=6|LPort=3390|RA4=LocalSubnet|RA6=LocalSubnet|App=%SystemRoot%\\system32\\svchost.exe|Svc=termservice|Name=@FirewallAPI.dll,-30793|Desc=@FirewallAPI.dll,-30796|EmbedCtxt=@FirewallAPI.dll,-30752|"
+"MDNS-In-UDP-Domain-Active"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=17|Profile=Domain|LPort=5353|App=%SystemRoot%\\system32\\svchost.exe|Svc=dnscache|Name=@%SystemRoot%\\system32\\firewallapi.dll,-37303|Desc=@%SystemRoot%\\system32\\firewallapi.dll,-37304|EmbedCtxt=@%SystemRoot%\\system32\\firewallapi.dll,-37302|"
+"MDNS-In-UDP-Private-Active"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=17|Profile=Private|LPort=5353|RA4=LocalSubnet|RA6=LocalSubnet|App=%SystemRoot%\\system32\\svchost.exe|Svc=dnscache|Name=@%SystemRoot%\\system32\\firewallapi.dll,-37303|Desc=@%SystemRoot%\\system32\\firewallapi.dll,-37304|EmbedCtxt=@%SystemRoot%\\system32\\firewallapi.dll,-37302|"
+"MDNS-In-UDP-Public-Active"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=17|Profile=Public|LPort=5353|RA4=LocalSubnet|RA6=LocalSubnet|App=%SystemRoot%\\system32\\svchost.exe|Svc=dnscache|Name=@%SystemRoot%\\system32\\firewallapi.dll,-37303|Desc=@%SystemRoot%\\system32\\firewallapi.dll,-37304|EmbedCtxt=@%SystemRoot%\\system32\\firewallapi.dll,-37302|"
+"MDNS-Out-UDP-Domain-Active"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=17|Profile=Domain|RPort=5353|App=%SystemRoot%\\system32\\svchost.exe|Svc=dnscache|Name=@%SystemRoot%\\system32\\firewallapi.dll,-37305|Desc=@%SystemRoot%\\system32\\firewallapi.dll,-37306|EmbedCtxt=@%SystemRoot%\\system32\\firewallapi.dll,-37302|"
+"MDNS-Out-UDP-Private-Active"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=17|Profile=Private|RPort=5353|RA4=LocalSubnet|RA6=LocalSubnet|App=%SystemRoot%\\system32\\svchost.exe|Svc=dnscache|Name=@%SystemRoot%\\system32\\firewallapi.dll,-37305|Desc=@%SystemRoot%\\system32\\firewallapi.dll,-37306|EmbedCtxt=@%SystemRoot%\\system32\\firewallapi.dll,-37302|"
+"MDNS-Out-UDP-Public-Active"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=17|Profile=Public|RPort=5353|RA4=LocalSubnet|RA6=LocalSubnet|App=%SystemRoot%\\system32\\svchost.exe|Svc=dnscache|Name=@%SystemRoot%\\system32\\firewallapi.dll,-37305|Desc=@%SystemRoot%\\system32\\firewallapi.dll,-37306|EmbedCtxt=@%SystemRoot%\\system32\\firewallapi.dll,-37302|"
+"Microsoft.AAD.BrokerPlugin_cw5n1h2txyewy-In-Allow-ServerCapability"="v2.33|Action=Allow|Active=FALSE|Dir=In|Profile=Domain|Profile=Private|Name=@{Microsoft.AAD.BrokerPlugin_1000.19580.1000.0_neutral_neutral_cw5n1h2txyewy?ms-resource://Microsoft.AAD.BrokerPlugin/resources/PackageDisplayName}|Desc=@{Microsoft.AAD.BrokerPlugin_1000.19580.1000.0_neutral_neutral_cw5n1h2txyewy?ms-resource://Microsoft.AAD.BrokerPlugin/resources/PackageDisplayName}|PFN=Microsoft.AAD.BrokerPlugin_cw5n1h2txyewy|LUOwn=S-1-5-18|EmbedCtxt=@{Microsoft.AAD.BrokerPlugin_1000.19580.1000.0_neutral_neutral_cw5n1h2txyewy?ms-resource://Microsoft.AAD.BrokerPlugin/resources/PackageDisplayName}|Platform=2:6:2|Platform2=GTEQ|"
+"Microsoft.AAD.BrokerPlugin_cw5n1h2txyewy-Out-Allow-AllCapabilities"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Profile=Domain|Profile=Private|Profile=Public|Name=@{Microsoft.AAD.BrokerPlugin_1000.19580.1000.0_neutral_neutral_cw5n1h2txyewy?ms-resource://Microsoft.AAD.BrokerPlugin/resources/PackageDisplayName}|Desc=@{Microsoft.AAD.BrokerPlugin_1000.19580.1000.0_neutral_neutral_cw5n1h2txyewy?ms-resource://Microsoft.AAD.BrokerPlugin/resources/PackageDisplayName}|PFN=Microsoft.AAD.BrokerPlugin_cw5n1h2txyewy|LUOwn=S-1-5-18|EmbedCtxt=@{Microsoft.AAD.BrokerPlugin_1000.19580.1000.0_neutral_neutral_cw5n1h2txyewy?ms-resource://Microsoft.AAD.BrokerPlugin/resources/PackageDisplayName}|Platform=2:6:2|Platform2=GTEQ|"
+"Microsoft.AccountsControl_cw5n1h2txyewy-Out-Allow-AllCapabilities"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Profile=Domain|Profile=Private|Profile=Public|Name=@{Microsoft.AccountsControl_10.0.26100.1_neutral__cw5n1h2txyewy?ms-resource://Microsoft.AccountsControl/Resources/DisplayName}|Desc=@{Microsoft.AccountsControl_10.0.26100.1_neutral__cw5n1h2txyewy?ms-resource://Microsoft.AccountsControl/Resources/DisplayName}|PFN=Microsoft.AccountsControl_cw5n1h2txyewy|LUOwn=S-1-5-18|EmbedCtxt=@{Microsoft.AccountsControl_10.0.26100.1_neutral__cw5n1h2txyewy?ms-resource://Microsoft.AccountsControl/Resources/DisplayName}|Platform=2:6:2|Platform2=GTEQ|"
+"Microsoft.DesktopAppInstaller_8wekyb3d8bbwe-In-Allow-ServerCapability"="v2.33|Action=Allow|Active=FALSE|Dir=In|Profile=Domain|Profile=Private|Name=@{Microsoft.DesktopAppInstaller_1.21.10120.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.DesktopAppInstaller/Resources/appDisplayName}|Desc=@{Microsoft.DesktopAppInstaller_1.21.10120.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.DesktopAppInstaller/Resources/appDisplayName}|PFN=Microsoft.DesktopAppInstaller_8wekyb3d8bbwe|LUOwn=S-1-5-21-1972309175-2992224230-1556281971-1001|EmbedCtxt=@{Microsoft.DesktopAppInstaller_1.21.10120.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.DesktopAppInstaller/Resources/appDisplayName}|Platform=2:6:2|Platform2=GTEQ|"
+"Microsoft.DesktopAppInstaller_8wekyb3d8bbwe-Out-Allow-AllCapabilities"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Profile=Domain|Profile=Private|Profile=Public|Name=@{Microsoft.DesktopAppInstaller_1.21.10120.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.DesktopAppInstaller/Resources/appDisplayName}|Desc=@{Microsoft.DesktopAppInstaller_1.21.10120.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.DesktopAppInstaller/Resources/appDisplayName}|PFN=Microsoft.DesktopAppInstaller_8wekyb3d8bbwe|LUOwn=S-1-5-21-1972309175-2992224230-1556281971-1001|EmbedCtxt=@{Microsoft.DesktopAppInstaller_1.21.10120.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.DesktopAppInstaller/Resources/appDisplayName}|Platform=2:6:2|Platform2=GTEQ|"
+"Microsoft.GetHelp_8wekyb3d8bbwe-Out-Allow-AllCapabilities"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Profile=Domain|Profile=Private|Profile=Public|Name=@{Microsoft.GetHelp_10.2302.10601.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.GetHelp/Resources/appDisplayName}|Desc=@{Microsoft.GetHelp_10.2302.10601.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.GetHelp/Resources/appDisplayName}|PFN=Microsoft.GetHelp_8wekyb3d8bbwe|LUOwn=S-1-5-21-1972309175-2992224230-1556281971-1001|EmbedCtxt=@{Microsoft.GetHelp_10.2302.10601.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.GetHelp/Resources/appDisplayName}|Platform=2:6:2|Platform2=GTEQ|"
+"Microsoft.LockApp_cw5n1h2txyewy-Out-Allow-AllCapabilities"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Profile=Domain|Profile=Private|Profile=Public|Name=@{Microsoft.LockApp_10.0.26100.1301_neutral__cw5n1h2txyewy?ms-resource://Microsoft.LockApp/resources/AppDisplayName}|Desc=@{Microsoft.LockApp_10.0.26100.1301_neutral__cw5n1h2txyewy?ms-resource://Microsoft.LockApp/resources/AppDisplayName}|PFN=Microsoft.LockApp_cw5n1h2txyewy|LUOwn=S-1-5-18|EmbedCtxt=@{Microsoft.LockApp_10.0.26100.1301_neutral__cw5n1h2txyewy?ms-resource://Microsoft.LockApp/resources/AppDisplayName}|Platform=2:6:2|Platform2=GTEQ|"
+"Microsoft.MicrosoftOfficeHub_8wekyb3d8bbwe-Out-Allow-AllCapabilities"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Profile=Domain|Profile=Private|Profile=Public|Name=Microsoft 365 (Office)|Desc=Microsoft 365 (Office)|PFN=Microsoft.MicrosoftOfficeHub_8wekyb3d8bbwe|LUOwn=S-1-5-21-1972309175-2992224230-1556281971-1001|EmbedCtxt=Microsoft 365 (Office)|Platform=2:6:2|Platform2=GTEQ|"
+"Microsoft.MicrosoftSolitaireCollection_8wekyb3d8bbwe-In-Allow-ServerCapability"="v2.33|Action=Allow|Active=FALSE|Dir=In|Profile=Domain|Profile=Private|Name=Solitaire & Casual Games|Desc=Solitaire & Casual Games|PFN=Microsoft.MicrosoftSolitaireCollection_8wekyb3d8bbwe|LUOwn=S-1-5-21-1972309175-2992224230-1556281971-1001|EmbedCtxt=Solitaire & Casual Games|Platform=2:6:2|Platform2=GTEQ|"
+"Microsoft.MicrosoftSolitaireCollection_8wekyb3d8bbwe-Out-Allow-AllCapabilities"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Profile=Domain|Profile=Private|Profile=Public|Name=Solitaire & Casual Games|Desc=Solitaire & Casual Games|PFN=Microsoft.MicrosoftSolitaireCollection_8wekyb3d8bbwe|LUOwn=S-1-5-21-1972309175-2992224230-1556281971-1001|EmbedCtxt=Solitaire & Casual Games|Platform=2:6:2|Platform2=GTEQ|"
+"Microsoft.SecHealthUI_8wekyb3d8bbwe-In-Allow-ServerCapability"="v2.33|Action=Allow|Active=FALSE|Dir=In|Profile=Domain|Profile=Private|Name=@{Microsoft.SecHealthUI_1000.26100.1.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.SecHealthUI/resources/PackageDisplayName}|Desc=@{Microsoft.SecHealthUI_1000.26100.1.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.SecHealthUI/resources/ProductDescription}|PFN=Microsoft.SecHealthUI_8wekyb3d8bbwe|LUOwn=S-1-5-21-1972309175-2992224230-1556281971-1001|EmbedCtxt=@{Microsoft.SecHealthUI_1000.26100.1.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.SecHealthUI/resources/PackageDisplayName}|Platform=2:6:2|Platform2=GTEQ|"
+"Microsoft.SecHealthUI_8wekyb3d8bbwe-Out-Allow-AllCapabilities"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Profile=Domain|Profile=Private|Profile=Public|Name=@{Microsoft.SecHealthUI_1000.26100.1.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.SecHealthUI/resources/PackageDisplayName}|Desc=@{Microsoft.SecHealthUI_1000.26100.1.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.SecHealthUI/resources/ProductDescription}|PFN=Microsoft.SecHealthUI_8wekyb3d8bbwe|LUOwn=S-1-5-21-1972309175-2992224230-1556281971-1001|EmbedCtxt=@{Microsoft.SecHealthUI_1000.26100.1.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.SecHealthUI/resources/PackageDisplayName}|Platform=2:6:2|Platform2=GTEQ|"
+"Microsoft.StartExperiencesApp_8wekyb3d8bbwe-Out-Allow-AllCapabilities"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Profile=Domain|Profile=Private|Profile=Public|Name=@{Microsoft.StartExperiencesApp_1.1.200.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.StartExperiencesApp/Resources/PackageDisplayName}|Desc=@{Microsoft.StartExperiencesApp_1.1.200.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.StartExperiencesApp/Resources/PackageDisplayName}|PFN=Microsoft.StartExperiencesApp_8wekyb3d8bbwe|LUOwn=S-1-5-21-1972309175-2992224230-1556281971-1001|EmbedCtxt=@{Microsoft.StartExperiencesApp_1.1.200.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.StartExperiencesApp/Resources/PackageDisplayName}|Platform=2:6:2|Platform2=GTEQ|"
+"Microsoft.StorePurchaseApp_8wekyb3d8bbwe-In-Allow-ServerCapability"="v2.33|Action=Allow|Active=FALSE|Dir=In|Profile=Domain|Profile=Private|Name=@{Microsoft.StorePurchaseApp_22312.1400.6.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.StorePurchaseApp/Resources/DisplayTitle}|Desc=@{Microsoft.StorePurchaseApp_22312.1400.6.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.StorePurchaseApp/Resources/DisplayTitle}|PFN=Microsoft.StorePurchaseApp_8wekyb3d8bbwe|LUOwn=S-1-5-21-1972309175-2992224230-1556281971-1001|EmbedCtxt=@{Microsoft.StorePurchaseApp_22312.1400.6.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.StorePurchaseApp/Resources/DisplayTitle}|Platform=2:6:2|Platform2=GTEQ|"
+"Microsoft.StorePurchaseApp_8wekyb3d8bbwe-Out-Allow-AllCapabilities"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Profile=Domain|Profile=Private|Profile=Public|Name=@{Microsoft.StorePurchaseApp_22312.1400.6.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.StorePurchaseApp/Resources/DisplayTitle}|Desc=@{Microsoft.StorePurchaseApp_22312.1400.6.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.StorePurchaseApp/Resources/DisplayTitle}|PFN=Microsoft.StorePurchaseApp_8wekyb3d8bbwe|LUOwn=S-1-5-21-1972309175-2992224230-1556281971-1001|EmbedCtxt=@{Microsoft.StorePurchaseApp_22312.1400.6.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.StorePurchaseApp/Resources/DisplayTitle}|Platform=2:6:2|Platform2=GTEQ|"
+"Microsoft.Todos_8wekyb3d8bbwe-In-Allow-ServerCapability"="v2.33|Action=Allow|Active=FALSE|Dir=In|Profile=Domain|Profile=Private|Name=@{Microsoft.Todos_0.104.62421.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.Todos/Resources/app_name_ms_todo}|Desc=@{Microsoft.Todos_0.104.62421.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.Todos/Resources/app_name_ms_todo}|PFN=Microsoft.Todos_8wekyb3d8bbwe|LUOwn=S-1-5-21-1972309175-2992224230-1556281971-1001|EmbedCtxt=@{Microsoft.Todos_0.104.62421.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.Todos/Resources/app_name_ms_todo}|Platform=2:6:2|Platform2=GTEQ|"
+"Microsoft.Todos_8wekyb3d8bbwe-Out-Allow-AllCapabilities"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Profile=Domain|Profile=Private|Profile=Public|Name=@{Microsoft.Todos_0.104.62421.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.Todos/Resources/app_name_ms_todo}|Desc=@{Microsoft.Todos_0.104.62421.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.Todos/Resources/app_name_ms_todo}|PFN=Microsoft.Todos_8wekyb3d8bbwe|LUOwn=S-1-5-21-1972309175-2992224230-1556281971-1001|EmbedCtxt=@{Microsoft.Todos_0.104.62421.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.Todos/Resources/app_name_ms_todo}|Platform=2:6:2|Platform2=GTEQ|"
+"Microsoft.WidgetsPlatformRuntime_8wekyb3d8bbwe-Out-Allow-AllCapabilities"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Profile=Domain|Profile=Private|Profile=Public|Name=Widgets Platform Runtime|Desc=Widgets Platform Runtime|PFN=Microsoft.WidgetsPlatformRuntime_8wekyb3d8bbwe|LUOwn=S-1-5-21-1972309175-2992224230-1556281971-1001|EmbedCtxt=Widgets Platform Runtime|Platform=2:6:2|Platform2=GTEQ|"
+"Microsoft.Win32WebViewHost_cw5n1h2txyewy-In-Allow-ServerCapability"="v2.33|Action=Allow|Active=FALSE|Dir=In|Profile=Domain|Profile=Private|Profile=Public|Name=@{Microsoft.Win32WebViewHost_10.0.26100.1_neutral_neutral_cw5n1h2txyewy?ms-resource://Windows.Win32WebViewHost/resources/DisplayName}|Desc=@{Microsoft.Win32WebViewHost_10.0.26100.1_neutral_neutral_cw5n1h2txyewy?ms-resource://Windows.Win32WebViewHost/resources/Description}|PFN=Microsoft.Win32WebViewHost_cw5n1h2txyewy|LUOwn=S-1-5-18|EmbedCtxt=@{Microsoft.Win32WebViewHost_10.0.26100.1_neutral_neutral_cw5n1h2txyewy?ms-resource://Windows.Win32WebViewHost/resources/DisplayName}|Platform=2:6:2|Platform2=GTEQ|Edge=TRUE|"
+"Microsoft.Win32WebViewHost_cw5n1h2txyewy-Out-Allow-AllCapabilities"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Profile=Domain|Profile=Private|Profile=Public|Name=@{Microsoft.Win32WebViewHost_10.0.26100.1_neutral_neutral_cw5n1h2txyewy?ms-resource://Windows.Win32WebViewHost/resources/DisplayName}|Desc=@{Microsoft.Win32WebViewHost_10.0.26100.1_neutral_neutral_cw5n1h2txyewy?ms-resource://Windows.Win32WebViewHost/resources/Description}|PFN=Microsoft.Win32WebViewHost_cw5n1h2txyewy|LUOwn=S-1-5-18|EmbedCtxt=@{Microsoft.Win32WebViewHost_10.0.26100.1_neutral_neutral_cw5n1h2txyewy?ms-resource://Windows.Win32WebViewHost/resources/DisplayName}|Platform=2:6:2|Platform2=GTEQ|"
+"Microsoft.Windows.Apprep.ChxApp_cw5n1h2txyewy-Out-Allow-AllCapabilities"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Profile=Domain|Profile=Private|Profile=Public|Name=@{Microsoft.Windows.Apprep.ChxApp_1000.25128.1000.0_neutral_neutral_cw5n1h2txyewy?ms-resource://Microsoft.Windows.Apprep.ChxApp/resources/DisplayName}|Desc=@{Microsoft.Windows.Apprep.ChxApp_1000.25128.1000.0_neutral_neutral_cw5n1h2txyewy?ms-resource://Microsoft.Windows.Apprep.ChxApp/resources/DisplayName}|PFN=Microsoft.Windows.Apprep.ChxApp_cw5n1h2txyewy|LUOwn=S-1-5-18|EmbedCtxt=@{Microsoft.Windows.Apprep.ChxApp_1000.25128.1000.0_neutral_neutral_cw5n1h2txyewy?ms-resource://Microsoft.Windows.Apprep.ChxApp/resources/DisplayName}|Platform=2:6:2|Platform2=GTEQ|"
+"Microsoft.Windows.CloudExperienceHost_cw5n1h2txyewy-In-Allow-ServerCapability"="v2.33|Action=Allow|Active=FALSE|Dir=In|Profile=Domain|Profile=Private|Name=@{Microsoft.Windows.CloudExperienceHost_10.0.26100.1_neutral_neutral_cw5n1h2txyewy?ms-resource://Microsoft.Windows.CloudExperienceHost/resources/appDescription}|Desc=@{Microsoft.Windows.CloudExperienceHost_10.0.26100.1_neutral_neutral_cw5n1h2txyewy?ms-resource://Microsoft.Windows.CloudExperienceHost/resources/appDescription}|PFN=Microsoft.Windows.CloudExperienceHost_cw5n1h2txyewy|LUOwn=S-1-5-18|EmbedCtxt=@{Microsoft.Windows.CloudExperienceHost_10.0.26100.1_neutral_neutral_cw5n1h2txyewy?ms-resource://Microsoft.Windows.CloudExperienceHost/resources/appDescription}|Platform=2:6:2|Platform2=GTEQ|"
+"Microsoft.Windows.CloudExperienceHost_cw5n1h2txyewy-Out-Allow-AllCapabilities"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Profile=Domain|Profile=Private|Profile=Public|Name=@{Microsoft.Windows.CloudExperienceHost_10.0.26100.1_neutral_neutral_cw5n1h2txyewy?ms-resource://Microsoft.Windows.CloudExperienceHost/resources/appDescription}|Desc=@{Microsoft.Windows.CloudExperienceHost_10.0.26100.1_neutral_neutral_cw5n1h2txyewy?ms-resource://Microsoft.Windows.CloudExperienceHost/resources/appDescription}|PFN=Microsoft.Windows.CloudExperienceHost_cw5n1h2txyewy|LUOwn=S-1-5-18|EmbedCtxt=@{Microsoft.Windows.CloudExperienceHost_10.0.26100.1_neutral_neutral_cw5n1h2txyewy?ms-resource://Microsoft.Windows.CloudExperienceHost/resources/appDescription}|Platform=2:6:2|Platform2=GTEQ|"
+"Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy-Out-Allow-AllCapabilities"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Profile=Domain|Profile=Private|Profile=Public|Name=@{Microsoft.Windows.ContentDeliveryManager_10.0.26100.1_neutral_neutral_cw5n1h2txyewy?ms-resource://Microsoft.Windows.ContentDeliveryManager/resources/AppDisplayName}|Desc=@{Microsoft.Windows.ContentDeliveryManager_10.0.26100.1_neutral_neutral_cw5n1h2txyewy?ms-resource://Microsoft.Windows.ContentDeliveryManager/resources/AppDisplayName}|PFN=Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy|LUOwn=S-1-5-18|EmbedCtxt=@{Microsoft.Windows.ContentDeliveryManager_10.0.26100.1_neutral_neutral_cw5n1h2txyewy?ms-resource://Microsoft.Windows.ContentDeliveryManager/resources/AppDisplayName}|Platform=2:6:2|Platform2=GTEQ|"
+"Microsoft.Windows.NarratorQuickStart_8wekyb3d8bbwe-Out-Allow-AllCapabilities"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Profile=Domain|Profile=Private|Profile=Public|Name=@{Microsoft.Windows.NarratorQuickStart_10.0.26100.1_neutral_neutral_8wekyb3d8bbwe?ms-resource://Microsoft.Windows.NarratorQuickStart/Resources/AppDisplayName}|Desc=@{Microsoft.Windows.NarratorQuickStart_10.0.26100.1_neutral_neutral_8wekyb3d8bbwe?ms-resource://Microsoft.Windows.NarratorQuickStart/Resources/AppDescription}|PFN=Microsoft.Windows.NarratorQuickStart_8wekyb3d8bbwe|LUOwn=S-1-5-21-1972309175-2992224230-1556281971-1001|EmbedCtxt=@{Microsoft.Windows.NarratorQuickStart_10.0.26100.1_neutral_neutral_8wekyb3d8bbwe?ms-resource://Microsoft.Windows.NarratorQuickStart/Resources/AppDisplayName}|Platform=2:6:2|Platform2=GTEQ|"
+"Microsoft.Windows.OOBENetworkCaptivePortal_cw5n1h2txyewy-Out-Allow-AllCapabilities"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Profile=Domain|Profile=Private|Profile=Public|Name=@{Microsoft.Windows.OOBENetworkCaptivePortal_10.0.21302.1000_neutral__cw5n1h2txyewy?ms-resource://Microsoft.Windows.OOBENetworkCaptivePortal/Resources/AppDisplayName}|Desc=@{Microsoft.Windows.OOBENetworkCaptivePortal_10.0.21302.1000_neutral__cw5n1h2txyewy?ms-resource://Microsoft.Windows.OOBENetworkCaptivePortal/Resources/AppDisplayName}|PFN=Microsoft.Windows.OOBENetworkCaptivePortal_cw5n1h2txyewy|LUOwn=S-1-5-18|EmbedCtxt=@{Microsoft.Windows.OOBENetworkCaptivePortal_10.0.21302.1000_neutral__cw5n1h2txyewy?ms-resource://Microsoft.Windows.OOBENetworkCaptivePortal/Resources/AppDisplayName}|Platform=2:6:2|Platform2=GTEQ|"
+"Microsoft.Windows.ParentalControls_cw5n1h2txyewy-Out-Allow-AllCapabilities"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Profile=Domain|Profile=Private|Profile=Public|Name=@{Microsoft.Windows.ParentalControls_1000.25128.1000.0_neutral_neutral_cw5n1h2txyewy?ms-resource://Microsoft.Windows.ParentalControls/resources/DisplayName}|Desc=@{Microsoft.Windows.ParentalControls_1000.25128.1000.0_neutral_neutral_cw5n1h2txyewy?ms-resource://Microsoft.Windows.ParentalControls/resources/DisplayName}|PFN=Microsoft.Windows.ParentalControls_cw5n1h2txyewy|LUOwn=S-1-5-18|EmbedCtxt=@{Microsoft.Windows.ParentalControls_1000.25128.1000.0_neutral_neutral_cw5n1h2txyewy?ms-resource://Microsoft.Windows.ParentalControls/resources/DisplayName}|Platform=2:6:2|Platform2=GTEQ|"
+"Microsoft.Windows.PeopleExperienceHost_cw5n1h2txyewy-Out-Allow-AllCapabilities"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Profile=Domain|Profile=Private|Profile=Public|Name=@{Microsoft.Windows.PeopleExperienceHost_10.0.26100.1_neutral_neutral_cw5n1h2txyewy?ms-resource://Microsoft.Windows.PeopleExperienceHost/resources/PkgDisplayName}|Desc=@{Microsoft.Windows.PeopleExperienceHost_10.0.26100.1_neutral_neutral_cw5n1h2txyewy?ms-resource://Microsoft.Windows.PeopleExperienceHost/resources/PkgDisplayName}|PFN=Microsoft.Windows.PeopleExperienceHost_cw5n1h2txyewy|LUOwn=S-1-5-18|EmbedCtxt=@{Microsoft.Windows.PeopleExperienceHost_10.0.26100.1_neutral_neutral_cw5n1h2txyewy?ms-resource://Microsoft.Windows.PeopleExperienceHost/resources/PkgDisplayName}|Platform=2:6:2|Platform2=GTEQ|"
+"Microsoft.Windows.Photos_8wekyb3d8bbwe-Out-Allow-AllCapabilities"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Profile=Domain|Profile=Private|Profile=Public|Name=@{Microsoft.Windows.Photos_24.24010.29003.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.Windows.Photos/Resources/AppStoreName}|Desc=@{Microsoft.Windows.Photos_24.24010.29003.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.Windows.Photos/Resources/AppStoreName}|PFN=Microsoft.Windows.Photos_8wekyb3d8bbwe|LUOwn=S-1-5-21-1972309175-2992224230-1556281971-1001|EmbedCtxt=@{Microsoft.Windows.Photos_24.24010.29003.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.Windows.Photos/Resources/AppStoreName}|Platform=2:6:2|Platform2=GTEQ|"
+"Microsoft.Windows.PrintQueueActionCenter_cw5n1h2txyewy-Out-Allow-AllCapabilities"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Profile=Domain|Profile=Private|Profile=Public|Name=@{Microsoft.Windows.PrintQueueActionCenter_1.0.2.0_neutral_neutral_cw5n1h2txyewy?ms-resource://Microsoft.Windows.PrintQueueActionCenter/Resources/AppxManifest_DisplayName}|Desc=@{Microsoft.Windows.PrintQueueActionCenter_1.0.2.0_neutral_neutral_cw5n1h2txyewy?ms-resource://Microsoft.Windows.PrintQueueActionCenter/Resources/AppxManifest_DisplayName}|PFN=Microsoft.Windows.PrintQueueActionCenter_cw5n1h2txyewy|LUOwn=S-1-5-18|EmbedCtxt=@{Microsoft.Windows.PrintQueueActionCenter_1.0.2.0_neutral_neutral_cw5n1h2txyewy?ms-resource://Microsoft.Windows.PrintQueueActionCenter/Resources/AppxManifest_DisplayName}|Platform=2:6:2|Platform2=GTEQ|"
+"Microsoft.Windows.SecureAssessmentBrowser_cw5n1h2txyewy-Out-Allow-AllCapabilities"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Profile=Domain|Profile=Private|Profile=Public|Name=@{Microsoft.Windows.SecureAssessmentBrowser_10.0.26100.1_neutral_neutral_cw5n1h2txyewy?ms-resource://Microsoft.Windows.SecureAssessmentBrowser/Resources/PackageDisplayName}|Desc=@{Microsoft.Windows.SecureAssessmentBrowser_10.0.26100.1_neutral_neutral_cw5n1h2txyewy?ms-resource://Microsoft.Windows.SecureAssessmentBrowser/Resources/PackageDescription}|PFN=Microsoft.Windows.SecureAssessmentBrowser_cw5n1h2txyewy|LUOwn=S-1-5-18|EmbedCtxt=@{Microsoft.Windows.SecureAssessmentBrowser_10.0.26100.1_neutral_neutral_cw5n1h2txyewy?ms-resource://Microsoft.Windows.SecureAssessmentBrowser/Resources/PackageDisplayName}|Platform=2:6:2|Platform2=GTEQ|"
+"Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy-In-Allow-ServerCapability"="v2.33|Action=Allow|Active=FALSE|Dir=In|Profile=Domain|Profile=Private|Name=@{Microsoft.Windows.StartMenuExperienceHost_10.0.26100.1882_neutral_neutral_cw5n1h2txyewy?ms-resource://Microsoft.Windows.StartMenuExperienceHost/StartMenuExperienceHost/PkgDisplayName}|Desc=@{Microsoft.Windows.StartMenuExperienceHost_10.0.26100.1882_neutral_neutral_cw5n1h2txyewy?ms-resource://Microsoft.Windows.StartMenuExperienceHost/StartMenuExperienceHost/PkgDisplayName}|PFN=Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy|LUOwn=S-1-5-18|EmbedCtxt=@{Microsoft.Windows.StartMenuExperienceHost_10.0.26100.1882_neutral_neutral_cw5n1h2txyewy?ms-resource://Microsoft.Windows.StartMenuExperienceHost/StartMenuExperienceHost/PkgDisplayName}|Platform=2:6:2|Platform2=GTEQ|"
+"Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy-Out-Allow-AllCapabilities"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Profile=Domain|Profile=Private|Profile=Public|Name=@{Microsoft.Windows.StartMenuExperienceHost_10.0.26100.1882_neutral_neutral_cw5n1h2txyewy?ms-resource://Microsoft.Windows.StartMenuExperienceHost/StartMenuExperienceHost/PkgDisplayName}|Desc=@{Microsoft.Windows.StartMenuExperienceHost_10.0.26100.1882_neutral_neutral_cw5n1h2txyewy?ms-resource://Microsoft.Windows.StartMenuExperienceHost/StartMenuExperienceHost/PkgDisplayName}|PFN=Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy|LUOwn=S-1-5-18|EmbedCtxt=@{Microsoft.Windows.StartMenuExperienceHost_10.0.26100.1882_neutral_neutral_cw5n1h2txyewy?ms-resource://Microsoft.Windows.StartMenuExperienceHost/StartMenuExperienceHost/PkgDisplayName}|Platform=2:6:2|Platform2=GTEQ|"
+"Microsoft.WindowsAlarms_8wekyb3d8bbwe-In-Allow-ServerCapability"="v2.33|Action=Allow|Active=FALSE|Dir=In|Profile=Domain|Profile=Private|Name=@{Microsoft.WindowsAlarms_11.2408.9.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.WindowsAlarms/Resources/AppStoreName}|Desc=@{Microsoft.WindowsAlarms_11.2408.9.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.WindowsAlarms/Resources/AppStoreName}|PFN=Microsoft.WindowsAlarms_8wekyb3d8bbwe|LUOwn=S-1-5-21-1972309175-2992224230-1556281971-1001|EmbedCtxt=@{Microsoft.WindowsAlarms_11.2408.9.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.WindowsAlarms/Resources/AppStoreName}|Platform=2:6:2|Platform2=GTEQ|"
+"Microsoft.WindowsAlarms_8wekyb3d8bbwe-Out-Allow-AllCapabilities"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Profile=Domain|Profile=Private|Profile=Public|Name=@{Microsoft.WindowsAlarms_11.2408.9.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.WindowsAlarms/Resources/AppStoreName}|Desc=@{Microsoft.WindowsAlarms_11.2408.9.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.WindowsAlarms/Resources/AppStoreName}|PFN=Microsoft.WindowsAlarms_8wekyb3d8bbwe|LUOwn=S-1-5-21-1972309175-2992224230-1556281971-1001|EmbedCtxt=@{Microsoft.WindowsAlarms_11.2408.9.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.WindowsAlarms/Resources/AppStoreName}|Platform=2:6:2|Platform2=GTEQ|"
+"Microsoft.WindowsCalculator_8wekyb3d8bbwe-Out-Allow-AllCapabilities"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Profile=Domain|Profile=Private|Profile=Public|Name=@{Microsoft.WindowsCalculator_11.2311.0.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.WindowsCalculator/Resources/AppStoreName}|Desc=@{Microsoft.WindowsCalculator_11.2311.0.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.WindowsCalculator/Resources/AppStoreName}|PFN=Microsoft.WindowsCalculator_8wekyb3d8bbwe|LUOwn=S-1-5-21-1972309175-2992224230-1556281971-1001|EmbedCtxt=@{Microsoft.WindowsCalculator_11.2311.0.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.WindowsCalculator/Resources/AppStoreName}|Platform=2:6:2|Platform2=GTEQ|"
+"Microsoft.WindowsCamera_8wekyb3d8bbwe-Out-Allow-AllCapabilities"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Profile=Domain|Profile=Private|Profile=Public|Name=@{Microsoft.WindowsCamera_2023.2312.3.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.WindowsCamera/LensSDK/Resources/AppStoreName}|Desc=@{Microsoft.WindowsCamera_2023.2312.3.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.WindowsCamera/LensSDK/Resources/AppStoreName}|PFN=Microsoft.WindowsCamera_8wekyb3d8bbwe|LUOwn=S-1-5-21-1972309175-2992224230-1556281971-1001|EmbedCtxt=@{Microsoft.WindowsCamera_2023.2312.3.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.WindowsCamera/LensSDK/Resources/AppStoreName}|Platform=2:6:2|Platform2=GTEQ|"
+"Microsoft.WindowsFeedbackHub_8wekyb3d8bbwe-In-Allow-ServerCapability"="v2.33|Action=Allow|Active=FALSE|Dir=In|Profile=Domain|Profile=Private|Name=@{Microsoft.WindowsFeedbackHub_1.2401.20253.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.WindowsFeedbackHub/Resources/AppStoreName}|Desc=@{Microsoft.WindowsFeedbackHub_1.2401.20253.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.WindowsFeedbackHub/Resources/AppStoreName}|PFN=Microsoft.WindowsFeedbackHub_8wekyb3d8bbwe|LUOwn=S-1-5-21-1972309175-2992224230-1556281971-1001|EmbedCtxt=@{Microsoft.WindowsFeedbackHub_1.2401.20253.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.WindowsFeedbackHub/Resources/AppStoreName}|Platform=2:6:2|Platform2=GTEQ|"
+"Microsoft.WindowsFeedbackHub_8wekyb3d8bbwe-Out-Allow-AllCapabilities"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Profile=Domain|Profile=Private|Profile=Public|Name=@{Microsoft.WindowsFeedbackHub_1.2401.20253.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.WindowsFeedbackHub/Resources/AppStoreName}|Desc=@{Microsoft.WindowsFeedbackHub_1.2401.20253.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.WindowsFeedbackHub/Resources/AppStoreName}|PFN=Microsoft.WindowsFeedbackHub_8wekyb3d8bbwe|LUOwn=S-1-5-21-1972309175-2992224230-1556281971-1001|EmbedCtxt=@{Microsoft.WindowsFeedbackHub_1.2401.20253.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.WindowsFeedbackHub/Resources/AppStoreName}|Platform=2:6:2|Platform2=GTEQ|"
+"Microsoft.WindowsStore_8wekyb3d8bbwe-In-Allow-ServerCapability"="v2.33|Action=Allow|Active=FALSE|Dir=In|Profile=Domain|Profile=Private|Profile=Public|Name=Microsoft Store|Desc=Microsoft Store|PFN=Microsoft.WindowsStore_8wekyb3d8bbwe|LUOwn=S-1-5-21-1972309175-2992224230-1556281971-1001|EmbedCtxt=Microsoft Store|Platform=2:6:2|Platform2=GTEQ|Edge=TRUE|"
+"Microsoft.WindowsStore_8wekyb3d8bbwe-Out-Allow-AllCapabilities"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Profile=Domain|Profile=Private|Profile=Public|Name=Microsoft Store|Desc=Microsoft Store|PFN=Microsoft.WindowsStore_8wekyb3d8bbwe|LUOwn=S-1-5-21-1972309175-2992224230-1556281971-1001|EmbedCtxt=Microsoft Store|Platform=2:6:2|Platform2=GTEQ|"
+"Microsoft.WindowsTerminal_8wekyb3d8bbwe-Out-Allow-AllCapabilities"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Profile=Domain|Profile=Private|Profile=Public|Name=@{Microsoft.WindowsTerminal_1.18.10301.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.WindowsTerminal/Resources/AppStoreName}|Desc=@{Microsoft.WindowsTerminal_1.18.10301.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.WindowsTerminal/Resources/AppStoreName}|PFN=Microsoft.WindowsTerminal_8wekyb3d8bbwe|LUOwn=S-1-5-21-1972309175-2992224230-1556281971-1001|EmbedCtxt=@{Microsoft.WindowsTerminal_1.18.10301.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.WindowsTerminal/Resources/AppStoreName}|Platform=2:6:2|Platform2=GTEQ|"
+"Microsoft.Xbox.TCUI_8wekyb3d8bbwe-Out-Allow-AllCapabilities"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Profile=Domain|Profile=Private|Profile=Public|Name=Xbox TCUI|Desc=Xbox TCUI|PFN=Microsoft.Xbox.TCUI_8wekyb3d8bbwe|LUOwn=S-1-5-21-1972309175-2992224230-1556281971-1001|EmbedCtxt=Xbox TCUI|Platform=2:6:2|Platform2=GTEQ|"
+"Microsoft.XboxGameCallableUI_cw5n1h2txyewy-Out-Allow-AllCapabilities"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Profile=Domain|Profile=Private|Profile=Public|Name=@{Microsoft.XboxGameCallableUI_1000.25128.1000.0_neutral_neutral_cw5n1h2txyewy?ms-resource://Microsoft.XboxGameCallableUI/resources/PkgDisplayName}|Desc=@{Microsoft.XboxGameCallableUI_1000.25128.1000.0_neutral_neutral_cw5n1h2txyewy?ms-resource://Microsoft.XboxGameCallableUI/resources/PkgDisplayName}|PFN=Microsoft.XboxGameCallableUI_cw5n1h2txyewy|LUOwn=S-1-5-18|EmbedCtxt=@{Microsoft.XboxGameCallableUI_1000.25128.1000.0_neutral_neutral_cw5n1h2txyewy?ms-resource://Microsoft.XboxGameCallableUI/resources/PkgDisplayName}|Platform=2:6:2|Platform2=GTEQ|"
+"Microsoft.XboxGamingOverlay_8wekyb3d8bbwe-In-Allow-ServerCapability"="v2.33|Action=Allow|Active=FALSE|Dir=In|Profile=Domain|Profile=Private|Profile=Public|Name=@{Microsoft.XboxGamingOverlay_2.624.1111.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.XboxGamingOverlay/resources/GameBar}|Desc=@{Microsoft.XboxGamingOverlay_2.624.1111.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.XboxGamingOverlay/resources/GameBar}|PFN=Microsoft.XboxGamingOverlay_8wekyb3d8bbwe|LUOwn=S-1-5-21-1972309175-2992224230-1556281971-1001|EmbedCtxt=@{Microsoft.XboxGamingOverlay_2.624.1111.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.XboxGamingOverlay/resources/GameBar}|Platform=2:6:2|Platform2=GTEQ|Edge=TRUE|"
+"Microsoft.XboxGamingOverlay_8wekyb3d8bbwe-Out-Allow-AllCapabilities"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Profile=Domain|Profile=Private|Profile=Public|Name=@{Microsoft.XboxGamingOverlay_2.624.1111.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.XboxGamingOverlay/resources/GameBar}|Desc=@{Microsoft.XboxGamingOverlay_2.624.1111.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.XboxGamingOverlay/resources/GameBar}|PFN=Microsoft.XboxGamingOverlay_8wekyb3d8bbwe|LUOwn=S-1-5-21-1972309175-2992224230-1556281971-1001|EmbedCtxt=@{Microsoft.XboxGamingOverlay_2.624.1111.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.XboxGamingOverlay/resources/GameBar}|Platform=2:6:2|Platform2=GTEQ|"
+"Microsoft.XboxIdentityProvider_8wekyb3d8bbwe-Out-Allow-AllCapabilities"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Profile=Domain|Profile=Private|Profile=Public|Name=@{Microsoft.XboxIdentityProvider_12.110.15002.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.XboxIdentityProvider/Resources/DisplayName}|Desc=@{Microsoft.XboxIdentityProvider_12.110.15002.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.XboxIdentityProvider/Resources/DisplayName}|PFN=Microsoft.XboxIdentityProvider_8wekyb3d8bbwe|LUOwn=S-1-5-21-1972309175-2992224230-1556281971-1001|EmbedCtxt=@{Microsoft.XboxIdentityProvider_12.110.15002.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.XboxIdentityProvider/Resources/DisplayName}|Platform=2:6:2|Platform2=GTEQ|"
+"Microsoft.ZuneMusic_8wekyb3d8bbwe-In-Allow-ServerCapability"="v2.33|Action=Allow|Active=FALSE|Dir=In|Profile=Domain|Profile=Private|Name=@{Microsoft.ZuneMusic_11.2312.8.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.ZuneMusic/Resources/AppStoreName}|Desc=@{Microsoft.ZuneMusic_11.2312.8.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.ZuneMusic/Resources/AppStoreName}|PFN=Microsoft.ZuneMusic_8wekyb3d8bbwe|LUOwn=S-1-5-21-1972309175-2992224230-1556281971-1001|EmbedCtxt=@{Microsoft.ZuneMusic_11.2312.8.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.ZuneMusic/Resources/AppStoreName}|Platform=2:6:2|Platform2=GTEQ|"
+"Microsoft.ZuneMusic_8wekyb3d8bbwe-Out-Allow-AllCapabilities"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Profile=Domain|Profile=Private|Profile=Public|Name=@{Microsoft.ZuneMusic_11.2312.8.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.ZuneMusic/Resources/AppStoreName}|Desc=@{Microsoft.ZuneMusic_11.2312.8.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.ZuneMusic/Resources/AppStoreName}|PFN=Microsoft.ZuneMusic_8wekyb3d8bbwe|LUOwn=S-1-5-21-1972309175-2992224230-1556281971-1001|EmbedCtxt=@{Microsoft.ZuneMusic_11.2312.8.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.ZuneMusic/Resources/AppStoreName}|Platform=2:6:2|Platform2=GTEQ|"
+"MicrosoftWindows.Client.AIX_cw5n1h2txyewy-Out-Allow-AllCapabilities"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Profile=Domain|Profile=Private|Profile=Public|Name=@{MicrosoftWindows.Client.AIX_1000.26100.2314.0_x64__cw5n1h2txyewy?ms-resource://MicrosoftWindows.Client.AIX/resources/ProductPkgDisplayName}|Desc=@{MicrosoftWindows.Client.AIX_1000.26100.2314.0_x64__cw5n1h2txyewy?ms-resource://MicrosoftWindows.Client.AIX/resources/ProductPkgDisplayName}|PFN=MicrosoftWindows.Client.AIX_cw5n1h2txyewy|LUOwn=S-1-5-18|EmbedCtxt=@{MicrosoftWindows.Client.AIX_1000.26100.2314.0_x64__cw5n1h2txyewy?ms-resource://MicrosoftWindows.Client.AIX/resources/ProductPkgDisplayName}|Platform=2:6:2|Platform2=GTEQ|"
+"MicrosoftWindows.Client.CBS_cw5n1h2txyewy-In-Allow-ServerCapability"="v2.33|Action=Allow|Active=FALSE|Dir=In|Profile=Domain|Profile=Private|Name=@{MicrosoftWindows.Client.CBS_1000.26100.32.0_x64__cw5n1h2txyewy?ms-resource://MicrosoftWindows.Client.CBS/resources/ProductPkgDisplayName}|Desc=@{MicrosoftWindows.Client.CBS_1000.26100.32.0_x64__cw5n1h2txyewy?ms-resource://MicrosoftWindows.Client.CBS/resources/ProductPkgDisplayName}|PFN=MicrosoftWindows.Client.CBS_cw5n1h2txyewy|LUOwn=S-1-5-18|EmbedCtxt=@{MicrosoftWindows.Client.CBS_1000.26100.32.0_x64__cw5n1h2txyewy?ms-resource://MicrosoftWindows.Client.CBS/resources/ProductPkgDisplayName}|Platform=2:6:2|Platform2=GTEQ|"
+"MicrosoftWindows.Client.CBS_cw5n1h2txyewy-Out-Allow-AllCapabilities"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Profile=Domain|Profile=Private|Profile=Public|Name=@{MicrosoftWindows.Client.CBS_1000.26100.32.0_x64__cw5n1h2txyewy?ms-resource://MicrosoftWindows.Client.CBS/resources/ProductPkgDisplayName}|Desc=@{MicrosoftWindows.Client.CBS_1000.26100.32.0_x64__cw5n1h2txyewy?ms-resource://MicrosoftWindows.Client.CBS/resources/ProductPkgDisplayName}|PFN=MicrosoftWindows.Client.CBS_cw5n1h2txyewy|LUOwn=S-1-5-18|EmbedCtxt=@{MicrosoftWindows.Client.CBS_1000.26100.32.0_x64__cw5n1h2txyewy?ms-resource://MicrosoftWindows.Client.CBS/resources/ProductPkgDisplayName}|Platform=2:6:2|Platform2=GTEQ|"
+"MicrosoftWindows.Client.Core_cw5n1h2txyewy-In-Allow-ServerCapability"="v2.33|Action=Allow|Active=FALSE|Dir=In|Profile=Domain|Profile=Private|Name=@{MicrosoftWindows.Client.Core_1000.26100.27.0_x64__cw5n1h2txyewy?ms-resource://MicrosoftWindows.Client.Core/Resources/ProductPkgDisplayName}|Desc=@{MicrosoftWindows.Client.Core_1000.26100.27.0_x64__cw5n1h2txyewy?ms-resource://MicrosoftWindows.Client.Core/Resources/ProductPkgDisplayName}|PFN=MicrosoftWindows.Client.Core_cw5n1h2txyewy|LUOwn=S-1-5-18|EmbedCtxt=@{MicrosoftWindows.Client.Core_1000.26100.27.0_x64__cw5n1h2txyewy?ms-resource://MicrosoftWindows.Client.Core/Resources/ProductPkgDisplayName}|Platform=2:6:2|Platform2=GTEQ|"
+"MicrosoftWindows.Client.Core_cw5n1h2txyewy-Out-Allow-AllCapabilities"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Profile=Domain|Profile=Private|Profile=Public|Name=@{MicrosoftWindows.Client.Core_1000.26100.27.0_x64__cw5n1h2txyewy?ms-resource://MicrosoftWindows.Client.Core/Resources/ProductPkgDisplayName}|Desc=@{MicrosoftWindows.Client.Core_1000.26100.27.0_x64__cw5n1h2txyewy?ms-resource://MicrosoftWindows.Client.Core/Resources/ProductPkgDisplayName}|PFN=MicrosoftWindows.Client.Core_cw5n1h2txyewy|LUOwn=S-1-5-18|EmbedCtxt=@{MicrosoftWindows.Client.Core_1000.26100.27.0_x64__cw5n1h2txyewy?ms-resource://MicrosoftWindows.Client.Core/Resources/ProductPkgDisplayName}|Platform=2:6:2|Platform2=GTEQ|"
+"MicrosoftWindows.Client.FileExp_cw5n1h2txyewy-Out-Allow-AllCapabilities"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Profile=Domain|Profile=Private|Profile=Public|Name=@{MicrosoftWindows.Client.FileExp_1000.26100.3.0_x64__cw5n1h2txyewy?ms-resource://MicrosoftWindows.Client.FileExp/resources/ProductPkgDisplayName}|Desc=@{MicrosoftWindows.Client.FileExp_1000.26100.3.0_x64__cw5n1h2txyewy?ms-resource://MicrosoftWindows.Client.FileExp/resources/ProductPkgDisplayName}|PFN=MicrosoftWindows.Client.FileExp_cw5n1h2txyewy|LUOwn=S-1-5-18|EmbedCtxt=@{MicrosoftWindows.Client.FileExp_1000.26100.3.0_x64__cw5n1h2txyewy?ms-resource://MicrosoftWindows.Client.FileExp/resources/ProductPkgDisplayName}|Platform=2:6:2|Platform2=GTEQ|"
+"MicrosoftWindows.Client.OOBE_cw5n1h2txyewy-Out-Allow-AllCapabilities"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Profile=Domain|Profile=Private|Profile=Public|Name=@{MicrosoftWindows.Client.OOBE_1000.26100.2.0_x64__cw5n1h2txyewy?ms-resource://MicrosoftWindows.Client.OOBE/resources/ProductPkgDisplayName}|Desc=@{MicrosoftWindows.Client.OOBE_1000.26100.2.0_x64__cw5n1h2txyewy?ms-resource://MicrosoftWindows.Client.OOBE/resources/ProductPkgDisplayName}|PFN=MicrosoftWindows.Client.OOBE_cw5n1h2txyewy|LUOwn=S-1-5-18|EmbedCtxt=@{MicrosoftWindows.Client.OOBE_1000.26100.2.0_x64__cw5n1h2txyewy?ms-resource://MicrosoftWindows.Client.OOBE/resources/ProductPkgDisplayName}|Platform=2:6:2|Platform2=GTEQ|"
+"MicrosoftWindows.Client.Photon_cw5n1h2txyewy-In-Allow-ServerCapability"="v2.33|Action=Allow|Active=FALSE|Dir=In|Profile=Domain|Profile=Private|Name=@{MicrosoftWindows.Client.Photon_1000.26100.6.0_x64__cw5n1h2txyewy?ms-resource://MicrosoftWindows.Client.Photon/resources/ProductPkgDisplayName}|Desc=@{MicrosoftWindows.Client.Photon_1000.26100.6.0_x64__cw5n1h2txyewy?ms-resource://MicrosoftWindows.Client.Photon/resources/ProductPkgDisplayName}|PFN=MicrosoftWindows.Client.Photon_cw5n1h2txyewy|LUOwn=S-1-5-18|EmbedCtxt=@{MicrosoftWindows.Client.Photon_1000.26100.6.0_x64__cw5n1h2txyewy?ms-resource://MicrosoftWindows.Client.Photon/resources/ProductPkgDisplayName}|Platform=2:6:2|Platform2=GTEQ|"
+"MicrosoftWindows.Client.Photon_cw5n1h2txyewy-Out-Allow-AllCapabilities"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Profile=Domain|Profile=Private|Profile=Public|Name=@{MicrosoftWindows.Client.Photon_1000.26100.6.0_x64__cw5n1h2txyewy?ms-resource://MicrosoftWindows.Client.Photon/resources/ProductPkgDisplayName}|Desc=@{MicrosoftWindows.Client.Photon_1000.26100.6.0_x64__cw5n1h2txyewy?ms-resource://MicrosoftWindows.Client.Photon/resources/ProductPkgDisplayName}|PFN=MicrosoftWindows.Client.Photon_cw5n1h2txyewy|LUOwn=S-1-5-18|EmbedCtxt=@{MicrosoftWindows.Client.Photon_1000.26100.6.0_x64__cw5n1h2txyewy?ms-resource://MicrosoftWindows.Client.Photon/resources/ProductPkgDisplayName}|Platform=2:6:2|Platform2=GTEQ|"
+"MicrosoftWindows.Client.WebExperience_cw5n1h2txyewy-Out-Allow-AllCapabilities"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Profile=Domain|Profile=Private|Profile=Public|Name=Windows Web Experience Pack|Desc=Windows Web Experience Pack|PFN=MicrosoftWindows.Client.WebExperience_cw5n1h2txyewy|LUOwn=S-1-5-21-1972309175-2992224230-1556281971-1001|EmbedCtxt=Windows Web Experience Pack|Platform=2:6:2|Platform2=GTEQ|"
+"MicrosoftWindows.LKG.AccountsService_cw5n1h2txyewy-Out-Allow-AllCapabilities"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Profile=Domain|Profile=Private|Profile=Public|Name=@{MicrosoftWindows.LKG.AccountsService_1000.26100.2314.0_x64__cw5n1h2txyewy?ms-resource://MicrosoftWindows.LKG.AccountsService/resources/ProductPkgDisplayName}|Desc=@{MicrosoftWindows.LKG.AccountsService_1000.26100.2314.0_x64__cw5n1h2txyewy?ms-resource://MicrosoftWindows.LKG.AccountsService/resources/ProductPkgDisplayName}|PFN=MicrosoftWindows.LKG.AccountsService_cw5n1h2txyewy|LUOwn=S-1-5-18|EmbedCtxt=@{MicrosoftWindows.LKG.AccountsService_1000.26100.2314.0_x64__cw5n1h2txyewy?ms-resource://MicrosoftWindows.LKG.AccountsService/resources/ProductPkgDisplayName}|Platform=2:6:2|Platform2=GTEQ|"
+"MicrosoftWindows.LKG.DesktopSpotlight_cw5n1h2txyewy-In-Allow-ServerCapability"="v2.33|Action=Allow|Active=FALSE|Dir=In|Profile=Domain|Profile=Private|Name=@{MicrosoftWindows.LKG.DesktopSpotlight_1000.26100.2314.0_x64__cw5n1h2txyewy?ms-resource://MicrosoftWindows.LKG.DesktopSpotlight/resources/ProductPkgDisplayName}|Desc=@{MicrosoftWindows.LKG.DesktopSpotlight_1000.26100.2314.0_x64__cw5n1h2txyewy?ms-resource://MicrosoftWindows.LKG.DesktopSpotlight/resources/ProductPkgDisplayName}|PFN=MicrosoftWindows.LKG.DesktopSpotlight_cw5n1h2txyewy|LUOwn=S-1-5-18|EmbedCtxt=@{MicrosoftWindows.LKG.DesktopSpotlight_1000.26100.2314.0_x64__cw5n1h2txyewy?ms-resource://MicrosoftWindows.LKG.DesktopSpotlight/resources/ProductPkgDisplayName}|Platform=2:6:2|Platform2=GTEQ|"
+"MicrosoftWindows.LKG.DesktopSpotlight_cw5n1h2txyewy-Out-Allow-AllCapabilities"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Profile=Domain|Profile=Private|Profile=Public|Name=@{MicrosoftWindows.LKG.DesktopSpotlight_1000.26100.2314.0_x64__cw5n1h2txyewy?ms-resource://MicrosoftWindows.LKG.DesktopSpotlight/resources/ProductPkgDisplayName}|Desc=@{MicrosoftWindows.LKG.DesktopSpotlight_1000.26100.2314.0_x64__cw5n1h2txyewy?ms-resource://MicrosoftWindows.LKG.DesktopSpotlight/resources/ProductPkgDisplayName}|PFN=MicrosoftWindows.LKG.DesktopSpotlight_cw5n1h2txyewy|LUOwn=S-1-5-18|EmbedCtxt=@{MicrosoftWindows.LKG.DesktopSpotlight_1000.26100.2314.0_x64__cw5n1h2txyewy?ms-resource://MicrosoftWindows.LKG.DesktopSpotlight/resources/ProductPkgDisplayName}|Platform=2:6:2|Platform2=GTEQ|"
+"MicrosoftWindows.LKG.IrisService_cw5n1h2txyewy-Out-Allow-AllCapabilities"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Profile=Domain|Profile=Private|Profile=Public|Name=@{MicrosoftWindows.LKG.IrisService_1000.26100.2314.0_x64__cw5n1h2txyewy?ms-resource://MicrosoftWindows.LKG.IrisService/resources/ProductPkgDisplayName}|Desc=@{MicrosoftWindows.LKG.IrisService_1000.26100.2314.0_x64__cw5n1h2txyewy?ms-resource://MicrosoftWindows.LKG.IrisService/resources/ProductPkgDisplayName}|PFN=MicrosoftWindows.LKG.IrisService_cw5n1h2txyewy|LUOwn=S-1-5-18|EmbedCtxt=@{MicrosoftWindows.LKG.IrisService_1000.26100.2314.0_x64__cw5n1h2txyewy?ms-resource://MicrosoftWindows.LKG.IrisService/resources/ProductPkgDisplayName}|Platform=2:6:2|Platform2=GTEQ|"
+"MicrosoftWindows.LKG.RulesEngine_cw5n1h2txyewy-Out-Allow-AllCapabilities"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Profile=Domain|Profile=Private|Profile=Public|Name=@{MicrosoftWindows.LKG.RulesEngine_1000.26100.2314.0_x64__cw5n1h2txyewy?ms-resource://MicrosoftWindows.LKG.RulesEngine/resources/ProductPkgDisplayName}|Desc=@{MicrosoftWindows.LKG.RulesEngine_1000.26100.2314.0_x64__cw5n1h2txyewy?ms-resource://MicrosoftWindows.LKG.RulesEngine/resources/ProductPkgDisplayName}|PFN=MicrosoftWindows.LKG.RulesEngine_cw5n1h2txyewy|LUOwn=S-1-5-18|EmbedCtxt=@{MicrosoftWindows.LKG.RulesEngine_1000.26100.2314.0_x64__cw5n1h2txyewy?ms-resource://MicrosoftWindows.LKG.RulesEngine/resources/ProductPkgDisplayName}|Platform=2:6:2|Platform2=GTEQ|"
+"MicrosoftWindows.LKG.SpeechRuntime_cw5n1h2txyewy-Out-Allow-AllCapabilities"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Profile=Domain|Profile=Private|Profile=Public|Name=@{MicrosoftWindows.LKG.SpeechRuntime_1000.26100.2314.0_x64__cw5n1h2txyewy?ms-resource://MicrosoftWindows.LKG.SpeechRuntime/resources/ProductPkgDisplayName}|Desc=@{MicrosoftWindows.LKG.SpeechRuntime_1000.26100.2314.0_x64__cw5n1h2txyewy?ms-resource://MicrosoftWindows.LKG.SpeechRuntime/resources/ProductPkgDisplayName}|PFN=MicrosoftWindows.LKG.SpeechRuntime_cw5n1h2txyewy|LUOwn=S-1-5-18|EmbedCtxt=@{MicrosoftWindows.LKG.SpeechRuntime_1000.26100.2314.0_x64__cw5n1h2txyewy?ms-resource://MicrosoftWindows.LKG.SpeechRuntime/resources/ProductPkgDisplayName}|Platform=2:6:2|Platform2=GTEQ|"
+"MicrosoftWindows.LKG.TwinSxS_cw5n1h2txyewy-Out-Allow-AllCapabilities"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Profile=Domain|Profile=Private|Profile=Public|Name=@{MicrosoftWindows.LKG.TwinSxS_1000.26100.2314.0_x64__cw5n1h2txyewy?ms-resource://MicrosoftWindows.LKG.TwinSxS/resources/ProductPkgDisplayName}|Desc=@{MicrosoftWindows.LKG.TwinSxS_1000.26100.2314.0_x64__cw5n1h2txyewy?ms-resource://MicrosoftWindows.LKG.TwinSxS/resources/ProductPkgDisplayName}|PFN=MicrosoftWindows.LKG.TwinSxS_cw5n1h2txyewy|LUOwn=S-1-5-18|EmbedCtxt=@{MicrosoftWindows.LKG.TwinSxS_1000.26100.2314.0_x64__cw5n1h2txyewy?ms-resource://MicrosoftWindows.LKG.TwinSxS/resources/ProductPkgDisplayName}|Platform=2:6:2|Platform2=GTEQ|"
+"Microsoft-Windows-DeviceManagement-CertificateInstall-TCP-Out"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=6|LPort2_10=49152-65535|App=%SystemRoot%\\system32\\dmcertinst.exe|Name=@FirewallAPI.dll,-37507|Desc=@FirewallAPI.dll,-37508|EmbedCtxt=@FirewallAPI.dll,-37502|"
+"Microsoft-Windows-DeviceManagement-deviceenroller-TCP-Out"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=6|LPort2_10=49152-65535|RPort=80|RPort=443|App=%SystemRoot%\\system32\\deviceenroller.exe|Name=@FirewallAPI.dll,-37509|Desc=@FirewallAPI.dll,-37510|EmbedCtxt=@FirewallAPI.dll,-37502|"
+"Microsoft-Windows-DeviceManagement-OmaDmClient-TCP-Out"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=6|LPort2_10=49152-65535|App=%SystemRoot%\\system32\\omadmclient.exe|Name=@FirewallAPI.dll,-37503|Desc=@FirewallAPI.dll,-37504|EmbedCtxt=@FirewallAPI.dll,-37502|"
+"Microsoft-Windows-Enrollment-WinRT-TCP-Out"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=6|LPort2_10=49152-65535|App=%SystemRoot%\\system32\\svchost.exe|Svc=DmEnrollmentSvc|Name=@FirewallAPI.dll,-37505|Desc=@FirewallAPI.dll,-37506|EmbedCtxt=@FirewallAPI.dll,-37502|"
+"Microsoft-Windows-PeerDist-HostedClient-Out"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=6|RPort=80|RPort=443|App=SYSTEM|Name=@peerdistsh.dll,-10006|Desc=@peerdistsh.dll,-11006|EmbedCtxt=@peerdistsh.dll,-9003|"
+"Microsoft-Windows-PeerDist-HostedServer-In"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=6|LPort=80|LPort=443|App=SYSTEM|Name=@peerdistsh.dll,-10004|Desc=@peerdistsh.dll,-11004|EmbedCtxt=@peerdistsh.dll,-9002|"
+"Microsoft-Windows-PeerDist-HostedServer-Out"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=6|LPort=80|LPort=443|App=SYSTEM|Name=@peerdistsh.dll,-10005|Desc=@peerdistsh.dll,-11005|EmbedCtxt=@peerdistsh.dll,-9002|"
+"Microsoft-Windows-PeerDist-HttpTrans-In"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=6|LPort=80|App=SYSTEM|Name=@peerdistsh.dll,-10000|Desc=@peerdistsh.dll,-11000|EmbedCtxt=@peerdistsh.dll,-9000|"
+"Microsoft-Windows-PeerDist-HttpTrans-Out"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=6|RPort=80|App=SYSTEM|Name=@peerdistsh.dll,-10001|Desc=@peerdistsh.dll,-11001|EmbedCtxt=@peerdistsh.dll,-9000|"
+"Microsoft-Windows-PeerDist-WSD-In"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=17|LPort=3702|RA4=LocalSubnet|RA6=LocalSubnet|App=%systemroot%\\system32\\svchost.exe|Svc=PeerDistSvc|Name=@peerdistsh.dll,-10002|Desc=@peerdistsh.dll,-11002|EmbedCtxt=@peerdistsh.dll,-9001|"
+"Microsoft-Windows-PeerDist-WSD-Out"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=17|RPort=3702|RA4=LocalSubnet|RA6=LocalSubnet|App=%systemroot%\\system32\\svchost.exe|Svc=PeerDistSvc|Name=@peerdistsh.dll,-10003|Desc=@peerdistsh.dll,-11003|EmbedCtxt=@peerdistsh.dll,-9001|"
+"Microsoft-Windows-Troubleshooting-HTTP-HTTPS-Out"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=6|RPort=80|RPort=443|App=%SystemRoot%\\system32\\svchost.exe|Svc=TroubleshootingSvc|Name=@%SystemRoot%\\system32\\firewallapi.dll,-53501|Desc=@%SystemRoot%\\system32\\firewallapi.dll,-53502|EmbedCtxt=@%SystemRoot%\\system32\\firewallapi.dll,-53500|"
+"Microsoft-Windows-Unified-Telemetry-Client"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=6|RPort=443|App=%SystemRoot%\\system32\\svchost.exe|Svc=DiagTrack|Name=@%windir%\\system32\\diagtrack.dll,-3001|Desc=@%windir%\\system32\\diagtrack.dll,-3003|EmbedCtxt=DiagTrack|"
+"Microsoft-Windows-WLANSvc-ASP-CP-In"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=17|LPort=7235|RPort=7235|RA4=LocalSubnet|RA6=LocalSubnet|App=%systemroot%\\system32\\svchost.exe|Svc=WlanSvc|Name=@wlansvc.dll,-37376|Desc=@wlansvc.dll,-37888|EmbedCtxt=@wlansvc.dll,-36864|"
+"Microsoft-Windows-WLANSvc-ASP-CP-Out"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=17|LPort=7235|RPort=7235|RA4=LocalSubnet|RA6=LocalSubnet|App=%systemroot%\\system32\\svchost.exe|Svc=WlanSvc|Name=@wlansvc.dll,-37377|Desc=@wlansvc.dll,-37889|EmbedCtxt=@wlansvc.dll,-36864|"
+"MSDTC-In-TCP"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=6|Profile=Private|Profile=Public|RA4=LocalSubnet|RA6=LocalSubnet|App=%SystemRoot%\\system32\\msdtc.exe|Name=@FirewallAPI.dll,-33503|Desc=@FirewallAPI.dll,-33506|EmbedCtxt=@FirewallAPI.dll,-33502|"
+"MSDTC-In-TCP-NoScope"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=6|Profile=Domain|App=%SystemRoot%\\system32\\msdtc.exe|Name=@FirewallAPI.dll,-33503|Desc=@FirewallAPI.dll,-33506|EmbedCtxt=@FirewallAPI.dll,-33502|"
+"MSDTC-KTMRM-In-TCP"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=6|Profile=Private|Profile=Public|LPort=RPC|RA4=LocalSubnet|RA6=LocalSubnet|App=%SystemRoot%\\system32\\svchost.exe|Svc=ktmrm|Name=@FirewallAPI.dll,-33511|Desc=@FirewallAPI.dll,-33512|EmbedCtxt=@FirewallAPI.dll,-33502|"
+"MSDTC-KTMRM-In-TCP-NoScope"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=6|Profile=Domain|LPort=RPC|App=%SystemRoot%\\system32\\svchost.exe|Svc=ktmrm|Name=@FirewallAPI.dll,-33511|Desc=@FirewallAPI.dll,-33512|EmbedCtxt=@FirewallAPI.dll,-33502|"
+"MSDTC-Out-TCP"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=6|Profile=Private|Profile=Public|RA4=LocalSubnet|RA6=LocalSubnet|App=%SystemRoot%\\system32\\msdtc.exe|Name=@FirewallAPI.dll,-33507|Desc=@FirewallAPI.dll,-33510|EmbedCtxt=@FirewallAPI.dll,-33502|"
+"MSDTC-Out-TCP-NoScope"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=6|Profile=Domain|App=%SystemRoot%\\system32\\msdtc.exe|Name=@FirewallAPI.dll,-33507|Desc=@FirewallAPI.dll,-33510|EmbedCtxt=@FirewallAPI.dll,-33502|"
+"MSDTC-RPCSS-In-TCP"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=6|Profile=Private|Profile=Public|LPort=RPC-EPMap|RA4=LocalSubnet|RA6=LocalSubnet|App=%SystemRoot%\\system32\\svchost.exe|Svc=RPCSS|Name=@FirewallAPI.dll,-33513|Desc=@FirewallAPI.dll,-33514|EmbedCtxt=@FirewallAPI.dll,-33502|"
+"MSDTC-RPCSS-In-TCP-NoScope"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=6|Profile=Domain|LPort=RPC-EPMap|App=%SystemRoot%\\system32\\svchost.exe|Svc=RPCSS|Name=@FirewallAPI.dll,-33513|Desc=@FirewallAPI.dll,-33514|EmbedCtxt=@FirewallAPI.dll,-33502|"
+"MsiScsi-In-TCP"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=6|Profile=Private|Profile=Public|RA4=LocalSubnet|RA6=LocalSubnet|App=%SystemRoot%\\system32\\svchost.exe|Svc=Msiscsi|Name=@FirewallAPI.dll,-29003|Desc=@FirewallAPI.dll,-29006|EmbedCtxt=@FirewallAPI.dll,-29002|"
+"MsiScsi-In-TCP-NoScope"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=6|Profile=Domain|App=%SystemRoot%\\system32\\svchost.exe|Svc=Msiscsi|Name=@FirewallAPI.dll,-29003|Desc=@FirewallAPI.dll,-29006|EmbedCtxt=@FirewallAPI.dll,-29002|"
+"MsiScsi-Out-TCP"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=6|Profile=Private|Profile=Public|RA4=LocalSubnet|RA6=LocalSubnet|App=%SystemRoot%\\system32\\svchost.exe|Svc=Msiscsi|Name=@FirewallAPI.dll,-29007|Desc=@FirewallAPI.dll,-29010|EmbedCtxt=@FirewallAPI.dll,-29002|"
+"MsiScsi-Out-TCP-NoScope"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=6|Profile=Domain|App=%SystemRoot%\\system32\\svchost.exe|Svc=Msiscsi|Name=@FirewallAPI.dll,-29007|Desc=@FirewallAPI.dll,-29010|EmbedCtxt=@FirewallAPI.dll,-29002|"
+"NcsiUwpApp_8wekyb3d8bbwe-Out-Allow-AllCapabilities"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Profile=Domain|Profile=Private|Profile=Public|Name=NcsiUwpApp|Desc=NcsiUwpApp|PFN=NcsiUwpApp_8wekyb3d8bbwe|LUOwn=S-1-5-18|EmbedCtxt=NcsiUwpApp|Platform=2:6:2|Platform2=GTEQ|"
+"NETDIS-DAS-In-UDP"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=17|Profile=Domain|Profile=Public|LPort=3702|RA4=LocalSubnet|RA6=LocalSubnet|App=%SystemRoot%\\system32\\dashost.exe|Name=@FirewallAPI.dll,-32825|Desc=@FirewallAPI.dll,-32826|EmbedCtxt=@FirewallAPI.dll,-32752|"
+"NETDIS-DAS-In-UDP-Active"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=17|Profile=Private|LPort=3702|RA4=LocalSubnet|RA6=LocalSubnet|App=%SystemRoot%\\system32\\dashost.exe|Name=@FirewallAPI.dll,-32825|Desc=@FirewallAPI.dll,-32826|EmbedCtxt=@FirewallAPI.dll,-32752|"
+"NETDIS-FDPHOST-In-UDP"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=17|Profile=Domain|Profile=Public|LPort=3702|RA4=LocalSubnet|RA6=LocalSubnet|App=%SystemRoot%\\system32\\svchost.exe|Svc=fdphost|Name=@FirewallAPI.dll,-32785|Desc=@FirewallAPI.dll,-32788|EmbedCtxt=@FirewallAPI.dll,-32752|"
+"NETDIS-FDPHOST-In-UDP-Active"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=17|Profile=Private|LPort=3702|RA4=LocalSubnet|RA6=LocalSubnet|App=%SystemRoot%\\system32\\svchost.exe|Svc=fdphost|Name=@FirewallAPI.dll,-32785|Desc=@FirewallAPI.dll,-32788|EmbedCtxt=@FirewallAPI.dll,-32752|"
+"NETDIS-FDPHOST-Out-UDP"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=17|Profile=Domain|Profile=Public|RPort=3702|RA4=LocalSubnet|RA6=LocalSubnet|App=%SystemRoot%\\system32\\svchost.exe|Svc=fdphost|Name=@FirewallAPI.dll,-32789|Desc=@FirewallAPI.dll,-32792|EmbedCtxt=@FirewallAPI.dll,-32752|"
+"NETDIS-FDPHOST-Out-UDP-Active"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=17|Profile=Private|RPort=3702|RA4=LocalSubnet|RA6=LocalSubnet|App=%SystemRoot%\\system32\\svchost.exe|Svc=fdphost|Name=@FirewallAPI.dll,-32789|Desc=@FirewallAPI.dll,-32792|EmbedCtxt=@FirewallAPI.dll,-32752|"
+"NETDIS-FDRESPUB-WSD-In-UDP"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=17|Profile=Domain|Profile=Public|LPort=3702|RA4=LocalSubnet|RA6=LocalSubnet|App=%SystemRoot%\\system32\\svchost.exe|Svc=fdrespub|Name=@FirewallAPI.dll,-32809|Desc=@FirewallAPI.dll,-32810|EmbedCtxt=@FirewallAPI.dll,-32752|"
+"NETDIS-FDRESPUB-WSD-In-UDP-Active"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=17|Profile=Private|LPort=3702|RA4=LocalSubnet|RA6=LocalSubnet|App=%SystemRoot%\\system32\\svchost.exe|Svc=fdrespub|Name=@FirewallAPI.dll,-32809|Desc=@FirewallAPI.dll,-32810|EmbedCtxt=@FirewallAPI.dll,-32752|"
+"NETDIS-FDRESPUB-WSD-Out-UDP"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=17|Profile=Domain|Profile=Public|RPort=3702|RA4=LocalSubnet|RA6=LocalSubnet|App=%SystemRoot%\\system32\\svchost.exe|Svc=fdrespub|Name=@FirewallAPI.dll,-32811|Desc=@FirewallAPI.dll,-32812|EmbedCtxt=@FirewallAPI.dll,-32752|"
+"NETDIS-FDRESPUB-WSD-Out-UDP-Active"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=17|Profile=Private|RPort=3702|RA4=LocalSubnet|RA6=LocalSubnet|App=%SystemRoot%\\system32\\svchost.exe|Svc=fdrespub|Name=@FirewallAPI.dll,-32811|Desc=@FirewallAPI.dll,-32812|EmbedCtxt=@FirewallAPI.dll,-32752|"
+"NETDIS-LLMNR-In-UDP"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=17|Profile=Domain|Profile=Public|LPort=5355|RA4=LocalSubnet|RA6=LocalSubnet|App=%SystemRoot%\\system32\\svchost.exe|Svc=dnscache|Name=@FirewallAPI.dll,-32801|Desc=@FirewallAPI.dll,-32804|EmbedCtxt=@FirewallAPI.dll,-32752|"
+"NETDIS-LLMNR-In-UDP-Active"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=17|Profile=Private|LPort=5355|RA4=LocalSubnet|RA6=LocalSubnet|App=%SystemRoot%\\system32\\svchost.exe|Svc=dnscache|Name=@FirewallAPI.dll,-32801|Desc=@FirewallAPI.dll,-32804|EmbedCtxt=@FirewallAPI.dll,-32752|"
+"NETDIS-LLMNR-Out-UDP"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=17|Profile=Domain|Profile=Public|RPort=5355|RA4=LocalSubnet|RA6=LocalSubnet|App=%SystemRoot%\\system32\\svchost.exe|Svc=dnscache|Name=@FirewallAPI.dll,-32805|Desc=@FirewallAPI.dll,-32808|EmbedCtxt=@FirewallAPI.dll,-32752|"
+"NETDIS-LLMNR-Out-UDP-Active"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=17|Profile=Private|RPort=5355|RA4=LocalSubnet|RA6=LocalSubnet|App=%SystemRoot%\\system32\\svchost.exe|Svc=dnscache|Name=@FirewallAPI.dll,-32805|Desc=@FirewallAPI.dll,-32808|EmbedCtxt=@FirewallAPI.dll,-32752|"
+"NETDIS-NB_Datagram-In-UDP"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=17|Profile=Public|LPort=138|RA4=LocalSubnet|RA6=LocalSubnet|App=System|Name=@FirewallAPI.dll,-32777|Desc=@FirewallAPI.dll,-32780|EmbedCtxt=@FirewallAPI.dll,-32752|"
+"NETDIS-NB_Datagram-In-UDP-Active"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=17|Profile=Private|LPort=138|RA4=LocalSubnet|RA6=LocalSubnet|App=System|Name=@FirewallAPI.dll,-32777|Desc=@FirewallAPI.dll,-32780|EmbedCtxt=@FirewallAPI.dll,-32752|"
+"NETDIS-NB_Datagram-In-UDP-NoScope"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=17|Profile=Domain|LPort=138|App=System|Name=@FirewallAPI.dll,-32777|Desc=@FirewallAPI.dll,-32780|EmbedCtxt=@FirewallAPI.dll,-32752|"
+"NETDIS-NB_Datagram-Out-UDP"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=17|Profile=Public|RPort=138|RA4=LocalSubnet|RA6=LocalSubnet|App=System|Name=@FirewallAPI.dll,-32781|Desc=@FirewallAPI.dll,-32784|EmbedCtxt=@FirewallAPI.dll,-32752|"
+"NETDIS-NB_Datagram-Out-UDP-Active"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=17|Profile=Private|RPort=138|RA4=LocalSubnet|RA6=LocalSubnet|App=System|Name=@FirewallAPI.dll,-32781|Desc=@FirewallAPI.dll,-32784|EmbedCtxt=@FirewallAPI.dll,-32752|"
+"NETDIS-NB_Datagram-Out-UDP-NoScope"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=17|Profile=Domain|RPort=138|App=System|Name=@FirewallAPI.dll,-32781|Desc=@FirewallAPI.dll,-32784|EmbedCtxt=@FirewallAPI.dll,-32752|"
+"NETDIS-NB_Name-In-UDP"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=17|Profile=Public|LPort=137|RA4=LocalSubnet|RA6=LocalSubnet|App=System|Name=@FirewallAPI.dll,-32769|Desc=@FirewallAPI.dll,-32772|EmbedCtxt=@FirewallAPI.dll,-32752|"
+"NETDIS-NB_Name-In-UDP-Active"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=17|Profile=Private|LPort=137|RA4=LocalSubnet|RA6=LocalSubnet|App=System|Name=@FirewallAPI.dll,-32769|Desc=@FirewallAPI.dll,-32772|EmbedCtxt=@FirewallAPI.dll,-32752|"
+"NETDIS-NB_Name-In-UDP-NoScope"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=17|Profile=Domain|LPort=137|App=System|Name=@FirewallAPI.dll,-32769|Desc=@FirewallAPI.dll,-32772|EmbedCtxt=@FirewallAPI.dll,-32752|"
+"NETDIS-NB_Name-Out-UDP"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=17|Profile=Public|RPort=137|RA4=LocalSubnet|RA6=LocalSubnet|App=System|Name=@FirewallAPI.dll,-32773|Desc=@FirewallAPI.dll,-32776|EmbedCtxt=@FirewallAPI.dll,-32752|"
+"NETDIS-NB_Name-Out-UDP-Active"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=17|Profile=Private|RPort=137|RA4=LocalSubnet|RA6=LocalSubnet|App=System|Name=@FirewallAPI.dll,-32773|Desc=@FirewallAPI.dll,-32776|EmbedCtxt=@FirewallAPI.dll,-32752|"
+"NETDIS-NB_Name-Out-UDP-NoScope"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=17|Profile=Domain|RPort=137|App=System|Name=@FirewallAPI.dll,-32773|Desc=@FirewallAPI.dll,-32776|EmbedCtxt=@FirewallAPI.dll,-32752|"
+"NETDIS-SSDPSrv-In-UDP"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=17|Profile=Domain|Profile=Public|LPort=1900|RA4=LocalSubnet|RA6=LocalSubnet|App=%SystemRoot%\\system32\\svchost.exe|Svc=Ssdpsrv|Name=@FirewallAPI.dll,-32753|Desc=@FirewallAPI.dll,-32756|EmbedCtxt=@FirewallAPI.dll,-32752|"
+"NETDIS-SSDPSrv-In-UDP-Active"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=17|Profile=Private|LPort=1900|RA4=LocalSubnet|RA6=LocalSubnet|App=%SystemRoot%\\system32\\svchost.exe|Svc=Ssdpsrv|Name=@FirewallAPI.dll,-32753|Desc=@FirewallAPI.dll,-32756|EmbedCtxt=@FirewallAPI.dll,-32752|"
+"NETDIS-SSDPSrv-In-UDP-Teredo"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=17|Profile=Public|App=%SystemRoot%\\system32\\svchost.exe|Svc=Ssdpsrv|Name=@FirewallAPI.dll,-32754|Desc=@FirewallAPI.dll,-32756|EmbedCtxt=@FirewallAPI.dll,-32752|TTK2_27=UPnP|"
+"NETDIS-SSDPSrv-Out-UDP"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=17|Profile=Domain|Profile=Public|RPort=1900|RA4=LocalSubnet|RA6=LocalSubnet|App=%SystemRoot%\\system32\\svchost.exe|Svc=Ssdpsrv|Name=@FirewallAPI.dll,-32757|Desc=@FirewallAPI.dll,-32760|EmbedCtxt=@FirewallAPI.dll,-32752|"
+"NETDIS-SSDPSrv-Out-UDP-Active"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=17|Profile=Private|RPort=1900|RA4=LocalSubnet|RA6=LocalSubnet|App=%SystemRoot%\\system32\\svchost.exe|Svc=Ssdpsrv|Name=@FirewallAPI.dll,-32757|Desc=@FirewallAPI.dll,-32760|EmbedCtxt=@FirewallAPI.dll,-32752|"
+"NETDIS-UPnPHost-In-TCP"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=6|Profile=Public|LPort=2869|RA4=LocalSubnet|RA6=LocalSubnet|App=System|Name=@FirewallAPI.dll,-32761|Desc=@FirewallAPI.dll,-32764|EmbedCtxt=@FirewallAPI.dll,-32752|"
+"NETDIS-UPnPHost-In-TCP-Active"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=6|Profile=Private|LPort=2869|RA4=LocalSubnet|RA6=LocalSubnet|App=System|Name=@FirewallAPI.dll,-32761|Desc=@FirewallAPI.dll,-32764|EmbedCtxt=@FirewallAPI.dll,-32752|"
+"NETDIS-UPnPHost-In-TCP-NoScope"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=6|Profile=Domain|LPort=2869|App=System|Name=@FirewallAPI.dll,-32761|Desc=@FirewallAPI.dll,-32764|EmbedCtxt=@FirewallAPI.dll,-32752|"
+"NETDIS-UPnPHost-In-TCP-Teredo"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=6|Profile=Public|App=System|Name=@FirewallAPI.dll,-32762|Desc=@FirewallAPI.dll,-32764|EmbedCtxt=@FirewallAPI.dll,-32752|TTK2_27=UPnP|"
+"NETDIS-UPnPHost-Out-TCP"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=6|Profile=Public|RPort=2869|RA4=LocalSubnet|RA6=LocalSubnet|App=%SystemRoot%\\system32\\svchost.exe|Svc=fdphost|Name=@FirewallAPI.dll,-32765|Desc=@FirewallAPI.dll,-32768|EmbedCtxt=@FirewallAPI.dll,-32752|"
+"NETDIS-UPnPHost-Out-TCP-Active"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=6|Profile=Private|RPort=2869|RA4=LocalSubnet|RA6=LocalSubnet|App=%SystemRoot%\\system32\\svchost.exe|Svc=fdphost|Name=@FirewallAPI.dll,-32765|Desc=@FirewallAPI.dll,-32768|EmbedCtxt=@FirewallAPI.dll,-32752|"
+"NETDIS-UPnPHost-Out-TCP-NoScope"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=6|Profile=Domain|RPort=2869|App=%SystemRoot%\\system32\\svchost.exe|Svc=fdphost|Name=@FirewallAPI.dll,-32765|Desc=@FirewallAPI.dll,-32768|EmbedCtxt=@FirewallAPI.dll,-32752|"
+"NETDIS-UPnP-Out-TCP"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=6|Profile=Domain|Profile=Public|RPort=2869|RA4=LocalSubnet|RA6=LocalSubnet|App=%SystemRoot%\\system32\\svchost.exe|Svc=upnphost|Name=@FirewallAPI.dll,-32821|Desc=@FirewallAPI.dll,-32822|EmbedCtxt=@FirewallAPI.dll,-32752|"
+"NETDIS-UPnP-Out-TCP-Active"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=6|Profile=Private|RPort=2869|RA4=LocalSubnet|RA6=LocalSubnet|App=%SystemRoot%\\system32\\svchost.exe|Svc=upnphost|Name=@FirewallAPI.dll,-32821|Desc=@FirewallAPI.dll,-32822|EmbedCtxt=@FirewallAPI.dll,-32752|"
+"NETDIS-WSDEVNT-In-TCP"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=6|Profile=Public|LPort=5357|RA4=LocalSubnet|RA6=LocalSubnet|App=System|Name=@FirewallAPI.dll,-32817|Desc=@FirewallAPI.dll,-32818|EmbedCtxt=@FirewallAPI.dll,-32752|"
+"NETDIS-WSDEVNT-In-TCP-Active"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=6|Profile=Private|LPort=5357|RA4=LocalSubnet|RA6=LocalSubnet|App=System|Name=@FirewallAPI.dll,-32817|Desc=@FirewallAPI.dll,-32818|EmbedCtxt=@FirewallAPI.dll,-32752|"
+"NETDIS-WSDEVNT-In-TCP-NoScope"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=6|Profile=Domain|LPort=5357|App=System|Name=@FirewallAPI.dll,-32817|Desc=@FirewallAPI.dll,-32818|EmbedCtxt=@FirewallAPI.dll,-32752|"
+"NETDIS-WSDEVNT-Out-TCP"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=6|Profile=Public|RPort=5357|RA4=LocalSubnet|RA6=LocalSubnet|App=%SystemRoot%\\system32\\svchost.exe|Svc=fdphost|Name=@FirewallAPI.dll,-32819|Desc=@FirewallAPI.dll,-32820|EmbedCtxt=@FirewallAPI.dll,-32752|"
+"NETDIS-WSDEVNT-Out-TCP-Active"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=6|Profile=Private|RPort=5357|RA4=LocalSubnet|RA6=LocalSubnet|App=%SystemRoot%\\system32\\svchost.exe|Svc=fdphost|Name=@FirewallAPI.dll,-32819|Desc=@FirewallAPI.dll,-32820|EmbedCtxt=@FirewallAPI.dll,-32752|"
+"NETDIS-WSDEVNT-Out-TCP-NoScope"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=6|Profile=Domain|RPort=5357|App=%SystemRoot%\\system32\\svchost.exe|Svc=fdphost|Name=@FirewallAPI.dll,-32819|Desc=@FirewallAPI.dll,-32820|EmbedCtxt=@FirewallAPI.dll,-32752|"
+"NETDIS-WSDEVNTS-In-TCP"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=6|Profile=Public|LPort=5358|RA4=LocalSubnet|RA6=LocalSubnet|App=System|Name=@FirewallAPI.dll,-32813|Desc=@FirewallAPI.dll,-32814|EmbedCtxt=@FirewallAPI.dll,-32752|"
+"NETDIS-WSDEVNTS-In-TCP-Active"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=6|Profile=Private|LPort=5358|RA4=LocalSubnet|RA6=LocalSubnet|App=System|Name=@FirewallAPI.dll,-32813|Desc=@FirewallAPI.dll,-32814|EmbedCtxt=@FirewallAPI.dll,-32752|"
+"NETDIS-WSDEVNTS-In-TCP-NoScope"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=6|Profile=Domain|LPort=5358|App=System|Name=@FirewallAPI.dll,-32813|Desc=@FirewallAPI.dll,-32814|EmbedCtxt=@FirewallAPI.dll,-32752|"
+"NETDIS-WSDEVNTS-Out-TCP"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=6|Profile=Public|RPort=5358|RA4=LocalSubnet|RA6=LocalSubnet|App=%SystemRoot%\\system32\\svchost.exe|Svc=fdphost|Name=@FirewallAPI.dll,-32815|Desc=@FirewallAPI.dll,-32816|EmbedCtxt=@FirewallAPI.dll,-32752|"
+"NETDIS-WSDEVNTS-Out-TCP-Active"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=6|Profile=Private|RPort=5358|RA4=LocalSubnet|RA6=LocalSubnet|App=%SystemRoot%\\system32\\svchost.exe|Svc=fdphost|Name=@FirewallAPI.dll,-32815|Desc=@FirewallAPI.dll,-32816|EmbedCtxt=@FirewallAPI.dll,-32752|"
+"NETDIS-WSDEVNTS-Out-TCP-NoScope"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=6|Profile=Domain|RPort=5358|App=%SystemRoot%\\system32\\svchost.exe|Svc=fdphost|Name=@FirewallAPI.dll,-32815|Desc=@FirewallAPI.dll,-32816|EmbedCtxt=@FirewallAPI.dll,-32752|"
+"Netlogon-NamedPipe-In"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=6|LPort=445|App=System|Name=@firewallapi.dll,-37682|Desc=@firewallapi.dll,-37683|EmbedCtxt=@firewallapi.dll,-37681|"
+"Netlogon-TCP-RPC-In"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=6|LPort=RPC|App=%SystemRoot%\\System32\\lsass.exe|Name=@firewallapi.dll,-37684|Desc=@firewallapi.dll,-37685|EmbedCtxt=@firewallapi.dll,-37681|"
+"NVS-FrameServer-In-TCP-NoScope"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=6|LPort=554|LPort2_10=8554-8558|RA4=LocalSubnet|RA6=LocalSubnet|App=%SystemRoot%\\system32\\svchost.exe|Svc=FrameServer|Name=@FirewallAPI.dll,-54002|Desc=@FirewallAPI.dll,-54003|EmbedCtxt=@FirewallAPI.dll,-54001|"
+"NVS-FrameServer-In-UDP-NoScope"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=17|LPort2_10=5000-5020|RA4=LocalSubnet|RA6=LocalSubnet|App=%SystemRoot%\\system32\\svchost.exe|Svc=FrameServer|Name=@FirewallAPI.dll,-54006|Desc=@FirewallAPI.dll,-54007|EmbedCtxt=@FirewallAPI.dll,-54001|"
+"NVS-FrameServer-Out-TCP-NoScope"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=6|RPort=554|RPort2_10=8554-8558|RA4=LocalSubnet|RA6=LocalSubnet|App=%SystemRoot%\\system32\\svchost.exe|Svc=FrameServer|Name=@FirewallAPI.dll,-54004|Desc=@FirewallAPI.dll,-54005|EmbedCtxt=@FirewallAPI.dll,-54001|"
+"PerfLogsAlerts-DCOM-In-TCP"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=6|Profile=Private|Profile=Public|LPort=135|RA4=LocalSubnet|RA6=LocalSubnet|App=%systemroot%\\system32\\svchost.exe|Svc=rpcss|Name=@FirewallAPI.dll,-34755|Desc=@FirewallAPI.dll,-34756|EmbedCtxt=@FirewallAPI.dll,-34752|"
+"PerfLogsAlerts-DCOM-In-TCP-NoScope"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=6|Profile=Domain|LPort=135|App=%systemroot%\\system32\\svchost.exe|Svc=rpcss|Name=@FirewallAPI.dll,-34755|Desc=@FirewallAPI.dll,-34756|EmbedCtxt=@FirewallAPI.dll,-34752|"
+"PerfLogsAlerts-PLASrv-In-TCP"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=6|Profile=Private|Profile=Public|RA4=LocalSubnet|RA6=LocalSubnet|App=%systemroot%\\system32\\plasrv.exe|Name=@FirewallAPI.dll,-34753|Desc=@FirewallAPI.dll,-34754|EmbedCtxt=@FirewallAPI.dll,-34752|"
+"PerfLogsAlerts-PLASrv-In-TCP-NoScope"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=6|Profile=Domain|App=%systemroot%\\system32\\plasrv.exe|Name=@FirewallAPI.dll,-34753|Desc=@FirewallAPI.dll,-34754|EmbedCtxt=@FirewallAPI.dll,-34752|"
+"PlayTo-HTTPSTR-In-TCP-LocalSubnetScope"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=6|Profile=Private|LPort=10246|RA4=LocalSubnet|RA6=LocalSubnet|App=System|Name=@FirewallAPI.dll,-36002|Desc=@FirewallAPI.dll,-36003|EmbedCtxt=@FirewallAPI.dll,-36001|"
+"PlayTo-HTTPSTR-In-TCP-NoScope"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=6|Profile=Domain|LPort=10246|App=System|Name=@FirewallAPI.dll,-36002|Desc=@FirewallAPI.dll,-36003|EmbedCtxt=@FirewallAPI.dll,-36001|"
+"PlayTo-HTTPSTR-In-TCP-PlayToScope"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=6|Profile=Public|LPort=10246|RA42=Ply2Renders|RA62=Ply2Renders|App=System|Name=@FirewallAPI.dll,-36002|Desc=@FirewallAPI.dll,-36003|EmbedCtxt=@FirewallAPI.dll,-36001|"
+"PlayTo-In-RTSP-LocalSubnetScope"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=6|Profile=Private|LPort=23554|LPort=23555|LPort=23556|RA4=LocalSubnet|RA6=LocalSubnet|App=%SystemRoot%\\system32\\mdeserver.exe|Name=@FirewallAPI.dll,-36008|Desc=@FirewallAPI.dll,-36009|EmbedCtxt=@FirewallAPI.dll,-36001|"
+"PlayTo-In-RTSP-NoScope"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=6|Profile=Domain|LPort=23554|LPort=23555|LPort=23556|App=%SystemRoot%\\system32\\mdeserver.exe|Name=@FirewallAPI.dll,-36008|Desc=@FirewallAPI.dll,-36009|EmbedCtxt=@FirewallAPI.dll,-36001|"
+"PlayTo-In-RTSP-PlayToScope"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=6|Profile=Public|LPort=23554|LPort=23555|LPort=23556|RA42=Ply2Renders|RA62=Ply2Renders|App=%SystemRoot%\\system32\\mdeserver.exe|Name=@FirewallAPI.dll,-36008|Desc=@FirewallAPI.dll,-36009|EmbedCtxt=@FirewallAPI.dll,-36001|"
+"PlayTo-In-UDP-LocalSubnetScope"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=17|Profile=Private|RA4=LocalSubnet|RA6=LocalSubnet|App=%SystemRoot%\\system32\\mdeserver.exe|Name=@FirewallAPI.dll,-36004|Desc=@FirewallAPI.dll,-36005|EmbedCtxt=@FirewallAPI.dll,-36001|"
+"PlayTo-In-UDP-NoScope"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=17|Profile=Domain|App=%SystemRoot%\\system32\\mdeserver.exe|Name=@FirewallAPI.dll,-36004|Desc=@FirewallAPI.dll,-36005|EmbedCtxt=@FirewallAPI.dll,-36001|"
+"PlayTo-In-UDP-PlayToScope"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=17|Profile=Public|RA42=Ply2Renders|RA62=Ply2Renders|App=%SystemRoot%\\system32\\mdeserver.exe|Name=@FirewallAPI.dll,-36004|Desc=@FirewallAPI.dll,-36005|EmbedCtxt=@FirewallAPI.dll,-36001|"
+"PlayTo-Out-UDP-LocalSubnetScope"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=17|Profile=Private|RA4=LocalSubnet|RA6=LocalSubnet|App=%SystemRoot%\\system32\\mdeserver.exe|Name=@FirewallAPI.dll,-36006|Desc=@FirewallAPI.dll,-36007|EmbedCtxt=@FirewallAPI.dll,-36001|"
+"PlayTo-Out-UDP-NoScope"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=17|Profile=Domain|App=%SystemRoot%\\system32\\mdeserver.exe|Name=@FirewallAPI.dll,-36006|Desc=@FirewallAPI.dll,-36007|EmbedCtxt=@FirewallAPI.dll,-36001|"
+"PlayTo-Out-UDP-PlayToScope"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=17|Profile=Public|RA42=Ply2Renders|RA62=Ply2Renders|App=%SystemRoot%\\system32\\mdeserver.exe|Name=@FirewallAPI.dll,-36006|Desc=@FirewallAPI.dll,-36007|EmbedCtxt=@FirewallAPI.dll,-36001|"
+"PlayTo-QWave-In-TCP-PlayToScope"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=6|Profile=Private|Profile=Public|LPort=2177|RA42=Ply2Renders|RA62=Ply2Renders|App=%SystemRoot%\\system32\\svchost.exe|Svc=Qwave|Name=@FirewallAPI.dll,-36014|Desc=@FirewallAPI.dll,-36015|EmbedCtxt=@FirewallAPI.dll,-36001|"
+"PlayTo-QWave-In-UDP-PlayToScope"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=17|Profile=Private|Profile=Public|LPort=2177|RA42=Ply2Renders|RA62=Ply2Renders|App=%SystemRoot%\\system32\\svchost.exe|Svc=Qwave|Name=@FirewallAPI.dll,-36010|Desc=@FirewallAPI.dll,-36011|EmbedCtxt=@FirewallAPI.dll,-36001|"
+"PlayTo-QWave-Out-TCP-PlayToScope"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=6|Profile=Private|Profile=Public|RPort=2177|RA42=Ply2Renders|RA62=Ply2Renders|App=%SystemRoot%\\system32\\svchost.exe|Svc=Qwave|Name=@FirewallAPI.dll,-36016|Desc=@FirewallAPI.dll,-36017|EmbedCtxt=@FirewallAPI.dll,-36001|"
+"PlayTo-QWave-Out-UDP-PlayToScope"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=17|Profile=Private|Profile=Public|RPort=2177|RA42=Ply2Renders|RA62=Ply2Renders|App=%SystemRoot%\\system32\\svchost.exe|Svc=Qwave|Name=@FirewallAPI.dll,-36012|Desc=@FirewallAPI.dll,-36013|EmbedCtxt=@FirewallAPI.dll,-36001|"
+"PlayTo-SSDP-Discovery-PlayToScope"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=17|Profile=Public|LPort2_20=Ply2Disc|App=%SystemRoot%\\system32\\svchost.exe|Svc=ssdpsrv|Name=@FirewallAPI.dll,-36104|Desc=@FirewallAPI.dll,-36105|EmbedCtxt=@FirewallAPI.dll,-36001|"
+"PlayTo-UPnP-Events-PlayToScope"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=6|Profile=Public|LPort=2869|RA42=Ply2Renders|RA62=Ply2Renders|App=System|Name=@FirewallAPI.dll,-36106|Desc=@FirewallAPI.dll,-36107|EmbedCtxt=@FirewallAPI.dll,-36001|"
+"PNRPMNRS-PNRP-In-UDP"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=17|LPort=3540|App=%SystemRoot%\\system32\\svchost.exe|Svc=PNRPSvc|Name=@FirewallAPI.dll,-34003|Desc=@FirewallAPI.dll,-34004|EmbedCtxt=@FirewallAPI.dll,-34002|Edge=TRUE|Defer=App|"
+"PNRPMNRS-PNRP-Out-UDP"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=17|RPort=3540|App=%SystemRoot%\\system32\\svchost.exe|Svc=PNRPSvc|Name=@FirewallAPI.dll,-34005|Desc=@FirewallAPI.dll,-34006|EmbedCtxt=@FirewallAPI.dll,-34002|"
+"PNRPMNRS-SSDPSrv-In-UDP"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=17|LPort=1900|RA4=LocalSubnet|RA6=LocalSubnet|App=%SystemRoot%\\system32\\svchost.exe|Svc=Ssdpsrv|Name=@FirewallAPI.dll,-34007|Desc=@FirewallAPI.dll,-34008|EmbedCtxt=@FirewallAPI.dll,-34002|"
+"PNRPMNRS-SSDPSrv-Out-UDP"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=17|RPort=1900|RA4=LocalSubnet|RA6=LocalSubnet|App=%SystemRoot%\\system32\\svchost.exe|Svc=Ssdpsrv|Name=@FirewallAPI.dll,-34009|Desc=@FirewallAPI.dll,-34010|EmbedCtxt=@FirewallAPI.dll,-34002|"
+"ProximityUxHost-Sharing-In-TCP-NoScope"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=6|App=%SystemRoot%\\system32\\proximityuxhost.exe|Name=@FirewallAPI.dll,-36252|Desc=@FirewallAPI.dll,-36253|EmbedCtxt=@FirewallAPI.dll,-36251|TTK=ProxSharing|"
+"ProximityUxHost-Sharing-Out-TCP-NoScope"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=6|App=%SystemRoot%\\system32\\proximityuxhost.exe|Name=@FirewallAPI.dll,-36254|Desc=@FirewallAPI.dll,-36255|EmbedCtxt=@FirewallAPI.dll,-36251|TTK=ProxSharing|"
+"RemoteAssistance-DCOM-In-TCP-NoScope-Active"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=6|Profile=Domain|LPort=135|App=%SystemRoot%\\system32\\svchost.exe|Svc=rpcss|Name=@FirewallAPI.dll,-33035|Desc=@FirewallAPI.dll,-33036|EmbedCtxt=@FirewallAPI.dll,-33002|"
+"RemoteAssistance-In-TCP-EdgeScope"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=6|Profile=Public|App=%SystemRoot%\\system32\\msra.exe|Name=@FirewallAPI.dll,-33003|Desc=@FirewallAPI.dll,-33006|EmbedCtxt=@FirewallAPI.dll,-33002|Edge=TRUE|Defer=App|"
+"RemoteAssistance-In-TCP-EdgeScope-Active"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=6|Profile=Domain|Profile=Private|App=%SystemRoot%\\system32\\msra.exe|Name=@FirewallAPI.dll,-33003|Desc=@FirewallAPI.dll,-33006|EmbedCtxt=@FirewallAPI.dll,-33002|Edge=TRUE|Defer=App|"
+"RemoteAssistance-Out-TCP"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=6|Profile=Public|App=%SystemRoot%\\system32\\msra.exe|Name=@FirewallAPI.dll,-33007|Desc=@FirewallAPI.dll,-33010|EmbedCtxt=@FirewallAPI.dll,-33002|"
+"RemoteAssistance-Out-TCP-Active"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=6|Profile=Domain|Profile=Private|App=%SystemRoot%\\system32\\msra.exe|Name=@FirewallAPI.dll,-33007|Desc=@FirewallAPI.dll,-33010|EmbedCtxt=@FirewallAPI.dll,-33002|"
+"RemoteAssistance-PnrpSvc-UDP-In-EdgeScope"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=17|Profile=Public|LPort=3540|App=%systemroot%\\system32\\svchost.exe|Svc=pnrpsvc|Name=@FirewallAPI.dll,-33039|Desc=@FirewallAPI.dll,-33040|EmbedCtxt=@FirewallAPI.dll,-33002|Edge=TRUE|Defer=App|"
+"RemoteAssistance-PnrpSvc-UDP-In-EdgeScope-Active"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=17|Profile=Domain|Profile=Private|LPort=3540|App=%systemroot%\\system32\\svchost.exe|Svc=pnrpsvc|Name=@FirewallAPI.dll,-33039|Desc=@FirewallAPI.dll,-33040|EmbedCtxt=@FirewallAPI.dll,-33002|Edge=TRUE|Defer=App|"
+"RemoteAssistance-PnrpSvc-UDP-OUT"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=17|Profile=Public|App=%systemroot%\\system32\\svchost.exe|Svc=pnrpsvc|Name=@FirewallAPI.dll,-33037|Desc=@FirewallAPI.dll,-33038|EmbedCtxt=@FirewallAPI.dll,-33002|"
+"RemoteAssistance-PnrpSvc-UDP-OUT-Active"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=17|Profile=Domain|Profile=Private|App=%systemroot%\\system32\\svchost.exe|Svc=pnrpsvc|Name=@FirewallAPI.dll,-33037|Desc=@FirewallAPI.dll,-33038|EmbedCtxt=@FirewallAPI.dll,-33002|"
+"RemoteAssistance-RAServer-In-TCP-NoScope-Active"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=6|Profile=Domain|App=%SystemRoot%\\system32\\raserver.exe|Name=@FirewallAPI.dll,-33011|Desc=@FirewallAPI.dll,-33014|EmbedCtxt=@FirewallAPI.dll,-33002|"
+"RemoteAssistance-RAServer-Out-TCP-NoScope-Active"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=6|Profile=Domain|App=%SystemRoot%\\system32\\raserver.exe|Name=@FirewallAPI.dll,-33015|Desc=@FirewallAPI.dll,-33018|EmbedCtxt=@FirewallAPI.dll,-33002|"
+"RemoteAssistance-SSDPSrv-In-TCP-Active"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=6|Profile=Domain|Profile=Private|LPort=2869|RA4=LocalSubnet|RA6=LocalSubnet|App=System|Name=@FirewallAPI.dll,-33027|Desc=@FirewallAPI.dll,-33030|EmbedCtxt=@FirewallAPI.dll,-33002|"
+"RemoteAssistance-SSDPSrv-In-UDP-Active"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=17|Profile=Domain|Profile=Private|LPort=1900|RA4=LocalSubnet|RA6=LocalSubnet|App=%SystemRoot%\\system32\\svchost.exe|Svc=Ssdpsrv|Name=@FirewallAPI.dll,-33019|Desc=@FirewallAPI.dll,-33022|EmbedCtxt=@FirewallAPI.dll,-33002|"
+"RemoteAssistance-SSDPSrv-Out-TCP-Active"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=6|Profile=Domain|Profile=Private|RA4=LocalSubnet|RA6=LocalSubnet|App=System|Name=@FirewallAPI.dll,-33031|Desc=@FirewallAPI.dll,-33034|EmbedCtxt=@FirewallAPI.dll,-33002|"
+"RemoteAssistance-SSDPSrv-Out-UDP-Active"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=17|Profile=Domain|Profile=Private|RPort=1900|RA4=LocalSubnet|RA6=LocalSubnet|App=%SystemRoot%\\system32\\svchost.exe|Svc=Ssdpsrv|Name=@FirewallAPI.dll,-33023|Desc=@FirewallAPI.dll,-33026|EmbedCtxt=@FirewallAPI.dll,-33002|"
+"RemoteDesktop-In-TCP-WS"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=6|LPort=3387|App=System|Name=@FirewallAPI.dll,-28780|Desc=@FirewallAPI.dll,-28781|EmbedCtxt=@FirewallAPI.dll,-28782|"
+"RemoteDesktop-In-TCP-WSS"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=6|LPort=3392|App=System|Name=@FirewallAPI.dll,-28783|Desc=@FirewallAPI.dll,-28784|EmbedCtxt=@FirewallAPI.dll,-28782|"
 "RemoteDesktop-Shadow-In-TCP"="v2.28|Action=Block|Active=TRUE|Dir=In|Protocol=6|App=%SystemRoot%\\system32\\RdpSa.exe|Name=@FirewallAPI.dll,-28778|Desc=@FirewallAPI.dll,-28779|EmbedCtxt=@FirewallAPI.dll,-28752|Edge=TRUE|Defer=App|"
 "RemoteDesktop-UserMode-In-TCP"="v2.28|Action=Block|Active=TRUE|Dir=In|Protocol=6|LPort=3389|App=%SystemRoot%\\system32\\svchost.exe|Svc=termservice|Name=@FirewallAPI.dll,-28775|Desc=@FirewallAPI.dll,-28756|EmbedCtxt=@FirewallAPI.dll,-28752|"
 "RemoteDesktop-UserMode-In-UDP"="v2.28|Action=Block|Active=TRUE|Dir=In|Protocol=17|LPort=3389|App=%SystemRoot%\\system32\\svchost.exe|Svc=termservice|Name=@FirewallAPI.dll,-28776|Desc=@FirewallAPI.dll,-28777|EmbedCtxt=@FirewallAPI.dll,-28752|"
+"RemoteEventLogSvc-In-TCP"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=6|Profile=Private|Profile=Public|LPort=RPC|RA4=LocalSubnet|RA6=LocalSubnet|App=%SystemRoot%\\system32\\svchost.exe|Svc=Eventlog|Name=@FirewallAPI.dll,-29253|Desc=@FirewallAPI.dll,-29256|EmbedCtxt=@FirewallAPI.dll,-29252|"
+"RemoteEventLogSvc-In-TCP-NoScope"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=6|Profile=Domain|LPort=RPC|App=%SystemRoot%\\system32\\svchost.exe|Svc=Eventlog|Name=@FirewallAPI.dll,-29253|Desc=@FirewallAPI.dll,-29256|EmbedCtxt=@FirewallAPI.dll,-29252|"
+"RemoteEventLogSvc-NP-In-TCP"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=6|Profile=Private|Profile=Public|LPort=445|RA4=LocalSubnet|RA6=LocalSubnet|App=System|Name=@FirewallAPI.dll,-29257|Desc=@FirewallAPI.dll,-29260|EmbedCtxt=@FirewallAPI.dll,-29252|"
+"RemoteEventLogSvc-NP-In-TCP-NoScope"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=6|Profile=Domain|LPort=445|App=System|Name=@FirewallAPI.dll,-29257|Desc=@FirewallAPI.dll,-29260|EmbedCtxt=@FirewallAPI.dll,-29252|"
+"RemoteEventLogSvc-RPCSS-In-TCP"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=6|Profile=Private|Profile=Public|LPort=RPC-EPMap|RA4=LocalSubnet|RA6=LocalSubnet|App=%SystemRoot%\\system32\\svchost.exe|Svc=RPCSS|Name=@FirewallAPI.dll,-29265|Desc=@FirewallAPI.dll,-29268|EmbedCtxt=@FirewallAPI.dll,-29252|"
+"RemoteEventLogSvc-RPCSS-In-TCP-NoScope"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=6|Profile=Domain|LPort=RPC-EPMap|App=%SystemRoot%\\system32\\svchost.exe|Svc=RPCSS|Name=@FirewallAPI.dll,-29265|Desc=@FirewallAPI.dll,-29268|EmbedCtxt=@FirewallAPI.dll,-29252|"
+"RemoteFwAdmin-In-TCP"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=6|Profile=Private|Profile=Public|LPort=RPC|RA4=LocalSubnet|RA6=LocalSubnet|App=%SystemRoot%\\system32\\svchost.exe|Svc=policyagent|Name=@FirewallAPI.dll,-30003|Desc=@FirewallAPI.dll,-30006|EmbedCtxt=@FirewallAPI.dll,-30002|"
+"RemoteFwAdmin-In-TCP-NoScope"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=6|Profile=Domain|LPort=RPC|App=%SystemRoot%\\system32\\svchost.exe|Svc=policyagent|Name=@FirewallAPI.dll,-30003|Desc=@FirewallAPI.dll,-30006|EmbedCtxt=@FirewallAPI.dll,-30002|"
+"RemoteFwAdmin-RPCSS-In-TCP"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=6|Profile=Private|Profile=Public|LPort=RPC-EPMap|RA4=LocalSubnet|RA6=LocalSubnet|App=%SystemRoot%\\system32\\svchost.exe|Svc=RPCSS|Name=@FirewallAPI.dll,-30007|Desc=@FirewallAPI.dll,-30010|EmbedCtxt=@FirewallAPI.dll,-30002|"
+"RemoteFwAdmin-RPCSS-In-TCP-NoScope"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=6|Profile=Domain|LPort=RPC-EPMap|App=%SystemRoot%\\system32\\svchost.exe|Svc=RPCSS|Name=@FirewallAPI.dll,-30007|Desc=@FirewallAPI.dll,-30010|EmbedCtxt=@FirewallAPI.dll,-30002|"
+"RemoteSvcAdmin-In-TCP"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=6|Profile=Private|Profile=Public|LPort=RPC|RA4=LocalSubnet|RA6=LocalSubnet|App=%SystemRoot%\\system32\\services.exe|Name=@FirewallAPI.dll,-29503|Desc=@FirewallAPI.dll,-29506|EmbedCtxt=@FirewallAPI.dll,-29502|"
+"RemoteSvcAdmin-In-TCP-NoScope"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=6|Profile=Domain|LPort=RPC|App=%SystemRoot%\\system32\\services.exe|Name=@FirewallAPI.dll,-29503|Desc=@FirewallAPI.dll,-29506|EmbedCtxt=@FirewallAPI.dll,-29502|"
+"RemoteSvcAdmin-NP-In-TCP"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=6|Profile=Private|Profile=Public|LPort=445|RA4=LocalSubnet|RA6=LocalSubnet|App=System|Name=@FirewallAPI.dll,-29507|Desc=@FirewallAPI.dll,-29510|EmbedCtxt=@FirewallAPI.dll,-29502|"
+"RemoteSvcAdmin-NP-In-TCP-NoScope"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=6|Profile=Domain|LPort=445|App=System|Name=@FirewallAPI.dll,-29507|Desc=@FirewallAPI.dll,-29510|EmbedCtxt=@FirewallAPI.dll,-29502|"
+"RemoteSvcAdmin-RPCSS-In-TCP"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=6|Profile=Private|Profile=Public|LPort=RPC-EPMap|RA4=LocalSubnet|RA6=LocalSubnet|App=%SystemRoot%\\system32\\svchost.exe|Svc=RPCSS|Name=@FirewallAPI.dll,-29515|Desc=@FirewallAPI.dll,-29518|EmbedCtxt=@FirewallAPI.dll,-29502|"
+"RemoteSvcAdmin-RPCSS-In-TCP-NoScope"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=6|Profile=Domain|LPort=RPC-EPMap|App=%SystemRoot%\\system32\\svchost.exe|Svc=RPCSS|Name=@FirewallAPI.dll,-29515|Desc=@FirewallAPI.dll,-29518|EmbedCtxt=@FirewallAPI.dll,-29502|"
+"RemoteTask-In-TCP"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=6|Profile=Private|Profile=Public|LPort=RPC|RA4=LocalSubnet|RA6=LocalSubnet|App=%SystemRoot%\\system32\\svchost.exe|Svc=schedule|Name=@FirewallAPI.dll,-33253|Desc=@FirewallAPI.dll,-33256|EmbedCtxt=@FirewallAPI.dll,-33252|"
+"RemoteTask-In-TCP-NoScope"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=6|Profile=Domain|LPort=RPC|App=%SystemRoot%\\system32\\svchost.exe|Svc=schedule|Name=@FirewallAPI.dll,-33253|Desc=@FirewallAPI.dll,-33256|EmbedCtxt=@FirewallAPI.dll,-33252|"
+"RemoteTask-RPCSS-In-TCP"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=6|Profile=Private|Profile=Public|LPort=RPC-EPMap|RA4=LocalSubnet|RA6=LocalSubnet|App=%SystemRoot%\\system32\\svchost.exe|Svc=RPCSS|Name=@FirewallAPI.dll,-33257|Desc=@FirewallAPI.dll,-33260|EmbedCtxt=@FirewallAPI.dll,-33252|"
+"RemoteTask-RPCSS-In-TCP-NoScope"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=6|Profile=Domain|LPort=RPC-EPMap|App=%SystemRoot%\\system32\\svchost.exe|Svc=RPCSS|Name=@FirewallAPI.dll,-33257|Desc=@FirewallAPI.dll,-33260|EmbedCtxt=@FirewallAPI.dll,-33252|"
+"RRAS-GRE-In"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=47|App=System|Name=@FirewallAPI.dll,-33769|Desc=@FirewallAPI.dll,-33772|EmbedCtxt=@FirewallAPI.dll,-33752|"
+"RRAS-GRE-Out"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=47|App=System|Name=@FirewallAPI.dll,-33773|Desc=@FirewallAPI.dll,-33776|EmbedCtxt=@FirewallAPI.dll,-33752|"
+"RRAS-L2TP-In-UDP"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=17|LPort=1701|App=System|Name=@FirewallAPI.dll,-33753|Desc=@FirewallAPI.dll,-33756|EmbedCtxt=@FirewallAPI.dll,-33752|"
+"RRAS-L2TP-Out-UDP"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=17|RPort=1701|App=System|Name=@FirewallAPI.dll,-33757|Desc=@FirewallAPI.dll,-33760|EmbedCtxt=@FirewallAPI.dll,-33752|"
+"RRAS-PPTP-In-TCP"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=6|LPort=1723|App=System|Name=@FirewallAPI.dll,-33765|Desc=@FirewallAPI.dll,-33768|EmbedCtxt=@FirewallAPI.dll,-33752|"
+"RRAS-PPTP-Out-TCP"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=6|RPort=1723|App=System|Name=@FirewallAPI.dll,-33761|Desc=@FirewallAPI.dll,-33764|EmbedCtxt=@FirewallAPI.dll,-33752|"
+"RVM-RPCSS-In-TCP"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=6|Profile=Private|Profile=Public|LPort=RPC-EPMap|RA4=LocalSubnet|RA6=LocalSubnet|App=%SystemRoot%\\system32\\svchost.exe|Svc=RPCSS|Name=@FirewallAPI.dll,-34506|Desc=@FirewallAPI.dll,-34507|EmbedCtxt=@FirewallAPI.dll,-34501|"
+"RVM-RPCSS-In-TCP-NoScope"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=6|Profile=Domain|LPort=RPC-EPMap|App=%SystemRoot%\\system32\\svchost.exe|Svc=RPCSS|Name=@FirewallAPI.dll,-34506|Desc=@FirewallAPI.dll,-34507|EmbedCtxt=@FirewallAPI.dll,-34501|"
+"RVM-VDS-In-TCP"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=6|Profile=Private|Profile=Public|LPort=RPC|RA4=LocalSubnet|RA6=LocalSubnet|App=%SystemRoot%\\system32\\vds.exe|Svc=vds|Name=@FirewallAPI.dll,-34502|Desc=@FirewallAPI.dll,-34503|EmbedCtxt=@FirewallAPI.dll,-34501|"
+"RVM-VDS-In-TCP-NoScope"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=6|Profile=Domain|LPort=RPC|App=%SystemRoot%\\system32\\vds.exe|Svc=vds|Name=@FirewallAPI.dll,-34502|Desc=@FirewallAPI.dll,-34503|EmbedCtxt=@FirewallAPI.dll,-34501|"
+"RVM-VDSLDR-In-TCP"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=6|Profile=Private|Profile=Public|LPort=RPC|RA4=LocalSubnet|RA6=LocalSubnet|App=%SystemRoot%\\system32\\vdsldr.exe|Name=@FirewallAPI.dll,-34504|Desc=@FirewallAPI.dll,-34505|EmbedCtxt=@FirewallAPI.dll,-34501|"
+"RVM-VDSLDR-In-TCP-NoScope"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=6|Profile=Domain|LPort=RPC|App=%SystemRoot%\\system32\\vdsldr.exe|Name=@FirewallAPI.dll,-34504|Desc=@FirewallAPI.dll,-34505|EmbedCtxt=@FirewallAPI.dll,-34501|"
+"SNMPTRAP-In-UDP"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=17|Profile=Private|Profile=Public|LPort=162|RA4=LocalSubnet|RA6=LocalSubnet|App=%SystemRoot%\\system32\\snmptrap.exe|Svc=SNMPTRAP|Name=@firewallapi.dll,-50327|Desc=@firewallapi.dll,-50328|EmbedCtxt=@firewallapi.dll,-50323|"
+"SNMPTRAP-In-UDP-NoScope"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=17|Profile=Domain|LPort=162|App=%SystemRoot%\\system32\\snmptrap.exe|Svc=SNMPTRAP|Name=@firewallapi.dll,-50327|Desc=@firewallapi.dll,-50328|EmbedCtxt=@firewallapi.dll,-50323|"
+"SPPSVC-In-TCP"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=6|Profile=Private|Profile=Public|LPort=1688|RA4=LocalSubnet|RA6=LocalSubnet|App=%SystemRoot%\\system32\\sppextcomobj.exe|Svc=sppsvc|Name=@FirewallAPI.dll,-28003|Desc=@FirewallAPI.dll,-28006|EmbedCtxt=@FirewallAPI.dll,-28002|"
+"SPPSVC-In-TCP-NoScope"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=6|Profile=Domain|LPort=1688|App=%SystemRoot%\\system32\\sppextcomobj.exe|Svc=sppsvc|Name=@FirewallAPI.dll,-28003|Desc=@FirewallAPI.dll,-28006|EmbedCtxt=@FirewallAPI.dll,-28002|"
+"SSTP-IN-TCP"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=6|LPort=443|App=System|Name=@sstpsvc.dll,-35002|Desc=@sstpsvc.dll,-35003|EmbedCtxt=@sstpsvc.dll,-35001|"
+"TPMVSCMGR-RPCSS-In-TCP"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=6|Profile=Private|Profile=Public|LPort=135|RA4=LocalSubnet|RA6=LocalSubnet|App=%SystemRoot%\\system32\\svchost.exe|Svc=rpcss|Name=@FirewallAPI.dll,-36502|Desc=@FirewallAPI.dll,-36503|EmbedCtxt=@FirewallAPI.dll,-36501|"
+"TPMVSCMGR-RPCSS-In-TCP-NoScope"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=6|Profile=Domain|LPort=135|App=%SystemRoot%\\system32\\svchost.exe|Svc=rpcss|Name=@FirewallAPI.dll,-36502|Desc=@FirewallAPI.dll,-36503|EmbedCtxt=@FirewallAPI.dll,-36501|"
+"TPMVSCMGR-Server-In-TCP"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=6|Profile=Private|Profile=Public|RA4=LocalSubnet|RA6=LocalSubnet|App=%SystemRoot%\\system32\\RmtTpmVscMgrSvr.exe|Name=@FirewallAPI.dll,-36504|Desc=@FirewallAPI.dll,-36505|EmbedCtxt=@FirewallAPI.dll,-36501|"
+"TPMVSCMGR-Server-In-TCP-NoScope"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=6|Profile=Domain|App=%SystemRoot%\\system32\\RmtTpmVscMgrSvr.exe|Name=@FirewallAPI.dll,-36504|Desc=@FirewallAPI.dll,-36505|EmbedCtxt=@FirewallAPI.dll,-36501|"
+"TPMVSCMGR-Server-Out-TCP"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=6|Profile=Private|Profile=Public|RA4=LocalSubnet|RA6=LocalSubnet|App=%SystemRoot%\\system32\\RmtTpmVscMgrSvr.exe|Name=@FirewallAPI.dll,-36506|Desc=@FirewallAPI.dll,-36507|EmbedCtxt=@FirewallAPI.dll,-36501|"
+"TPMVSCMGR-Server-Out-TCP-NoScope"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=6|Profile=Domain|App=%SystemRoot%\\system32\\RmtTpmVscMgrSvr.exe|Name=@FirewallAPI.dll,-36506|Desc=@FirewallAPI.dll,-36507|EmbedCtxt=@FirewallAPI.dll,-36501|"
+"vm-monitoring-dcom"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=6|LPort=135|App=%SystemRoot%\\system32\\svchost.exe|Svc=RpcSs|Name=@%SystemRoot%\\system32\\icsvc.dll,-709|Desc=@%SystemRoot%\\system32\\icsvc.dll,-710|EmbedCtxt=@%SystemRoot%\\system32\\icsvc.dll,-700|"
+"vm-monitoring-icmpv4"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=1|App=System|Name=@%SystemRoot%\\system32\\icsvc.dll,-701|Desc=@%SystemRoot%\\system32\\icsvc.dll,-702|EmbedCtxt=@%SystemRoot%\\system32\\icsvc.dll,-700|"
+"vm-monitoring-icmpv6"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=58|App=System|Name=@%SystemRoot%\\system32\\icsvc.dll,-703|Desc=@%SystemRoot%\\system32\\icsvc.dll,-704|EmbedCtxt=@%SystemRoot%\\system32\\icsvc.dll,-700|"
+"vm-monitoring-nb-session"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=6|LPort=139|App=System|Name=@%SystemRoot%\\system32\\icsvc.dll,-705|Desc=@%SystemRoot%\\system32\\icsvc.dll,-706|EmbedCtxt=@%SystemRoot%\\system32\\icsvc.dll,-700|"
+"vm-monitoring-rpc"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=6|LPort=RPC|App=%SystemRoot%\\system32\\svchost.exe|Svc=Schedule|Name=@%SystemRoot%\\system32\\icsvc.dll,-707|Desc=@%SystemRoot%\\system32\\icsvc.dll,-708|EmbedCtxt=@%SystemRoot%\\system32\\icsvc.dll,-700|"
+"WFDPRINT-DAFWSD-In-Active"="v2.33|Action=Allow|Active=FALSE|Dir=In|Profile=Public|App=%SystemRoot%\\system32\\dashost.exe|Name=@FirewallAPI.dll,-36852|Desc=@FirewallAPI.dll,-36853|LUAuth=O:LSD:(A;;CC;;;S-1-5-92-3339056971-1291069075-3798698925-2882100687-0)|EmbedCtxt=@FirewallAPI.dll,-36851|TTK2_22=WFDPrint|"
+"WFDPRINT-DAFWSD-Out-Active"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Profile=Public|App=%SystemRoot%\\system32\\dashost.exe|Name=@FirewallAPI.dll,-36854|Desc=@FirewallAPI.dll,-36855|LUAuth=O:LSD:(A;;CC;;;S-1-5-92-3339056971-1291069075-3798698925-2882100687-0)|EmbedCtxt=@FirewallAPI.dll,-36851|TTK2_22=WFDPrint|"
+"WFDPRINT-SCAN-In-Active"="v2.33|Action=Allow|Active=FALSE|Dir=In|Profile=Public|App=%SystemRoot%\\system32\\svchost.exe|Svc=stisvc|Name=@FirewallAPI.dll,-36860|Desc=@FirewallAPI.dll,-36861|EmbedCtxt=@FirewallAPI.dll,-36851|TTK2_22=WFDPrint|"
+"WFDPRINT-SCAN-Out-Active"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Profile=Public|App=%SystemRoot%\\system32\\svchost.exe|Svc=stisvc|Name=@FirewallAPI.dll,-36862|Desc=@FirewallAPI.dll,-36863|EmbedCtxt=@FirewallAPI.dll,-36851|TTK2_22=WFDPrint|"
+"WFDPRINT-SPOOL-In-Active"="v2.33|Action=Allow|Active=FALSE|Dir=In|Profile=Public|App=%SystemRoot%\\system32\\spoolsv.exe|Svc=Spooler|Name=@FirewallAPI.dll,-36856|Desc=@FirewallAPI.dll,-36857|EmbedCtxt=@FirewallAPI.dll,-36851|TTK2_22=WFDPrint|"
+"WFDPRINT-SPOOL-Out-Active"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Profile=Public|App=%SystemRoot%\\system32\\spoolsv.exe|Svc=Spooler|Name=@FirewallAPI.dll,-36858|Desc=@FirewallAPI.dll,-36859|EmbedCtxt=@FirewallAPI.dll,-36851|TTK2_22=WFDPrint|"
+"WiFiDirect-KM-Driver-In-TCP"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=6|App=System|Name=@wlansvc.dll,-37378|Desc=@wlansvc.dll,-37890|EmbedCtxt=@wlansvc.dll,-36865|TTK2_27=WFDKmDriver|"
+"WiFiDirect-KM-Driver-In-UDP"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=17|App=System|Name=@wlansvc.dll,-37380|Desc=@wlansvc.dll,-37892|EmbedCtxt=@wlansvc.dll,-36865|TTK2_27=WFDKmDriver|"
+"WiFiDirect-KM-Driver-Out-TCP"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=6|App=System|Name=@wlansvc.dll,-37379|Desc=@wlansvc.dll,-37891|EmbedCtxt=@wlansvc.dll,-36865|TTK2_27=WFDKmDriver|"
+"WiFiDirect-KM-Driver-Out-UDP"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=17|App=System|Name=@wlansvc.dll,-37381|Desc=@wlansvc.dll,-37893|EmbedCtxt=@wlansvc.dll,-36865|TTK2_27=WFDKmDriver|"
+"Windows.PrintDialog_cw5n1h2txyewy-Out-Allow-AllCapabilities"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Profile=Domain|Profile=Private|Profile=Public|Name=@{Windows.PrintDialog_6.2.3.0_neutral_neutral_cw5n1h2txyewy?ms-resource://Windows.PrintDialog/Resources/DisplayName}|Desc=@{Windows.PrintDialog_6.2.3.0_neutral_neutral_cw5n1h2txyewy?ms-resource://Windows.PrintDialog/Resources/Description}|PFN=Windows.PrintDialog_cw5n1h2txyewy|LUOwn=S-1-5-18|EmbedCtxt=@{Windows.PrintDialog_6.2.3.0_neutral_neutral_cw5n1h2txyewy?ms-resource://Windows.PrintDialog/Resources/DisplayName}|Platform=2:6:2|Platform2=GTEQ|"
+"Wininit-Shutdown-In-Rule-TCP-RPC"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=6|LPort=RPC|App=%systemroot%\\system32\\wininit.exe|Name=@firewallapi.dll,-36753|Desc=@firewallapi.dll,-36754|EmbedCtxt=@firewallapi.dll,-36751|"
+"Wininit-Shutdown-In-Rule-TCP-RPC-EPMapper"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=6|LPort=RPC-EPMap|App=%systemroot%\\system32\\wininit.exe|Name=@firewallapi.dll,-36755|Desc=@firewallapi.dll,-36756|EmbedCtxt=@firewallapi.dll,-36751|"
+"WINRM-HTTP-Compat-In-TCP"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=6|Profile=Private|Profile=Public|LPort=80|RA4=LocalSubnet|RA6=LocalSubnet|App=System|Name=@FirewallAPI.dll,-35001|Desc=@FirewallAPI.dll,-35002|EmbedCtxt=@FirewallAPI.dll,-30252|"
+"WINRM-HTTP-Compat-In-TCP-NoScope"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=6|Profile=Domain|LPort=80|App=System|Name=@FirewallAPI.dll,-35001|Desc=@FirewallAPI.dll,-35002|EmbedCtxt=@FirewallAPI.dll,-30252|"
+"WINRM-HTTP-In-TCP"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=6|Profile=Public|LPort=5985|RA4=LocalSubnet|RA6=LocalSubnet|App=System|Name=@FirewallAPI.dll,-30253|Desc=@FirewallAPI.dll,-30256|EmbedCtxt=@FirewallAPI.dll,-30267|"
+"WINRM-HTTP-In-TCP-NoScope"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=6|Profile=Domain|Profile=Private|LPort=5985|App=System|Name=@FirewallAPI.dll,-30253|Desc=@FirewallAPI.dll,-30256|EmbedCtxt=@FirewallAPI.dll,-30267|"
+"WirelessDisplay-Infra-In-TCP"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=6|LPort=7250|App=%systemroot%\\system32\\CastSrv.exe|Name=@wifidisplay.dll,-10206|Desc=@wifidisplay.dll,-10207|EmbedCtxt=@wifidisplay.dll,-100|"
+"WirelessDisplay-In-TCP"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=6|App=%systemroot%\\system32\\WUDFHost.exe|Name=@wifidisplay.dll,-10200|Desc=@wifidisplay.dll,-10201|LUAuth=O:LSD:(A;;CC;;;S-1-5-84-0-0-0-0-0)|EmbedCtxt=@wifidisplay.dll,-100|TTK2_22=WFDDisplay|"
+"WirelessDisplay-Out-TCP"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=6|App=%systemroot%\\system32\\WUDFHost.exe|Name=@wifidisplay.dll,-10202|Desc=@wifidisplay.dll,-10203|LUAuth=O:LSD:(A;;CC;;;S-1-5-84-0-0-0-0-0)|EmbedCtxt=@wifidisplay.dll,-100|TTK2_22=WFDDisplay|"
+"WirelessDisplay-Out-UDP"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=17|App=%systemroot%\\system32\\WUDFHost.exe|Name=@wifidisplay.dll,-10204|Desc=@wifidisplay.dll,-10205|LUAuth=O:LSD:(A;;CC;;;S-1-5-84-0-0-0-0-0)|EmbedCtxt=@wifidisplay.dll,-100|TTK2_22=WFDDisplay|"
+"WMI-ASYNC-In-TCP"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=6|Profile=Private|Profile=Public|RA4=LocalSubnet|RA6=LocalSubnet|App=%systemroot%\\system32\\wbem\\unsecapp.exe|Name=@FirewallAPI.dll,-34256|Desc=@FirewallAPI.dll,-34257|EmbedCtxt=@FirewallAPI.dll,-34251|"
+"WMI-ASYNC-In-TCP-NoScope"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=6|Profile=Domain|App=%systemroot%\\system32\\wbem\\unsecapp.exe|Name=@FirewallAPI.dll,-34256|Desc=@FirewallAPI.dll,-34257|EmbedCtxt=@FirewallAPI.dll,-34251|"
+"WMI-RPCSS-In-TCP"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=6|Profile=Private|Profile=Public|LPort=135|RA4=LocalSubnet|RA6=LocalSubnet|App=%SystemRoot%\\system32\\svchost.exe|Svc=rpcss|Name=@FirewallAPI.dll,-34252|Desc=@FirewallAPI.dll,-34253|EmbedCtxt=@FirewallAPI.dll,-34251|"
+"WMI-RPCSS-In-TCP-NoScope"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=6|Profile=Domain|LPort=135|App=%SystemRoot%\\system32\\svchost.exe|Svc=rpcss|Name=@FirewallAPI.dll,-34252|Desc=@FirewallAPI.dll,-34253|EmbedCtxt=@FirewallAPI.dll,-34251|"
+"WMI-WINMGMT-In-TCP"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=6|Profile=Private|Profile=Public|RA4=LocalSubnet|RA6=LocalSubnet|App=%SystemRoot%\\system32\\svchost.exe|Svc=winmgmt|Name=@FirewallAPI.dll,-34254|Desc=@FirewallAPI.dll,-34255|EmbedCtxt=@FirewallAPI.dll,-34251|"
+"WMI-WINMGMT-In-TCP-NoScope"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=6|Profile=Domain|App=%SystemRoot%\\system32\\svchost.exe|Svc=winmgmt|Name=@FirewallAPI.dll,-34254|Desc=@FirewallAPI.dll,-34255|EmbedCtxt=@FirewallAPI.dll,-34251|"
+"WMI-WINMGMT-Out-TCP"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=6|Profile=Private|Profile=Public|RA4=LocalSubnet|RA6=LocalSubnet|App=%SystemRoot%\\system32\\svchost.exe|Svc=winmgmt|Name=@FirewallAPI.dll,-34258|Desc=@FirewallAPI.dll,-34259|EmbedCtxt=@FirewallAPI.dll,-34251|"
+"WMI-WINMGMT-Out-TCP-NoScope"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=6|Profile=Domain|App=%SystemRoot%\\system32\\svchost.exe|Svc=winmgmt|Name=@FirewallAPI.dll,-34258|Desc=@FirewallAPI.dll,-34259|EmbedCtxt=@FirewallAPI.dll,-34251|"
+"WMP-In-UDP"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=17|App=%ProgramFiles%\\Windows Media Player\\wmplayer.exe|Name=@FirewallAPI.dll,-31003|Desc=@FirewallAPI.dll,-31006|EmbedCtxt=@FirewallAPI.dll,-31002|"
+"WMP-In-UDP-x86"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=17|App=%ProgramFiles(x86)%\\Windows Media Player\\wmplayer.exe|Name=@FirewallAPI.dll,-31023|Desc=@FirewallAPI.dll,-31006|EmbedCtxt=@FirewallAPI.dll,-31002|"
+"WMPNSS-HTTPSTR-In-TCP"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=6|Profile=Private|Profile=Public|LPort=10243|RA4=LocalSubnet|RA6=LocalSubnet|App=System|Name=@FirewallAPI.dll,-31285|Desc=@FirewallAPI.dll,-31288|EmbedCtxt=@FirewallAPI.dll,-31252|"
+"WMPNSS-HTTPSTR-In-TCP-NoScope"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=6|Profile=Domain|LPort=10243|App=System|Name=@FirewallAPI.dll,-31285|Desc=@FirewallAPI.dll,-31288|EmbedCtxt=@FirewallAPI.dll,-31252|"
+"WMPNSS-HTTPSTR-Out-TCP"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=6|Profile=Private|Profile=Public|RPort=10243|RA4=LocalSubnet|RA6=LocalSubnet|App=System|Name=@FirewallAPI.dll,-31289|Desc=@FirewallAPI.dll,-31292|EmbedCtxt=@FirewallAPI.dll,-31252|"
+"WMPNSS-HTTPSTR-Out-TCP-NoScope"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=6|Profile=Domain|RPort=10243|App=System|Name=@FirewallAPI.dll,-31289|Desc=@FirewallAPI.dll,-31292|EmbedCtxt=@FirewallAPI.dll,-31252|"
+"WMPNSS-In-TCP"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=6|Profile=Private|Profile=Public|RA4=LocalSubnet|RA6=LocalSubnet|App=%PROGRAMFILES%\\Windows Media Player\\wmpnetwk.exe|Name=@FirewallAPI.dll,-31313|Desc=@FirewallAPI.dll,-31316|EmbedCtxt=@FirewallAPI.dll,-31252|"
+"WMPNSS-In-TCP-NoScope"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=6|Profile=Domain|App=%PROGRAMFILES%\\Windows Media Player\\wmpnetwk.exe|Name=@FirewallAPI.dll,-31313|Desc=@FirewallAPI.dll,-31316|EmbedCtxt=@FirewallAPI.dll,-31252|"
+"WMPNSS-In-UDP"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=17|Profile=Private|Profile=Public|RA4=LocalSubnet|RA6=LocalSubnet|App=%PROGRAMFILES%\\Windows Media Player\\wmpnetwk.exe|Name=@FirewallAPI.dll,-31305|Desc=@FirewallAPI.dll,-31308|EmbedCtxt=@FirewallAPI.dll,-31252|"
+"WMPNSS-In-UDP-NoScope"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=17|Profile=Domain|App=%PROGRAMFILES%\\Windows Media Player\\wmpnetwk.exe|Name=@FirewallAPI.dll,-31305|Desc=@FirewallAPI.dll,-31308|EmbedCtxt=@FirewallAPI.dll,-31252|"
+"WMPNSS-Out-TCP"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=6|Profile=Private|Profile=Public|RA4=LocalSubnet|RA6=LocalSubnet|App=%PROGRAMFILES%\\Windows Media Player\\wmpnetwk.exe|Name=@FirewallAPI.dll,-31317|Desc=@FirewallAPI.dll,-31320|EmbedCtxt=@FirewallAPI.dll,-31252|"
+"WMPNSS-Out-TCP-NoScope"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=6|Profile=Domain|App=%PROGRAMFILES%\\Windows Media Player\\wmpnetwk.exe|Name=@FirewallAPI.dll,-31317|Desc=@FirewallAPI.dll,-31320|EmbedCtxt=@FirewallAPI.dll,-31252|"
+"WMPNSS-Out-UDP"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=17|Profile=Private|Profile=Public|RA4=LocalSubnet|RA6=LocalSubnet|App=%PROGRAMFILES%\\Windows Media Player\\wmpnetwk.exe|Name=@FirewallAPI.dll,-31309|Desc=@FirewallAPI.dll,-31312|EmbedCtxt=@FirewallAPI.dll,-31252|"
+"WMPNSS-Out-UDP-NoScope"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=17|Profile=Domain|App=%PROGRAMFILES%\\Windows Media Player\\wmpnetwk.exe|Name=@FirewallAPI.dll,-31309|Desc=@FirewallAPI.dll,-31312|EmbedCtxt=@FirewallAPI.dll,-31252|"
+"WMPNSS-QWave-In-TCP"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=6|Profile=Private|Profile=Public|LPort=2177|RA4=LocalSubnet|RA6=LocalSubnet|App=%SystemRoot%\\system32\\svchost.exe|Svc=Qwave|Name=@FirewallAPI.dll,-31261|Desc=@FirewallAPI.dll,-31264|EmbedCtxt=@FirewallAPI.dll,-31252|"
+"WMPNSS-QWave-In-TCP-NoScope"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=6|Profile=Domain|LPort=2177|App=%SystemRoot%\\system32\\svchost.exe|Svc=Qwave|Name=@FirewallAPI.dll,-31261|Desc=@FirewallAPI.dll,-31264|EmbedCtxt=@FirewallAPI.dll,-31252|"
+"WMPNSS-QWave-In-UDP"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=17|Profile=Private|Profile=Public|LPort=2177|RA4=LocalSubnet|RA6=LocalSubnet|App=%SystemRoot%\\system32\\svchost.exe|Svc=Qwave|Name=@FirewallAPI.dll,-31253|Desc=@FirewallAPI.dll,-31256|EmbedCtxt=@FirewallAPI.dll,-31252|"
+"WMPNSS-QWave-In-UDP-NoScope"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=17|Profile=Domain|LPort=2177|App=%SystemRoot%\\system32\\svchost.exe|Svc=Qwave|Name=@FirewallAPI.dll,-31253|Desc=@FirewallAPI.dll,-31256|EmbedCtxt=@FirewallAPI.dll,-31252|"
+"WMPNSS-QWave-Out-TCP"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=6|Profile=Private|Profile=Public|RPort=2177|RA4=LocalSubnet|RA6=LocalSubnet|App=%SystemRoot%\\system32\\svchost.exe|Svc=Qwave|Name=@FirewallAPI.dll,-31265|Desc=@FirewallAPI.dll,-31268|EmbedCtxt=@FirewallAPI.dll,-31252|"
+"WMPNSS-QWave-Out-TCP-NoScope"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=6|Profile=Domain|RPort=2177|App=%SystemRoot%\\system32\\svchost.exe|Svc=Qwave|Name=@FirewallAPI.dll,-31265|Desc=@FirewallAPI.dll,-31268|EmbedCtxt=@FirewallAPI.dll,-31252|"
+"WMPNSS-QWave-Out-UDP"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=17|Profile=Private|Profile=Public|RPort=2177|RA4=LocalSubnet|RA6=LocalSubnet|App=%SystemRoot%\\system32\\svchost.exe|Svc=Qwave|Name=@FirewallAPI.dll,-31257|Desc=@FirewallAPI.dll,-31260|EmbedCtxt=@FirewallAPI.dll,-31252|"
+"WMPNSS-QWave-Out-UDP-NoScope"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=17|Profile=Domain|RPort=2177|App=%SystemRoot%\\system32\\svchost.exe|Svc=Qwave|Name=@FirewallAPI.dll,-31257|Desc=@FirewallAPI.dll,-31260|EmbedCtxt=@FirewallAPI.dll,-31252|"
+"WMPNSS-SSDPSrv-In-UDP"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=17|LPort=1900|RA4=LocalSubnet|RA6=LocalSubnet|App=%SystemRoot%\\system32\\svchost.exe|Svc=ssdpsrv|Name=@FirewallAPI.dll,-31269|Desc=@FirewallAPI.dll,-31272|EmbedCtxt=@FirewallAPI.dll,-31252|"
+"WMPNSS-SSDPSrv-Out-UDP"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=17|RPort=1900|RA4=LocalSubnet|RA6=LocalSubnet|App=%SystemRoot%\\system32\\svchost.exe|Svc=ssdpsrv|Name=@FirewallAPI.dll,-31273|Desc=@FirewallAPI.dll,-31276|EmbedCtxt=@FirewallAPI.dll,-31252|"
+"WMPNSS-UPnPHost-In-TCP"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=6|LPort=2869|RA4=LocalSubnet|RA6=LocalSubnet|App=System|Name=@FirewallAPI.dll,-31277|Desc=@FirewallAPI.dll,-31280|EmbedCtxt=@FirewallAPI.dll,-31252|"
+"WMPNSS-UPnPHost-Out-TCP"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=6|RA4=LocalSubnet|RA6=LocalSubnet|App=System|Name=@FirewallAPI.dll,-31281|Desc=@FirewallAPI.dll,-31284|EmbedCtxt=@FirewallAPI.dll,-31252|"
+"WMPNSS-UPnP-Out-TCP"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=6|RA4=LocalSubnet|RA6=LocalSubnet|App=%SystemRoot%\\system32\\svchost.exe|Svc=upnphost|Name=@FirewallAPI.dll,-31321|Desc=@FirewallAPI.dll,-31322|EmbedCtxt=@FirewallAPI.dll,-31252|"
+"WMPNSS-WMP-In-UDP"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=17|Profile=Private|Profile=Public|RA4=LocalSubnet|RA6=LocalSubnet|App=%PROGRAMFILES%\\Windows Media Player\\wmplayer.exe|Name=@FirewallAPI.dll,-31293|Desc=@FirewallAPI.dll,-31296|EmbedCtxt=@FirewallAPI.dll,-31252|"
+"WMPNSS-WMP-In-UDP-NoScope"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=17|Profile=Domain|App=%PROGRAMFILES%\\Windows Media Player\\wmplayer.exe|Name=@FirewallAPI.dll,-31293|Desc=@FirewallAPI.dll,-31296|EmbedCtxt=@FirewallAPI.dll,-31252|"
+"WMPNSS-WMP-Out-TCP"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=6|Profile=Private|Profile=Public|RA4=LocalSubnet|RA6=LocalSubnet|App=%PROGRAMFILES%\\Windows Media Player\\wmplayer.exe|Name=@FirewallAPI.dll,-31301|Desc=@FirewallAPI.dll,-31304|EmbedCtxt=@FirewallAPI.dll,-31252|"
+"WMPNSS-WMP-Out-TCP-NoScope"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=6|Profile=Domain|App=%PROGRAMFILES%\\Windows Media Player\\wmplayer.exe|Name=@FirewallAPI.dll,-31301|Desc=@FirewallAPI.dll,-31304|EmbedCtxt=@FirewallAPI.dll,-31252|"
+"WMPNSS-WMP-Out-UDP"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=17|Profile=Private|Profile=Public|RA4=LocalSubnet|RA6=LocalSubnet|App=%PROGRAMFILES%\\Windows Media Player\\wmplayer.exe|Name=@FirewallAPI.dll,-31297|Desc=@FirewallAPI.dll,-31300|EmbedCtxt=@FirewallAPI.dll,-31252|"
+"WMPNSS-WMP-Out-UDP-NoScope"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=17|Profile=Domain|App=%PROGRAMFILES%\\Windows Media Player\\wmplayer.exe|Name=@FirewallAPI.dll,-31297|Desc=@FirewallAPI.dll,-31300|EmbedCtxt=@FirewallAPI.dll,-31252|"
+"WMP-Out-TCP"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=6|App=%ProgramFiles%\\Windows Media Player\\wmplayer.exe|Name=@FirewallAPI.dll,-31011|Desc=@FirewallAPI.dll,-31014|EmbedCtxt=@FirewallAPI.dll,-31002|"
+"WMP-Out-TCP-x86"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=6|App=%ProgramFiles(x86)%\\Windows Media Player\\wmplayer.exe|Name=@FirewallAPI.dll,-31025|Desc=@FirewallAPI.dll,-31014|EmbedCtxt=@FirewallAPI.dll,-31002|"
+"WMP-Out-UDP"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=17|App=%ProgramFiles%\\Windows Media Player\\wmplayer.exe|Name=@FirewallAPI.dll,-31007|Desc=@FirewallAPI.dll,-31010|EmbedCtxt=@FirewallAPI.dll,-31002|"
+"WMP-Out-UDP-x86"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=17|App=%ProgramFiles(x86)%\\Windows Media Player\\wmplayer.exe|Name=@FirewallAPI.dll,-31024|Desc=@FirewallAPI.dll,-31010|EmbedCtxt=@FirewallAPI.dll,-31002|"
+"WPDMTP-Out-TCP"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=6|Profile=Private|Profile=Public|RPort=15740|RA4=LocalSubnet|RA6=LocalSubnet|App=%SystemRoot%\\system32\\wudfhost.exe|Name=@FirewallAPI.dll,-30503|Desc=@FirewallAPI.dll,-30506|EmbedCtxt=@FirewallAPI.dll,-30502|"
+"WPDMTP-Out-TCP-NoScope"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=6|Profile=Domain|RPort=15740|App=%SystemRoot%\\system32\\wudfhost.exe|Name=@FirewallAPI.dll,-30503|Desc=@FirewallAPI.dll,-30506|EmbedCtxt=@FirewallAPI.dll,-30502|"
+"WPDMTP-SSDPSrv-In-UDP"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=17|LPort=1900|RA4=LocalSubnet|RA6=LocalSubnet|App=%SystemRoot%\\system32\\svchost.exe|Svc=Ssdpsrv|Name=@FirewallAPI.dll,-30507|Desc=@FirewallAPI.dll,-30510|EmbedCtxt=@FirewallAPI.dll,-30502|"
+"WPDMTP-SSDPSrv-Out-UDP"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=17|RPort=1900|RA4=LocalSubnet|RA6=LocalSubnet|App=%SystemRoot%\\system32\\svchost.exe|Svc=Ssdpsrv|Name=@FirewallAPI.dll,-30511|Desc=@FirewallAPI.dll,-30514|EmbedCtxt=@FirewallAPI.dll,-30502|"
+"WPDMTP-UPnPHost-In-TCP"="v2.33|Action=Allow|Active=FALSE|Dir=In|Protocol=6|LPort=2869|RA4=LocalSubnet|RA6=LocalSubnet|App=System|Name=@FirewallAPI.dll,-30515|Desc=@FirewallAPI.dll,-30518|EmbedCtxt=@FirewallAPI.dll,-30502|"
+"WPDMTP-UPnPHost-Out-TCP"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=6|RPort=2869|RA4=LocalSubnet|RA6=LocalSubnet|App=%SystemRoot%\\system32\\svchost.exe|Svc=fdphost|Name=@FirewallAPI.dll,-30519|Desc=@FirewallAPI.dll,-30522|EmbedCtxt=@FirewallAPI.dll,-30502|"
+"WPDMTP-UPnP-Out-TCP"="v2.33|Action=Allow|Active=FALSE|Dir=Out|Protocol=6|RPort=2869|RA4=LocalSubnet|RA6=LocalSubnet|App=%SystemRoot%\\system32\\svchost.exe|Svc=upnphost|Name=@FirewallAPI.dll,-30523|Desc=@FirewallAPI.dll,-30524|EmbedCtxt=@FirewallAPI.dll,-30502|"
 
-[HKEY_LOCAL_MACHINE\system\controlset001\services\sharedaccess\parameters\firewallpolicy\restrictedservices\appiso\firewallrules]
-"microsoftwindows.client.aix_cw5n1h2txyewy-in-block"=-
-"microsoftwindows.client.aix_cw5n1h2txyewy-out-allow-internetclient"=-
-"microsoftwindows.client.aix_cw5n1h2txyewy-out-block"=-
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SharedAccess\Parameters\FirewallPolicy\PrivateProfile]
+"AllowLocalIPsecPolicyMerge"=dword:00000000
+"AllowLocalPolicyMerge"=dword:00000000
+"DefaultInboundAction"=dword:00000001
+"DefaultOutboundAction"=dword:00000000
+"DisableNotifications"=dword:00000000
+"DisableUnicastResponsesToMulticastBroadcast"=dword:00000000
+"EnableFirewall"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SharedAccess\Parameters\FirewallPolicy\PublicProfile]
+"AllowLocalIPsecPolicyMerge"=dword:00000000
+"AllowLocalPolicyMerge"=dword:00000000
+"DefaultInboundAction"=dword:00000001
+"DefaultOutboundAction"=dword:00000000
+"DisableNotifications"=dword:00000000
+"DisableUnicastResponsesToMulticastBroadcast"=dword:00000000
+"EnableFirewall"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SharedAccess\Parameters\FirewallPolicy\StandardProfile]
+"AllowLocalIPsecPolicyMerge"=dword:00000000
+"AllowLocalPolicyMerge"=dword:00000000
+"DefaultInboundAction"=dword:00000001
+"DefaultOutboundAction"=dword:00000000
+"DisableNotifications"=dword:00000000
+"DisableUnicastResponsesToMulticastBroadcast"=dword:00000000
+"EnableFirewall"=dword:00000001
 
 [HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\ShellHWDetection]
 "SvcHostSplitDisable"=dword:00000001
@@ -1605,7 +2023,7 @@ Windows Registry Editor Version 5.00
 [HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\SpbCx]
 "SvcHostSplitDisable"=dword:00000001
 
-[HKEY_LOCAL_MACHINE\System\ControlSet001\Services\Spooler]
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\Spooler]
 "SvcHostSplitDisable"=dword:00000001
 
 [HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\sppsvc]
@@ -1647,7 +2065,7 @@ Windows Registry Editor Version 5.00
 [HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\storqosflt]
 "SvcHostSplitDisable"=dword:00000001
 
-[HKEY_LOCAL_MACHINE\System\ControlSet001\Services\StorSvc]
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\StorSvc]
 "SvcHostSplitDisable"=dword:00000001
 
 [HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\storufs]
@@ -1666,6 +2084,7 @@ Windows Registry Editor Version 5.00
 "SvcHostSplitDisable"=dword:00000001
 
 [HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\SysMain]
+"DelayedAutoStart"=dword:00000001
 "SvcHostSplitDisable"=dword:00000001
 
 [HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\TabletInputService]
@@ -1674,11 +2093,25 @@ Windows Registry Editor Version 5.00
 [HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\TapiSrv]
 "SvcHostSplitDisable"=dword:00000001
 
-[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\Tcpip]
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip]
 "SvcHostSplitDisable"=dword:00000001
 
-[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\Tcpip6]
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters]
+"DisableIPSourceRouting"=dword:00000002
+"EnableICMPRedirect"=dword:00000000
+"EnableIPAutoConfigurationLimits"=dword:00000001
+"KeepAliveTime"=dword:000493e0
+"NameServer"="1.1.1.1,8.8.8.8,9.9.9.9"
+"PerformRouterDiscovery"=dword:00000000
+"TcpMaxDataRetransmissions"=dword:00000003
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip6]
 "SvcHostSplitDisable"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip6\Parameters]
+"DisableIPSourceRouting"=dword:00000002
+"NameServer"="2606:4700:4700::1111,2001:4860:4860::8888,2620:fe::fe"
+"TcpMaxDataRetransmissions"=dword:00000003
 
 [HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\tcpipreg]
 "SvcHostSplitDisable"=dword:00000001
@@ -1698,7 +2131,7 @@ Windows Registry Editor Version 5.00
 [HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\TextInputManagementService]
 "SvcHostSplitDisable"=dword:00000001
 
-[HKEY_LOCAL_MACHINE\System\ControlSet001\Services\Themes]
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\Themes]
 "SvcHostSplitDisable"=dword:00000001
 
 [HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\TieringEngineService]
@@ -1713,7 +2146,8 @@ Windows Registry Editor Version 5.00
 [HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\TPM]
 "SvcHostSplitDisable"=dword:00000001
 
-[HKEY_LOCAL_MACHINE\System\ControlSet001\Services\TrkWks]
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\TrkWks]
+"Start"=dword:00000003
 "SvcHostSplitDisable"=dword:00000001
 
 [HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\TroubleshootingSvc]
@@ -1809,13 +2243,7 @@ Windows Registry Editor Version 5.00
 [HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\UnionFS]
 "SvcHostSplitDisable"=dword:00000001
 
-[HKEY_LOCAL_MACHINE\System\ControlSet001\Services\UnistoreSvc]
-"SvcHostSplitDisable"=dword:00000001
-
 [HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\UnistoreSvc_11c6b2]
-"SvcHostSplitDisable"=dword:00000001
-
-[HKEY_LOCAL_MACHINE\System\ControlSet001\Services\UnistoreSvc_135d30]
 "SvcHostSplitDisable"=dword:00000001
 
 [HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\upnphost]
@@ -1878,13 +2306,7 @@ Windows Registry Editor Version 5.00
 [HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\USBXHCI]
 "SvcHostSplitDisable"=dword:00000001
 
-[HKEY_LOCAL_MACHINE\System\ControlSet001\Services\UserDataSvc]
-"Start"=dword:00000004
-
 [HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\UserDataSvc_11c6b2]
-"SvcHostSplitDisable"=dword:00000001
-
-[HKEY_LOCAL_MACHINE\System\ControlSet001\Services\UserDataSvc_135d30]
 "SvcHostSplitDisable"=dword:00000001
 
 [HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\UserManager]
@@ -1983,14 +2405,6 @@ Windows Registry Editor Version 5.00
 [HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\W32Time]
 "SvcHostSplitDisable"=dword:00000001
 
-[HKEY_LOCAL_MACHINE\System\ControlSet001\Services\W32Time\Parameters]
-"NtpServer"="0.pool.ntp.org 1.pool.ntp.org 2.pool.ntp.org 3.pool.ntp.org"
-
-[HKEY_LOCAL_MACHINE\System\ControlSet001\Services\W32Time\SecureTimeLimits]
-"SecureTimeEstimated"=hex(b):57,7e,d7,e6,cf,46,db,01
-"SecureTimeHigh"=hex(b):57,e6,9b,48,d8,46,db,01
-"SecureTimeLow"=hex(b):57,16,13,85,c7,46,db,01
-
 [HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\W3SVC]
 "SvcHostSplitDisable"=dword:00000001
 
@@ -2015,7 +2429,7 @@ Windows Registry Editor Version 5.00
 [HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\wbengine]
 "SvcHostSplitDisable"=dword:00000001
 
-[HKEY_LOCAL_MACHINE\System\ControlSet001\Services\WbioSrvc]
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\WbioSrvc]
 "SvcHostSplitDisable"=dword:00000001
 
 [HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\wcifs]
@@ -2061,6 +2475,7 @@ Windows Registry Editor Version 5.00
 "SvcHostSplitDisable"=dword:00000001
 
 [HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\WerSvc]
+"Start"=dword:00000004
 "SvcHostSplitDisable"=dword:00000001
 
 [HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\WFDSConMgrSvc]
@@ -2120,13 +2535,13 @@ Windows Registry Editor Version 5.00
 [HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\WinVerbs]
 "SvcHostSplitDisable"=dword:00000001
 
-[HKEY_LOCAL_MACHINE\System\ControlSet001\Services\wisvc]
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\wisvc]
 "SvcHostSplitDisable"=dword:00000001
 
 [HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\WlanSvc]
 "SvcHostSplitDisable"=dword:00000001
 
-[HKEY_LOCAL_MACHINE\System\ControlSet001\Services\wlidsvc]
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\wlidsvc]
 "SvcHostSplitDisable"=dword:00000001
 
 [HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\wlpasvc]
@@ -2162,7 +2577,7 @@ Windows Registry Editor Version 5.00
 [HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\WpdUpFltr]
 "SvcHostSplitDisable"=dword:00000001
 
-[HKEY_LOCAL_MACHINE\System\ControlSet001\Services\WpnService]
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\WpnService]
 "SvcHostSplitDisable"=dword:00000001
 
 [HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\WpnUserService]
@@ -2172,6 +2587,7 @@ Windows Registry Editor Version 5.00
 "SvcHostSplitDisable"=dword:00000001
 
 [HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\wscsvc]
+"Start"=dword:00000002
 "SvcHostSplitDisable"=dword:00000001
 
 [HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\WSearch]
@@ -2196,16 +2612,16 @@ Windows Registry Editor Version 5.00
 [HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\WwanSvc]
 "SvcHostSplitDisable"=dword:00000001
 
-[HKEY_LOCAL_MACHINE\System\ControlSet001\Services\XblAuthManager]
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\XblAuthManager]
 "SvcHostSplitDisable"=dword:00000001
 
-[HKEY_LOCAL_MACHINE\System\ControlSet001\Services\XblGameSave]
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\XblGameSave]
 "SvcHostSplitDisable"=dword:00000001
 
 [HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\XboxGipSvc]
 "SvcHostSplitDisable"=dword:00000001
 
-[HKEY_LOCAL_MACHINE\System\ControlSet001\Services\XboxNetApiSvc]
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\XboxNetApiSvc]
 "SvcHostSplitDisable"=dword:00000001
 
 [HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\xinputhid]
@@ -2214,66 +2630,5 @@ Windows Registry Editor Version 5.00
 [HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\ZTDNS]
 "SvcHostSplitDisable"=dword:00000001
 
-[HKEY_LOCAL_MACHINE\Software\Microsoft\DataFactory\HandlerInfo]
-"HandlerRequired"=dword:00000001
-
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SharedAccess\Parameters\FirewallPolicy\DomainProfile]
-"AllowLocalIPsecPolicyMerge"=dword:00000000
-"AllowLocalPolicyMerge"=dword:00000000
-"DefaultInboundAction"=dword:00000001
-"DefaultOutboundAction"=dword:00000000
-"DisableNotifications"=dword:00000000
-"DisableUnicastResponsesToMulticastBroadcast"=dword:00000000
-"EnableFirewall"=dword:00000001
-
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SharedAccess\Parameters\FirewallPolicy\FirewallRules]
-"Block-All-In"="v2.33|Action=Block|Active=TRUE|Dir=In|Name=Block all|LUAuth=O:LSD:(D;;CC;;;S-1-5-80-2940520708-3855866260-481812779-327648279-1710889582)|"
-"Block-All-Out"="v2.33|Action=Block|Active=TRUE|Dir=Out|Name=Block all|LUAuth=O:LSD:(D;;CC;;;S-1-5-80-859482183-879914841-863379149-1145462774-2388618682)(D;;CC;;;S-1-5-80-2940520708-3855866260-481812779-327648279-1710889582)(D;;CC;;;AC)|"
-"RemoteDesktop-Shadow-In-TCP"="v2.28|Action=Block|Active=TRUE|Dir=In|Protocol=6|App=%SystemRoot%\\system32\\RdpSa.exe|Name=@FirewallAPI.dll,-28778|Desc=@FirewallAPI.dll,-28779|EmbedCtxt=@FirewallAPI.dll,-28752|Edge=TRUE|Defer=App|"
-"RemoteDesktop-UserMode-In-TCP"="v2.28|Action=Block|Active=TRUE|Dir=In|Protocol=6|LPort=3389|App=%SystemRoot%\\system32\\svchost.exe|Svc=termservice|Name=@FirewallAPI.dll,-28775|Desc=@FirewallAPI.dll,-28756|EmbedCtxt=@FirewallAPI.dll,-28752|"
-"RemoteDesktop-UserMode-In-UDP"="v2.28|Action=Block|Active=TRUE|Dir=In|Protocol=17|LPort=3389|App=%SystemRoot%\\system32\\svchost.exe|Svc=termservice|Name=@FirewallAPI.dll,-28776|Desc=@FirewallAPI.dll,-28777|EmbedCtxt=@FirewallAPI.dll,-28752|"
-
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SharedAccess\Parameters\FirewallPolicy\PrivateProfile]
-"AllowLocalIPsecPolicyMerge"=dword:00000000
-"AllowLocalPolicyMerge"=dword:00000000
-"DefaultInboundAction"=dword:00000001
-"DefaultOutboundAction"=dword:00000000
-"DisableNotifications"=dword:00000000
-"DisableUnicastResponsesToMulticastBroadcast"=dword:00000000
-"EnableFirewall"=dword:00000001
-
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SharedAccess\Parameters\FirewallPolicy\PublicProfile]
-"AllowLocalIPsecPolicyMerge"=dword:00000000
-"AllowLocalPolicyMerge"=dword:00000000
-"DefaultInboundAction"=dword:00000001
-"DefaultOutboundAction"=dword:00000000
-"DisableNotifications"=dword:00000000
-"DisableUnicastResponsesToMulticastBroadcast"=dword:00000000
-"EnableFirewall"=dword:00000001
-
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SharedAccess\Parameters\FirewallPolicy\StandardProfile]
-"AllowLocalIPsecPolicyMerge"=dword:00000000
-"AllowLocalPolicyMerge"=dword:00000000
-"DefaultInboundAction"=dword:00000001
-"DefaultOutboundAction"=dword:00000000
-"DisableNotifications"=dword:00000000
-"DisableUnicastResponsesToMulticastBroadcast"=dword:00000000
-"EnableFirewall"=dword:00000001
-
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters]
-"DisableIPSourceRouting"=dword:00000002
-"EnableICMPRedirect"=dword:00000000
-"EnableIPAutoConfigurationLimits"=dword:00000001
-"KeepAliveTime"=dword:000493e0
-"NameServer"="1.1.1.1,8.8.8.8,9.9.9.9"
-"PerformRouterDiscovery"=dword:00000000
-"TcpMaxDataRetransmissions"=dword:00000003
-
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip6\Parameters]
-"DisableIPSourceRouting"=dword:00000002
-"NameServer"="2606:4700:4700::1111,2001:4860:4860::8888,2620:fe::fe"
-"TcpMaxDataRetransmissions"=dword:00000003
-
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\TermService]
 "SvcHostSplitDisable"=dword:00000001
-

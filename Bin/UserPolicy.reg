@@ -1,5 +1,17 @@
 Windows Registry Editor Version 5.00
 
+[HKEY_CURRENT_USER\software\Microsoft\Windows\CurrentVersion\Policies\DataCollection]
+"AllowTelemetry"=dword:00000001
+"DoNotShowFeedbackNotifications"=dword:00000001
+"LimitEnhancedDiagnosticDataWindowsAnalytics"=dword:00000000
+"MaxTelemetryAllowed"=dword:00000002
+
+[HKEY_CURRENT_USER\software\policies\Microsoft\Windows\datacollection]
+"AllowTelemetry"=dword:00000001
+"DoNotShowFeedbackNotifications"=dword:00000001
+"LimitEnhancedDiagnosticDataWindowsAnalytics"=dword:00000000
+"MaxTelemetryAllowed"=dword:00000002
+
 [HKEY_CURRENT_USER\Control Panel\International]
 "sShortDate"="ddd dd MMM yyyy"
 

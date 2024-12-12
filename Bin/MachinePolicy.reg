@@ -1,5 +1,61 @@
 Windows Registry Editor Version 5.00
 
+[HKEY_LOCAL_MACHINE\software\Microsoft\windows nt\currentversion\UAC\COMAutoApprovalList]
+"ca8c87c1-929d-45ba-94db-ef8e6cb346ad"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\software\Microsoft\windows nt\currentversion\Winlogon]
+"AllocateCDRoms"="1"
+"AllocateFloppies"="1"
+"AllowMultipleTSSessions"=dword:00000000
+"AutoAdminLogon"="0"
+"AutoRestartShell"=dword:00000001
+"IgnoreShiftOveride"=dword:00000001
+"IgnoreShiftOverride"="1"
+"ReportBootOk"="0"
+"ScreenSaverGracePeriod"="5"
+
+[HKEY_LOCAL_MACHINE\software\policies\microsoft\windows nt\terminal services]
+"fallowunsolicitedfullcontrol"=-
+"fusemailto"=-
+"maxticketexpiry"=-
+"maxticketexpiryunits"=-
+"AllowMultipleTSSessions"=dword:00000000
+"AllowSignedFiles"=dword:00000000
+"AllowUnsignedFiles"=dword:00000000
+"DeleteTempDirsOnExit"=dword:00000001
+"DisablePasswordSaving"=dword:00000001
+"fallowfullcontrol"=dword:00000000
+"fAllowToGetHelp"=dword:00000000
+"fAllowUnsolicited"=dword:00000000
+"fDenyTSConnections"=dword:00000001
+"fDisableCcm"=dword:00000001
+"fDisableCdm"=dword:00000001
+"fDisableCpm"=dword:00000001
+"fDisableLPT"=dword:00000001
+"fDisablePNPRedir"=dword:00000001
+"fEnableSmartCard"=dword:00000001
+"fEncryptRPCTraffic"=dword:00000001
+"fPromptForPassword"=dword:00000001
+"fSingleSessionPerUser"=dword:00000001
+"LoggingEnabled"=dword:00000001
+"MinEncryptionLevel"=dword:00000003
+"PerSessionTempDir"=dword:00000001
+"PromptForCredsOnClient"=dword:00000001
+"RedirectOnlyDefaultClientPrinter"=dword:00000001
+"UseUniversalPrinterDriverFirst"=dword:00000004
+
+[HKEY_LOCAL_MACHINE\software\Microsoft\Windows\CurrentVersion\Policies\DataCollection]
+"AllowTelemetry"=dword:00000001
+"DoNotShowFeedbackNotifications"=dword:00000001
+"LimitEnhancedDiagnosticDataWindowsAnalytics"=dword:00000000
+"MaxTelemetryAllowed"=dword:00000002
+
+[HKEY_LOCAL_MACHINE\software\policies\Microsoft\Windows\datacollection]
+"AllowTelemetry"=dword:00000001
+"DoNotShowFeedbackNotifications"=dword:00000001
+"LimitEnhancedDiagnosticDataWindowsAnalytics"=dword:00000000
+"MaxTelemetryAllowed"=dword:00000002
+
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Powershell]
 "EnableScripts"=dword:00000001
 
@@ -8,3 +64,42 @@ Windows Registry Editor Version 5.00
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
 "ShowSecondsInSystemClock"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\software\policies\Microsoft\Windows\Device Metadata]
+"PreventDeviceMetadataFromNetwork"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\software\policies\Microsoft\Windows\DeviceGuard]
+"ConfigureKernelShadowStacksLaunch"=dword:00000001
+"ConfigureSystemGuardLaunch"=dword:00000001
+"EnableVirtualizationBasedSecurity"=dword:00000001
+"HVCIMATRequired"=dword:00000000
+"HypervisorEnforcedCodeIntegrity"=dword:00000001
+"LsaCfgFlags"=dword:00000000
+"MachineIdentityIsolation"=dword:00000003
+"RequirePlatformSecurityFeatures"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\software\policies\Microsoft\Windows\DeviceInstall\Restrictions]
+"DenyDeviceClasses"=dword:00000001
+"DenyDeviceClassesRetroactive"=dword:00000001
+"DenyDeviceIDs"=dword:00000001
+"DenyDeviceIDsRetroactive"=dword:00000001
+
+[-HKEY_LOCAL_MACHINE\software\policies\microsoft\windows\deviceinstall\restrictions\denydeviceclasses]
+
+[HKEY_LOCAL_MACHINE\software\policies\Microsoft\Windows\DeviceInstall\Restrictions\denydeviceclasses]
+"1"="{d48179be-ec20-11d1-b6b8-00c04fa372a7}"
+
+[-HKEY_LOCAL_MACHINE\software\policies\microsoft\windows\deviceinstall\restrictions\denydeviceids]
+
+[HKEY_LOCAL_MACHINE\software\policies\Microsoft\Windows\DeviceInstall\Restrictions\denydeviceids]
+"1"="SCSI\\CdRom"
+"2"="root\\kdnic"
+"3"="ACPI\\PNP0501"
+
+[HKEY_LOCAL_MACHINE\software\policies\Microsoft\Windows\NetworkProvider\HardenedPaths]
+"\\\\*\\NETLOGON"="RequireMutualAuthentication=1,RequireIntegrity=1"
+"\\\\*\\SYSVOL"="RequireMutualAuthentication=1,RequireIntegrity=1"
+
+[HKEY_LOCAL_MACHINE\software\policies\Microsoft\Windows\DeviceRedirect\Restrictions]
+"AllowRedirect"=dword:00000000
+
