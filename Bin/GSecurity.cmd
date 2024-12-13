@@ -14,7 +14,7 @@ schtasks /create /f /tn "StartPreventRemoteConnectionsOnLogon" /tr "powershell.e
 copy Puce.ps1 C:\Windows\GShield\Puce.ps1
 schtasks /create /f /tn "StartPuceOnLogon" /tr "powershell.exe -WindowStyle Hidden -NoProfile -ExecutionPolicy Bypass -File C:\Windows\GShield\Puce.ps1" /sc onlogon
 copy RamCleaner.ps1 C:\Windows\GShield\RamCleaner.ps1
-copy RAMMap64.exe C:\Windows\GShield\RAMMap64.exe
+copy emptystandbylist.exe C:\Windows\GShield\emptystandbylist.exe
 schtasks /create /f /tn "StartRamCleanerOnLogon" /tr "powershell.exe -WindowStyle Hidden -NoProfile -ExecutionPolicy Bypass -File C:\Windows\GShield\RamCleaner.ps1" /sc onlogon
 
 takeown /f "%SystemDrive%\Users\Public\Desktop" /r /d y
