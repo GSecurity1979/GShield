@@ -21,12 +21,12 @@ powershell -Command "Set-ExecutionPolicy Bypass -Force"
 :: Step 5: Initialize enviroment 
 setlocal EnableExtensions DisableDelayedExpansion
 
-:: Step 6: Execute PowerShell (.ps1) files alphabetically
-echo Executing PowerShell scripts...
-for /f "tokens=*" %%A in ('dir /b /o:n *.ps1') do (
-    echo Running %%A...
-    powershell -ExecutionPolicy Bypass -File "%%A"
-)
+rem :: Step 6: Execute PowerShell (.ps1) files alphabetically
+rem echo Executing PowerShell scripts...
+rem for /f "tokens=*" %%A in ('dir /b /o:n *.ps1') do (
+rem     echo Running %%A...
+rem     powershell -ExecutionPolicy Bypass -File "%%A"
+rem )
 
 :: Step 7: Execute CMD (.cmd) files alphabetically
 echo Executing CMD scripts...
