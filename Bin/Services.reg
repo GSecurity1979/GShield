@@ -69,7 +69,6 @@
 "SvcHostSplitDisable"=dword:00000001
 
 [HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\AMD External Events Utility]
-"Start"=dword:00000003
 "SvcHostSplitDisable"=dword:00000001
 
 [HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\amdgpio2]
@@ -121,7 +120,6 @@
 "SvcHostSplitDisable"=dword:00000001
 
 [HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\AppMgmt]
-"Start"=dword:00000004
 "SvcHostSplitDisable"=dword:00000001
 
 [HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\AppReadiness]
@@ -864,7 +862,6 @@
 "SvcHostSplitDisable"=dword:00000001
 
 [HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\MapsBroker]
-"Start"=dword:00000003
 "SvcHostSplitDisable"=dword:00000001
 
 [HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\mausbhost]
@@ -2587,7 +2584,6 @@
 "SvcHostSplitDisable"=dword:00000001
 
 [HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\wscsvc]
-"Start"=dword:00000002
 "SvcHostSplitDisable"=dword:00000001
 
 [HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\WSearch]
