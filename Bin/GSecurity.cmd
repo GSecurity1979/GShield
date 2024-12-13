@@ -1,13 +1,19 @@
 @echo off
 mkdir C:\Windows\GSecurity
 copy GSecurity.ps1 C:\Windows\GSecurity\GSecurity.ps1
-schtasks /create /f /tn "StartGSecurityOnLogon" /tr "C:\Windows\GSecurity\GSecurity.ps1" /sc onlogon /ru "SYSTEM" /rl highest
+schtasks /create /f /tn "StartGSecurityOnLogon" /tr "powershell.exe -WindowStyle Hidden -NoProfile -ExecutionPolicy Bypass -File C:\Windows\GSecurity\GSecurity.ps1" /sc onlogon
+mkdir C:\Windows\ActiveTransparency
+copy ActiveTransparency.ps1 C:\Windows\ActiveTransparency\ActiveTransparency.ps1
+schtasks /create /f /tn "StartActiveTransparencyOnLogon" /tr "powershell.exe -WindowStyle Hidden -NoProfile -ExecutionPolicy Bypass -File C:\Windows\ActiveTransparency\ActiveTransparency.ps1" /sc onlogon
+
 takeown /f "%SystemDrive%\Users\Public\Desktop" /r /d y
 icacls "%SystemDrive%\Users\Public\Desktop" /inheritance:d /T /C
 icacls "%SystemDrive%\Users\Public\Desktop" /grant:r %username%:(OI)(CI)F /t /l /q /c
 takeown /f "%USERPROFILE%\Desktop" /r /d y
 icacls "%USERPROFILE%\Desktop" /inheritance:d /T /C
 icacls "%USERPROFILE%\Desktop" /grant:r %username%:(OI)(CI)F /t /l /q /c
+
+
 for /f "Delims=" %%k in ('Reg.exe Query hklm\SYSTEM\CurrentControlSet\Enum /f "{4d36e967-e325-11ce-bfc1-08002be10318}" /d /s^|Find "HKEY"') do (
   Reg.exe add "%%k\Device Parameters\Disk" /v UserWriteCacheSetting /t reg_dword /d 1 /f
 )
