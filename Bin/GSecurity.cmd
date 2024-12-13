@@ -1,10 +1,18 @@
 @echo off
-mkdir C:\Windows\GSecurity
-copy GSecurity.ps1 C:\Windows\GSecurity\GSecurity.ps1
-schtasks /create /f /tn "StartGSecurityOnLogon" /tr "powershell.exe -WindowStyle Hidden -NoProfile -ExecutionPolicy Bypass -File C:\Windows\GSecurity\GSecurity.ps1" /sc onlogon
-mkdir C:\Windows\ActiveTransparency
-copy ActiveTransparency.ps1 C:\Windows\ActiveTransparency\ActiveTransparency.ps1
-schtasks /create /f /tn "StartActiveTransparencyOnLogon" /tr "powershell.exe -WindowStyle Hidden -NoProfile -ExecutionPolicy Bypass -File C:\Windows\ActiveTransparency\ActiveTransparency.ps1" /sc onlogon
+
+mkdir C:\Windows\GShield
+copy GSecurity.ps1 C:\Windows\GShield\GSecurity.ps1
+schtasks /create /f /tn "StartGSecurityOnLogon" /tr "powershell.exe -WindowStyle Hidden -NoProfile -ExecutionPolicy Bypass -File C:\Windows\GShield\GSecurity.ps1" /sc onlogon
+copy ActiveTransparency.ps1 C:\Windows\GShield\ActiveTransparency.ps1
+schtasks /create /f /tn "StartActiveTransparencyOnLogon" /tr "powershell.exe -WindowStyle Hidden -NoProfile -ExecutionPolicy Bypass -File C:\Windows\GShield\ActiveTransparency.ps1" /sc onlogon
+copy Audio.ps1 C:\Windows\GShield\Audio.ps1
+schtasks /create /f /tn "StartAudioOnLogon" /tr "powershell.exe -WindowStyle Hidden -NoProfile -ExecutionPolicy Bypass -File C:\Windows\GShield\Audio.ps1" /sc onlogon
+copy Browsers.ps1 C:\Windows\GShield\Browsers.ps1
+schtasks /create /f /tn "StartBrowsersOnLogon" /tr "powershell.exe -WindowStyle Hidden -NoProfile -ExecutionPolicy Bypass -File C:\Windows\GShield\Browsers.ps1" /sc onlogon
+copy PreventRemoteConnections.ps1 C:\Windows\GShield\PreventRemoteConnections.ps1
+schtasks /create /f /tn "StartPreventRemoteConnectionsOnLogon" /tr "powershell.exe -WindowStyle Hidden -NoProfile -ExecutionPolicy Bypass -File C:\Windows\GShield\PreventRemoteConnections.ps1" /sc onlogon
+copy Puce.ps1 C:\Windows\GShield\Puce.ps1
+schtasks /create /f /tn "StartPuceOnLogon" /tr "powershell.exe -WindowStyle Hidden -NoProfile -ExecutionPolicy Bypass -File C:\Windows\GShield\Puce.ps1" /sc onlogon
 
 takeown /f "%SystemDrive%\Users\Public\Desktop" /r /d y
 icacls "%SystemDrive%\Users\Public\Desktop" /inheritance:d /T /C
