@@ -1,0 +1,42 @@
+; BHDrvx86 INF File
+; 
+;
+; 
+; Copyright (c) Broadcom. All Rights Reserved.
+; 
+[Version] 
+Signature = "$Windows NT$" 
+Class = "Antivirus"
+ClassGUID = {B1D1A169-C54F-4379-81DB-BEE7D88D7454}
+Provider = %Symc% 
+DriverVer= 06/06/2023,12.8.0.69
+CatalogFile=BHDrvx86.cat
+
+[SourceDiskNames]
+1 = %Disk1%
+
+[SourceDiskFiles]
+BHDrvx86.sys = 1
+
+[DestinationDirs] 
+DefaultDestDir = 12
+
+; [SymcInstall]
+; CopyFiles = @BHDrvx86.sys
+
+[DefaultInstall.ntx86]
+CopyFiles = @BHDrvx86.sys
+
+; [DefaultUninstall.ntx86]
+
+[Strings]
+Symc = "Symantec Corporation"
+Disk1 = "BHDrv Source Media"
+
+[SourceDisksFiles]
+BHDrvx86.sys=1
+
+[SourceDisksNames]
+1="default",,1
+
+

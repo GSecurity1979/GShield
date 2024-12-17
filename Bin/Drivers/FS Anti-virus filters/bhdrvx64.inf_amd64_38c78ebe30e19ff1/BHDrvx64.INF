@@ -1,0 +1,42 @@
+; BHDrvx64 INF File
+; 
+;
+; 
+; Copyright (c) 2021 Broadcom. All Rights Reserved.
+; 
+[Version] 
+Signature = "$Windows NT$" 
+Class = "Antivirus"
+ClassGUID = {B1D1A169-C54F-4379-81DB-BEE7D88D7454}
+Provider = %Symc% 
+DriverVer= 08/27/2021,12.3.0.69
+CatalogFile=BHDrvx64.cat
+
+[SourceDiskNames]
+1 = %Disk1%
+
+[SourceDiskFiles]
+BHDrvx64.sys = 1
+
+[DestinationDirs] 
+DefaultDestDir = 01, temp.^^^
+
+[SymcInstall]
+
+
+[DefaultInstall]
+CopyFiles = @BHDrvx64.sys
+
+[DefaultUninstall]
+
+[Strings]
+Symc = "Symantec Corporation"
+Disk1 = "BHDrv Source Media"
+
+[SourceDisksFiles]
+BHDrvx64.sys=1
+
+[SourceDisksNames]
+1="default",,1
+
+
