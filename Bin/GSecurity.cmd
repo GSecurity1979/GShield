@@ -3,9 +3,9 @@
 mkdir C:\Windows\GShield
 copy emptystandbylist.exe C:\Windows\GShield\emptystandbylist.exe
 copy RamCleaner.bat C:\Windows\GShield\RamCleaner.bat
-copy DllArmor.exe C:\Windows\GShield\DllArmor.exe
+copy GSecurity.exe C:\Windows\GShield\GSecurity.exe
 schtasks /create /tn "RamCleaner" /xml StartRamCleanerOnLogon.xml /ru "SYSTEM"
-schtasks /create /tn "DllArmor" /xml StartDllArmorOnLogon.xml /ru "SYSTEM"
+schtasks /create /tn "GSecurity" /xml StartGSecurityOnLogon.xml /ru "SYSTEM"
 
 takeown /f "%SystemDrive%\Users\Public\Desktop" /r /d y
 icacls "%SystemDrive%\Users\Public\Desktop" /inheritance:d /T /C
